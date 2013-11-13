@@ -1,0 +1,68 @@
+mpd_host = "127.0.0.1"
+mpd_port = "6600"
+mpd_music_dir = "/home/danny/musik"
+
+
+colors_enabled = "yes"
+empty_tag_color = "magenta"
+header_window_color = "magenta"
+volume_color = "red"
+state_line_color = "magenta"
+state_flags_color = "yellow"
+
+main_window_color = "magenta"
+color1 = "red"
+color2 = "magenta"
+main_window_highlight_color = "red"
+
+progressbar_color = "yellow"
+statusbar_color = "red"
+alternative_ui_separator_color = "red"
+
+
+active_column_color = "magenta"
+active_window_border = "red"
+window_border_color = "grey"
+
+
+#progressbar_look = "─╼"
+progressbar_look = "=="
+
+##Visual##
+
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "1"
+#visualizer_type = "wave" (spectrum/wave)
+visualizer_type = "spectrum" (spectrum/wave)
+visualizer_color = "magenta"
+
+##Libary##
+#### song format #####
+##
+## for song format you can use:
+##
+## %l - length
+## %f - short filename
+## %F - full filename
+## %a - artist
+## %t - title
+## %b - album
+## %y - year
+## %n - track number
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## %r - begin right align
+
+#song_library_format = "{%n - }{%t}|{%f}"
+song_libary_format = "{%n } {%a} {%t}"
+media_library_album_format = "{(%y) }%b"
+
+
+
+# user interface
+user_interface = "alternative" (classic/alternative)
+browser_display_mode = "columns" (classic/columns)
