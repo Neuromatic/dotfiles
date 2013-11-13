@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# ~/.xinitrc
+#
+PANEL_FIFO="/tmp/bspanel.fifo"
+#[[ -p $PANEL_FIFO ]] || mkfifo -m 600 "$PANEL_FIFO"
+
+#makes Font useable
+xset +fp /usr/share/fonts/local 
+xset +fp /usr/share/fonts/misc 
+xset fp rehash 
+
+#load urxvt config
+xrdb -load .Xresources 
+
+#Fance options
+hsetroot -solid "#181512" &
+xsetroot -cursor_name left_ptr &
+
+#Hide the Mouse-Cursor
+unclutter -idle 1 &
+
+#compositor
+xcompmgr &
+
+#rxvt-unicode
+urxvtd &
+
+#X Keybindings
+sxhkd &
+
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+
+#bspwm rules
+ruld &
+
+exec bspwm
