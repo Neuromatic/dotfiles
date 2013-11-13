@@ -1,0 +1,139 @@
+#General Opotions
+super + shift + q
+	bspc quit
+
+super + shift + c
+	bspc window -c
+
+#Window Options
+super + Right
+	bspc window -f right
+
+super + Left
+	bspc window -f left
+
+super + Up
+	bspc window -f up
+
+super + Down
+	bspc window -f down
+
+super + shift + Right
+	bspc window -s right
+
+super + shift + Left
+	bspc window -s left
+
+super + shift + Up
+	bspc window -s up
+
+super + shift + Down
+	bspc window -s down
+
+#Window modes
+super + f
+	bspc window -t floating
+
+super + t
+	bspc window -t fullscreen
+
+super + s
+	$HOME/.bin/create_frame
+
+super + r
+	bspc desktop -R 90
+
+super + c
+	bspc desktop -C foreward
+
+super + b 
+	bspc desktop -B
+
+super + shift {h,v}
+	bspc desktop -F {horizontal,vertical}
+
+#Splitting
+ctrl + Right
+	bspc window -p right
+
+ctrl + Left
+	bspc window -p left
+
+ctrl + Up
+	bspc window -p up
+
+ctrl + Down
+	bspc window -p down
+
+#Resize Clients in tiling
+ctrl + alt + Right
+	bspc window -e right push
+
+ctrl + alt + Left
+	bspc window -e left push
+
+ctrl + alt + Up
+	bspc window -e up push
+
+ctrl + alt + Down
+	bspc window -e down push
+
+
+
+shift + alt + Right
+	bspc window -e right pull
+
+shift + alt + Left
+	bspc window -e left pull
+
+shift + alt + Up
+	bspc window -e up pull
+
+shift + alt + Down
+	bspc window -e down pull
+
+#Changing Desktops
+alt + {1,2,3,4,5,6}
+	bspc desktop {main,www,irc,foo,bar} -f
+
+super + shift + {1,2,3,4,5,6}
+	bspc window -d {main,www,irc,mail,foo,bar}
+
+#Mouse for floaters
+~button1
+	bspc pointer -g focus
+
+super + button{1-3}
+	bspc pointer -g {move,resize_side,resize_corner}
+
+super + !button{1-3}
+        bspc pointer -t %i %i
+
+alt + button1
+	.bin/sh/menu.sh
+
+#Applications
+
+super + p
+	interrobang
+
+#super + o
+#	interrobang
+
+super + Return
+	urxvtc
+
+alt + u
+	volup.sh
+
+alt + d
+	voldwn.sh
+
+alt + w
+	/home/danny/.bin/sh/activescrot.sh
+
+
+
+
+
+
