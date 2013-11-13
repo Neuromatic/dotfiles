@@ -1,0 +1,87 @@
+account-hook bla
+
+folder-hook web.de 		'source ~/.mutt/webde'
+folder-hook riseup.net 		'source ~/.mutt/riseup'
+folder-hook web.de2		'source ~/.mutt/webde2
+
+mailboxes imap adress
+mailboxes ^
+mailboxes ^
+
+#Accounting
+macro index \CW '<change-folder>folder<enter>'
+macro index \CR '<change-folder>folder<enter>'
+macro index \CF '<change-folder>folder<enter>'
+
+
+#+Stuff
+source ~/.mutt/webde
+source ~/.mutt/riseup
+source ~/.mutt/crypt.mutt
+source ~/.mutt/webde2
+
+set mailcap_path ="/home/user/.mutt/mailcap.mutt"
+set sendmail="/usr/bin/msmtp"
+
+
+set envelope_from=yes
+set edit_hdrs
+set attribution="%f "
+
+unset allow_8bit
+
+set date_format="%m/%d." 
+set index_format = "[%Z]  %D  %-20.20F  %s"
+#set folder_format="%2C %8s %d %t %N %f"
+set reply_regexp = "^(([Rr][Ee]?(\[[0-9]+\])?: *)?(\[[^]]+\] *)?)*"
+set sort_re
+set uncollapse_jump
+set pager_index_lines =10
+set editor="vim +8"
+set signature="~/.signature"
+
+#Tree view
+set sort = threads
+set include
+set nostrict_threads
+set beep
+set pager_index_lines = 9 
+set sort_aux = date-sent
+set sort_browser = reverse-date
+unset sort_re
+unset status_on_top
+
+#Statusbar
+#set sidebar_delim = ' |'
+#set sidebar_visible = yes
+#set sidebar_width = 24
+#color sidebar_new color221 color233
+
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
+
+bind index "^" imap-fetch-mail
+bind index - collapse-thread
+bind index - collapse-all
+#bind index,pager \CK sidebar-next
+#bind index,pager \CJ sidebar-prev
+#bind index,pager \CO sidebar-open
+
+
+auto_view text/html
+
+# Colors
+
+color attachment default        default
+color error      default        default
+color hdrdefault default        default
+color indicator  red            default
+color markers    default        default
+color message    blue           default
+color normal     magenta     	default
+color quoted     red            default
+color search     default        green
+color signature  default        default
+color status     red            default
+color tilde      default        default
+color tree       red    	default
