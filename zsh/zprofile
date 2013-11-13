@@ -1,0 +1,13 @@
+if [[ $(tty) = /dev/tty* ]]; then
+	setfont termsyn7x12r
+fi
+
+if [[ $(tty) = /dev/tty* ]]; then
+	export BROWSER=w3m
+elif [[ $(tty) = /dev/pts* ]]; then
+	export BROWSER=dwb
+fi
+
+
+export BSPWM_SOCKET='/tmp/bspwm-socket'
+export PANEL_FIFO="/tmp/bspanel.fifo"
