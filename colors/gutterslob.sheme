@@ -1,28 +1,28 @@
-URxvt*background:       #170F0D
-URxvt*foreground:       #746C48
-URxvt*cursorColor:      #544B2E
-URxvt*colorBD:          #C8B984
+*background:		#181512
 
-URxvt*color0:           #392925
-URxvt*color8:           #544B2E
+*foreground:		#756e5a
 
-URxvt*color1:           #98724C
-URxvt*color9:           #AF652F
-
-URxvt*color2:           #908F32
-URxvt*color10:          #C3C13D
-
-URxvt*color3:           #AA964C
-URxvt*color11:          #C8B55B
-
-URxvt*color4:           #7B854E
-URxvt*color12:          #70A16C
-
-URxvt*color5:           #6B5644
-URxvt*color13:          #98724C
-
-URxvt*color6:           #5C5142
-URxvt*color14:          #778725
-
-URxvt*color7:           #C8B55B
-URxvt*color15:          #E4DC8C
+!Black
+URxvt*color0:           #3d3e3f
+URxvt*color8:           #5a5b5c
+!Red
+URxvt*color1:           #755a5b
+URxvt*color9:           #a37679
+!Green
+URxvt*color2:           #68755a
+URxvt*color10:          #87a376
+!Yellow
+URxvt*color3:           #756e5a
+URxvt*color11:          #a39b76
+!Blue
+URxvt*color4:           #5b6976
+URxvt*color12:          #758ba3
+!Magenta
+URxvt*color5:           #755b76
+URxvt*color13:          #9f76a3
+!Cyan
+URxvt*color6:           #5b7674
+URxvt*color14:          #75a3a1
+!White
+URxvt*color7:           #808080
+URxvt*color15:          #aeafb0
