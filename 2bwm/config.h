@@ -20,14 +20,14 @@ static const uint8_t offsets[] = {0,0,0,0};
  *2)fixedcol         3)unkilcol
  *4)fixedunkilcol    5)outerbordercol
  *6)emptycol         */
-static const char *colors[] = {"#8c644c","#6d6871","#c4be90","#293033","#293033","#8c644c","#111111"};
+static const char *colors[] = {"#756e5a","#3d3e3f","#755a5b","#293033","#293033","#756e5a","#111111"};
 /* if this is set to true the inner border and outer borders colors will be swapped */
 static const bool inverted_colors = false;
 ///---Borders---///
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size    
  *3) Resize border size  */
-static const uint8_t borders[] = {2,5,9,9};
+static const uint8_t borders[] = {2,2,9,9};
 /* Windows that won't have a border.*/
 #define NB_NAMES 1
 #define LOOK_INTO "_NET_WM_NAME"
@@ -37,10 +37,10 @@ static const char *ignore_names[] = {"bar","---"};
 #define CURSOR_MOVING   52
 #define CURSOR_RESIZING 120
 ///--Menus and Programs---///
-static const char *menucmd[]   = 	{ "/home/danny/.bin/sh/dmenu_bspwm.sh", NULL };
-static const char *ninemenucmd[] =	{ "/home/danny/.bin/sh/menu.sh", NULL };
+static const char *menucmd[]   = 	{ "interrobang", NULL };
+static const char *ninemenucmd[] =	{ "/home/danny/.local/bin/menu.sh", NULL };
 /*static const char *gmrun[]     = 	{ "/usr/bin/gmrun",NULL};*/
-static const char *terminal[]  = 	{ "/usr/bin/urxvt", NULL };
+static const char *terminal[]  = 	{ "/usr/bin/urxvtc", NULL };
 static const char *volup[] = 		{ "volup.sh", NULL };
 static const char *voldwn[] = 		{ "voldwn.sh", NULL };
 static const char *activescrot[] =	{ "/home/danny/.bin/sh/activescrot.sh", NULL };
