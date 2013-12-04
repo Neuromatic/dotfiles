@@ -20,14 +20,14 @@ static const uint8_t offsets[] = {0,0,0,0};
  *2)fixedcol         3)unkilcol
  *4)fixedunkilcol    5)outerbordercol
  *6)emptycol         */
-static const char *colors[] = {"#756e5a","#3d3e3f","#755a5b","#293033","#293033","#756e5a","#111111"};
+static const char *colors[] = {"#8b2323","#111111","#6e8b3d","#293033","#293033","#000000","#111111"};
 /* if this is set to true the inner border and outer borders colors will be swapped */
 static const bool inverted_colors = false;
 ///---Borders---///
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size    
  *3) Resize border size  */
-static const uint8_t borders[] = {2,2,9,9};
+static const uint8_t borders[] = {2,3,2,2};
 /* Windows that won't have a border.*/
 #define NB_NAMES 1
 #define LOOK_INTO "_NET_WM_NAME"
