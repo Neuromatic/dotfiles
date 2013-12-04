@@ -1,0 +1,49 @@
+#+ |
+#+ |	InterrobangRC
+#+ |
+
+set	font 		= -*-termsyn-medium-r-*-*-12-*-*-*-*-*-*-*
+
+set	colors 		= #cdaa7d #151515 #cdaa7d #151515
+
+set 	bangchar	= :
+
+set	runhook 	= %s
+
+set 	list		= true
+
+#set	shell		= zsh
+
+
+bang t			= urxvtc
+
+bang urxvt		= urxvt
+
+bang d			= dwb
+
+bang f			= firefox
+
+bang wq			= pkill X
+
+bang pdf		= mupdf %s
+
+bang htop		= urxvtc -e htop
+
+bang mutt		= urxvtc -e mutt
+
+bang irc		= urxvtc -e irssi
+
+bang w3m		= urxvtc -e w3m %s
+
+bang mpd		= urxvtc -e ncmp
+
+bang l			= mpc load %s
+
+bang p			= mpc play
+
+bang s			= mpc stop
+
+bang xclock		= xclock
+#+ |
+#+ | EOF
+#+ |
