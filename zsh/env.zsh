@@ -1,0 +1,11 @@
+export HISTSIZE=2000                                                            
+export HISTFILE="$HOME/.zsh_history"                                            
+export SAVEHIST=$HISTSIZE
+export EDITOR=vim
+export PAGER=less
+export NNTPSERVER='nntp.flying-sheep.de'
+#export NNTPSERVER='news.linuxfromscratch.org'
+export COLORSCHEME='$HOME/.colors/bspwm.sheme'
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/home/danny/.local/bin"
+export Serv="$1"
+export CHAN="$2"
