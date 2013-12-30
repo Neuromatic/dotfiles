@@ -1,0 +1,47 @@
+!-----!
+!URxvt!
+!-----!
+
+URxvt*saveLines: 3000
+
+!*font:				xft:Termsynu: style=Regular: pixelsize=7
+*.font:				-misc-termsyn-medium-r-*-*-12-*-*-*-*-*-*-*
+*boldFont:			
+
+
+Xft.autohinting: 1
+Xft.antialias: 1
+Xft.hinting: false
+
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+URxvt*geometry: 		77x20
+URxvt*scrollBar: 		false
+URxvt*loginShell: 		true
+
+URxvt.perl-ext-common: 		url-select
+URxvt.keysym.M-u:		perl:url-select:select_next
+URxvt.url-select.underline: 	true
+URxvt.url-select.launcher: 	/usr/bin/dwb -x tabopen_url
+
+!URxvt.internalBorder:		1
+!URxvt.borderColor:		#444444
+
+
+!URxvt*iconFile: /home/danny/bilder/Icons/terminal.png
+URxvt*setTitle: 		"rxvt-unicode"
+
+!!Clock
+!
+xclock*minorColor: 	#8b5a2b
+xclock*majorColor: 	#cdaa7d
+xclock*minuteColor: 	#8b2323
+xclock*hourColor:	#8b2323
+xclock*width:		115
+xclock*height:		114
+
+!colorscheme
+
+#include "/home/danny/.colors/starlight.sheme"
