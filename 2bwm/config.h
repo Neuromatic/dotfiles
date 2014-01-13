@@ -1,7 +1,9 @@
 ///---User configurable stuff---///
 ///---Modifiers---///
-#define MOD             XCB_MOD_MASK_4       /* Super/Windows key  or check xmodmap(1) with -pm*/
-#define Mod1		XCB_MOD_MASK_1       /* Alt/Meta key or check xmodmap(1) with -pm */
+
+#define MOD             XCB_MOD_MASK_4       /* Super/Windows key  or check xmodmap(1) with -pm */
+#define Mod1		XCB_MOD_MASK_1	     /* Alt/Meta key or check xmodmap(1) with -pm */
+
 ///--Speed---///
 /* Move this many pixels when moving or resizing with keyboard unless the window has hints saying otherwise.
  *0)move step slow   1)move step fast
@@ -20,31 +22,32 @@ static const uint8_t offsets[] = {0,0,0,0};
  *2)fixedcol         3)unkilcol
  *4)fixedunkilcol    5)outerbordercol
  *6)emptycol         */
-static const char *colors[] = {"#8b2323","#111111","#6e8b3d","#293033","#293033","#000000","#111111"};
+static const char *colors[] = {"#d75f5f","#111111","#222222","#293033","#293030","#000000","#111111"};
 /* if this is set to true the inner border and outer borders colors will be swapped */
 static const bool inverted_colors = false;
 ///---Borders---///
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size    
  *3) Resize border size  */
-static const uint8_t borders[] = {2,3,2,2};
+static const uint8_t borders[] = {3,5,1,3};
 /* Windows that won't have a border.*/
-#define NB_NAMES 1
 #define LOOK_INTO "_NET_WM_NAME"
-static const char *ignore_names[] = {"bar","---"};
-///---Cursor---///
-/* Check /usr/include/X11/cursorfont.h for more details */
-#define CURSOR_MOVING   52
-#define CURSOR_RESIZING 120
+static const char *ignore_names[] = {"bar"};
 ///--Menus and Programs---///
-static const char *menucmd[]   = 	{ "interrobang", NULL };
-static const char *ninemenucmd[] =	{ "/home/danny/.local/bin/menu.sh", NULL };
-/*static const char *gmrun[]     = 	{ "/usr/bin/gmrun",NULL};*/
-static const char *terminal[]  = 	{ "/usr/bin/urxvtc", NULL };
-static const char *volup[] = 		{ "volup.sh", NULL };
-static const char *voldwn[] = 		{ "voldwn.sh", NULL };
-static const char *activescrot[] =	{ "/home/danny/.bin/sh/activescrot.sh", NULL };
-static const char *twobwm_path = 	"/usr/local/bin/2bwm";
+static const char *menucmd[]     = 	{ "interrobang", NULL };
+static const char *ninemenucmd[] = 	{ "/home/danny/.local/bin/menu.sh",NULL };
+static const char *terminal[]    = 	{ "/usr/bin/urxvtc", NULL };
+static const char *volup[]       = 	{ "volup.sh", NULL };
+static const char *voldwn[]      = 	{ "voldwn.sh", NULL };
+static const char *activescrot[] = 	{ "/home/danny/.local/bin/activescrot.sh", NULL };
+///--Custom foo---///
+static void halfandcentered(const Arg *arg)
+{
+	Arg arg2 = {.i=2};
+	maxhalf(&arg2);
+	Arg arg3 = {.i=0};
+	teleport(&arg3);
+}
 ///---Shortcuts---///
 /* Check /usr/include/X11/keysymdef.h for the list of all keys
  * For AZERTY keyboards XK_1...0 should be replaced by :
@@ -161,13 +164,15 @@ static key keys[] = {
     // Start programs
     {  MOD ,              XK_Return,     start,             {.com = terminal}},
     {  MOD ,              XK_p,          start,             {.com = menucmd}},
-    {  Mod1,		  XK_u,		 start,		    {.com = volup}},
-    {  Mod1,		  XK_d,		 start,		    {.com = voldwn}},
-    {  Mod1,		  XK_w,		 start,		    {.com = activescrot}},
-    {  MOD,		  XK_e,	         start,		    {.com = ninemenucmd}},
+ /* {  MOD |SHIFT,        XK_w,          start,             {.com = gmrun}}, */
+    { MOD,		  XK_e,		 start,		    {.com = ninemenucmd}},
+    { Mod1,		  XK_w,		 start,		    {.com = activescrot}},
+    { Mod1,		  XK_u,	  	 start,		    {.com = volup}},
+    { Mod1,		  XK_d,		 start,		    {.com = voldwn}},
     // Exit or restart 2bwm
     {  MOD |CONTROL,      XK_q,          twobwm_exit,         {.i=0}},
     {  MOD |CONTROL,      XK_r,          twobwm_restart,      {.i=0}},
+    {  MOD ,              XK_space,      halfandcentered,    {.i=0}},
     // Change current workspace
        DESKTOPCHANGE(     XK_1,                             0)
        DESKTOPCHANGE(     XK_2,                             1)
@@ -184,9 +189,10 @@ static Button buttons[] = {
     {  MOD        ,XCB_BUTTON_INDEX_1,     mousemotion,   {.i=TWOBWM_MOVE}},
     {  MOD        ,XCB_BUTTON_INDEX_3,     mousemotion,   {.i=TWOBWM_RESIZE}},
     {  MOD|CONTROL,XCB_BUTTON_INDEX_3,     start,         {.com = menucmd}},
-    {  Mod1,	   XCB_BUTTON_INDEX_1,	   start,	  {.com = ninemenucmd}},
+    {  Mod1,	   XCB_BUTTON_INDEX_1,     start,         {.com = ninemenucmd}},
     {  MOD|SHIFT,  XCB_BUTTON_INDEX_1,     changeworkspace, {.i=0}},
     {  MOD|SHIFT,  XCB_BUTTON_INDEX_3,     changeworkspace, {.i=1}},
     {  MOD|ALT,    XCB_BUTTON_INDEX_1,     changescreen,    {.i=1}},
     {  MOD|ALT,    XCB_BUTTON_INDEX_3,     changescreen,    {.i=0}}
+   
 };
