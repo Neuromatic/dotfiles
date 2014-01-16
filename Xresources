@@ -24,7 +24,7 @@ URxvt*loginShell: 		true
 URxvt.perl-ext-common: 		url-select
 URxvt.keysym.M-u:		perl:url-select:select_next
 URxvt.url-select.underline: 	true
-URxvt.url-select.launcher: 	/usr/bin/dwb -x tabopen_url
+URxvt.url-select.launcher: 	/usr/bin/firefox
 
 !URxvt.internalBorder:		1
 !URxvt.borderColor:		#444444
@@ -35,13 +35,15 @@ URxvt*setTitle: 		"rxvt-unicode"
 
 !!Clock
 !
-xclock*minorColor: 	#8b5a2b
-xclock*majorColor: 	#cdaa7d
-xclock*minuteColor: 	#8b2323
-xclock*hourColor:	#8b2323
+xclock*minorColor: 	#808080
+xclock*majorColor: 	#ffaf5f
+xclock*minuteColor: 	#d75f5f
+xclock*hourColor:	#d75f5f
 xclock*width:		115
 xclock*height:		114
 
 !colorscheme
 
-#include "/home/danny/.colors/starlight.sheme"
+#include "/home/danny/.colors/beastie.sheme"
+!#include "/home/danny/neuro_version.sheme"
+
