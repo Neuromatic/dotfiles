@@ -1,0 +1,49 @@
+!-----!
+!URxvt!
+!-----!
+
+URxvt*saveLines: 3000
+
+!*font:				xft:Termsynu: style=Regular: pixelsize=7
+*.font:				-misc-termsyn-medium-r-*-*-12-*-*-*-*-*-*-*
+*boldFont:			
+
+
+Xft.autohinting: 1
+Xft.antialias: 1
+Xft.hinting: false
+
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+URxvt*geometry: 		77x20
+URxvt*scrollBar: 		false
+URxvt*loginShell: 		true
+
+URxvt.perl-ext-common: 		url-select
+URxvt.keysym.M-u:		perl:url-select:select_next
+URxvt.url-select.underline: 	true
+URxvt.url-select.launcher: 	/usr/bin/firefox
+
+!URxvt.internalBorder:		1
+!URxvt.borderColor:		#444444
+
+
+!URxvt*iconFile: /home/danny/bilder/Icons/terminal.png
+URxvt*setTitle: 		"rxvt-unicode"
+
+!!Clock
+!
+xclock*minorColor: 	#808080
+xclock*majorColor: 	#ffaf5f
+xclock*minuteColor: 	#d75f5f
+xclock*hourColor:	#d75f5f
+xclock*width:		115
+xclock*height:		114
+
+!colorscheme
+
+#include "/home/danny/.colors/beastie.sheme"
+!#include "/home/danny/neuro_version.sheme"
+

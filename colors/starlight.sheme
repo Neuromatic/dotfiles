@@ -15,8 +15,16 @@
 !*color10:    #A9C938
 
 !green
-*color2:	#eedc82
-*color10:	#fbec5d
+!*color2:	#eedc82
+!*color10:	#fbec5d
+
+!*color2:	#eedc82
+!*color10:	#eedc82
+
+*color2:	#7f4444
+!*color10:	#b3575c
+*color10:	#c87374
+
 
 !yellow
 *color11:  #8b5a2b
@@ -33,9 +41,11 @@
 *color13: #E16A98
 
 !cyan
-*color6: #435d75
-*color14: #6e98a4
+!*color6: #435d75
+!*color14: #6e98a4
 
+*color6:	#888888
+*color14:	#666666
 !white
 *color7: #888888
 *color15: #666666
