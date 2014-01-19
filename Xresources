@@ -44,6 +44,6 @@ xclock*height:		114
 
 !colorscheme
 
-#include "/home/danny/.colors/beastie.sheme"
-!#include "/home/danny/neuro_version.sheme"
+#include "/home/danny/.colors/hal"
+
 
