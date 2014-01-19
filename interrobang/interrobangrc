@@ -4,7 +4,7 @@
 
 set	font 		= -*-termsyn-medium-r-*-*-12-*-*-*-*-*-*-*
 
-set	colors 		= #bea492 #181512 #bea429 #181512
+set	colors 		= #f3e7c6 #0d0b0d #f3e7c6 #0d0b0d
 
 set 	bangchar	= :
 
@@ -19,13 +19,13 @@ bang t			= urxvtc
 
 bang urxvt		= urxvt
 
-bang dwb		= dwb
+bang d			= dwb
 
-bang firefox		= firefox
+bang f			= firefox
 
 bang wq			= pkill X
 
-bang pdf		= zathura %s
+bang pdf		= mupdf %s
 
 bang htop		= urxvtc -e htop
 
@@ -35,7 +35,19 @@ bang irc		= urxvtc -e irssi
 
 bang w3m		= urxvtc -e w3m %s
 
-bang mpd		= urxvtc -e ncmpcpp
+bang mpd		= urxvtc -e ncmp
+
+bang l			= mpc load %s
+
+bang p			= mpc play
+
+bang s			= mpc stop
+
+bang xclock		= xclock
+
+bang vb			= virtualbox
+
+bang start_netbsd	= vboxsdl --norawr0 --startvm NetBSD
 
 #+ |
 #+ | EOF
