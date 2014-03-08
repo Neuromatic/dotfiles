@@ -27,9 +27,9 @@ servers = (
   {
     address = "irc.unixhub.net";
     chatnet = "unixhub";
-    port = "6697";
-
-    use_ssl = "yes";
+    port = "0";
+    password = "-port";
+    use_ssl = "no";
     ssl_verify = "no";
   }
 );

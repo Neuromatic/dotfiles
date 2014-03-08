@@ -1,0 +1,57 @@
+--- Log opened So Dez 29 20:46:07 2013
+20:46 Starting query in unixhub with 
+20:46  < hi
+20:46  > Hey, was gibts?
+20:47  < hab deinen post im #! forum gelesen und gedacht du kannst mir vielleicht helfen mit openBSD und bspwm
+20:47  < wenn du zeit und lust hast..
+20:47  < nich dass dafür dein sonntag drauf geht 
+20:48  > Ich habe die Zeit durchaus, allerdings war diese make-Sache eher eine Vermutung. Also ich denke, dass ich Dir nicht helfen kann. Meine einzige Idee diesbezüglich wäre, dass Du gmake installierst und damit zu kompilieren versuchst, falls das nicht schon geschehen ist :-/
+20:48  < hab gmake eben installiert.. habs vorher nur mit make versucht
+20:48  < aber ich glaub mir fehlen irgendwelche dependencies
+20:49  < xcb-utils glaub ich
+20:49  > libxcb und ähnliches?
+20:49  < muss ich gucken
+20:49  < ich check openbsd echt noch nicht..
+20:49  < bin grad froh dass alles mit den netzwerken klappt
+20:50  < libxcb gibts ja bspw. nich in den repos.. 
+20:51  > Hatte es von gestern auf heute in einer VM und muss sagen, dass es mir so auf den ersten Blick ganz gut gefiel… Dann wird es wohl anders heißen; ich meine in der Dokumentation steht beschieben wie man nach Paketen sucht. Sonst lad Dir die Ports runter 
+20:51  < hab grad gesehen dass es teil von xenocara ist
+20:51  < die ports hab ich auch schon
+20:53  > Schau mal in devel oder so nach. oder mit find /usr/ports -name xcb
+20:54  < ich such grad ;)
+20:55  < k, is installiert
+20:55  < also xcb
+20:56  > Gut, gut. War sonst noch was wichtiges, dass bspwm zum kompilieren dringend benötigt?
+20:56  < krieg mit gmake immernoch xcb fehlermeldungen
+20:56  < weiß nicht..
+20:56  < das is ja mein problem ^^
+20:56  < frag mich auch ob xcb so reicht
+20:57  < weil ich nur xcb hab aber nicht xcb_utils
+20:57  > und xcb_util_wm. Nur wie heißen diese Pakete unter OpenBSD :D
+20:57  < irgendwer meinte ich solle xcb_utils von der freedesktop seite runterladen und kompilieren
+20:58  > Ich denke nicht, dass ein OS mit dem Hauptmerk auf sicherheit solche libs einfach aus dem Internet runterladen lässt, die werden schon das richtige irgendwo in ihren repos haben…
+20:59  < kp
+20:59  < sollte eigentlich aber wie krieg ich das raus?
+21:00  > Notfalls jemanden fragen der OpenBSD primär einsetzt
+21:01  < kennst da jemand?
+21:01  < mir konnt da trotzdem keiner mit der kombination von openbsd und bspwm weiterhelfen
+21:02  > Geht ja auch nicht prmär darum, sondern viel eher, dass die makedepends stimmen und wie man sowas unter Obsd herausfindet.
+21:02  < ich krieg nichtma die depperte libxcb von der freedekstop seite kompiliert 
+21:03  > Gibt es dazu eine Anleutung die man befolgen kann, also auf der Seite?
+21:04  < vielleicht überseh ich sie nur.. http://xcb.freedesktop.org/
+21:05  > Als ich OpenBSD gestern installiert habe, kam es mir so vor, als wäre xcb bereits installiert… Welche sets hast Du eigentlich ausgewählt ?
+21:05  < wie meinst?
+21:05  < auf der seite oder bei der installation?
+21:07  < hab auf jeden fall mal den neusten xcb kram runtergeladen
+21:07  < erstma versuchen zum laufen zu kriegen
+21:11  > yrmt kann Dir helfen
+21:13  < den hab ich beim letzten mal gefragt und er meinte ich solle den ganzen kram von der freedesktop page holen
+21:13  < klapte nicht
+21:13  > Frag mal yrmt, er meinte er weiß was zu tun ist
+--- Log closed So Dez 29 21:19:42 2013
+--- Log opened So Dez 29 21:45:29 2013
+21:45         quit │  vosh
+--- Log closed So Dez 29 21:50:42 2013
+--- Log opened So Dez 29 21:56:44 2013
+21:56         quit │  vosh
+--- Log closed So Dez 29 22:02:42 2013

@@ -1,0 +1,1995 @@
+--- Log opened Sa Dez 28 13:49:49 2013
+13:49         join │  Neuromatic
+13:49        names │  Total: 0 ops, 0 halfops, 0 voices, 10 normal
+13:49 Join to #bspwm was synced in 2 secs
+--- Log closed Sa Dez 28 16:42:59 2013
+--- Log opened Sa Dez 28 16:55:40 2013
+16:55         join │  Neuromatic
+16:55        names │  Total: 0 ops, 0 halfops, 0 voices, 11 normal
+16:55 Join to #bspwm was synced in 0 secs
+17:15       zero57 │  hey Neuromatic do you what the rule_command is to stop moving into the desktop that my application is in? I autostart steam via bspwmrc, and when it finishes loading, bspwm focuses into the workspace that steam is in
+17:16       zero57 │  the rule I set for Steam is "class == "Steam" => floating = on desktop = ^9"
+17:16       zero57 │  I tried follow = off and focus = off, but it still doesn't work
+17:16       zero57 │  Before the change to rulc/ruld, and when I was using bspc rule -a command, it worked fine with just floating on and the desktop rule.
+17:19   Neuromatic │  then update bspwm and use internal rules
+17:20   Neuromatic │  Is the steam client named 'Steam' in window class?
+17:22       zero57 │  Neuromatic: yeah
+17:22   Neuromatic │  Can I see you bspwmrc, or rules file for case that you excluded them?
+17:23       zero57 │  http://ix.io/9y7 bspwmrc
+17:23       zero57 │  http://ix.io/9y8 bspwm_rules
+17:25   Neuromatic │  seems to be okay
+17:26   Neuromatic │  did you tryed to set a comma between floating and desktop detting?
+17:26   Neuromatic │  setting
+17:26       zero57 │  no, i'll try now
+17:27   Neuromatic │  else you still can update and use internal rules
+17:27       zero57 │  oh, i thought the internal rules was removed?
+17:28       zero57 │  I have bspwm (non-git) 0.8.7-1 installed and when I updated, the bspc rule command was gone
+17:29       zero57 │  anyways, it's fine if I can't fix it, just a small little hassle every time I log in
+17:29         quit │  zero57
+17:30         join │  zero57
+17:31       zero57 │  yeah, doesn't work
+17:31   Neuromatic │  internal rules are back by actual git version
+17:32   Neuromatic │  So you can use ex- and internal rules now
+17:32       zero57 │  I see, thanks! I think I'll switch back then :)
+17:33   Neuromatic │  alright
+17:33   Neuromatic │  Plase follow the development on github in the future. So you are always be informated
+17:34       zero57 │  Will do.
+17:38         quit │  zero57
+19:16        tbuck │  I've got my external monitor hooked up but its mirroring my laptop screen and the resolution is wrong
+19:16        tbuck │  fun fun. and of course theres little documentation
+19:21        tbuck │  do i just have to do some xrandr magic? kinda stuck here
+19:27   Neuromatic │  There was a guy here a few weeks ago. He made a xrandr patch for multimonitor setups.
+19:27   Neuromatic │  I#ll try to find his stuff
+19:27        tbuck │  that would be great
+19:28   Neuromatic │  You're on sluck?
+19:28        tbuck │  slackware? yeah
+19:29   Neuromatic │  Here is his slackbuild with multimonitor patch:
+19:29   Neuromatic │  http://tinyurl.com/mfol4vv
+19:29        tbuck │  oh nice, a slackbuild :)
+19:29        tbuck │  thanks ill look into that
+19:30   Neuromatic │  np
+19:32        tbuck │  i had always thought it had support already tho huh
+19:33   Neuromatic │  yea w/ xinemera. But xrandr does its job better w/ bspwm
+19:49        tbuck │  ok im starting to make some progress after getting familiar with xrandr.
+19:53   Neuromatic │  Do that
+22:12         join │  ravenx
+22:13       ravenx │  is it possible to make the terminal open up as floating only in desktop ^2?
+22:13       ravenx │  in a certain size as well?
+22:14   Neuromatic │  If I'm right, then 'per-desktop-rules' are not implemented yet…
+22:14       ravenx │  aww
+22:14   Neuromatic │  Maybe you can create a lil sh script?
+22:14       ravenx │  i guess i could look into that.
+22:14       ravenx │  does bloom/baskerville ever come on here?
+22:14   Neuromatic │  No :D
+22:15        tbuck │  ive never seen him. earsplit started this chan and i dont even see him here anymore
+22:15   Neuromatic │  cuz heres less activity
+22:15       ravenx │  haha
+22:16       ravenx │  i\ think most of hte stuff goes through unixhub first then on to here.
+22:20   Neuromatic │  maybe… You may want to ask baskerville on github/issues-section for the per-desktop-rules. perhaps the internal rule-command can do such stuff?
+22:21       ravenx │  that sounds like a good idea
+22:21       ravenx │  i'll do just that.
+22:21       ravenx │  or perhaps the arch forum's bspwm thread.
+22:22   Neuromatic │  yea, maybe this way is faster
+22:32        tbuck │  i wish there was per desktop padding / other settings too :/
+22:34   Neuromatic │  tbuck: Yes per desktop padding would be awesome
+22:41         join │  Lightstalker
+22:59         part │  Mechanimal
+23:00         join │  Mechanimal
+23:02         join │  irc-5225225
+23:03  irc-5225225 │  Is there a ppa for bspwm on ubuntu, or should I attempt to build from source?
+23:04   Neuromatic │  Nobody is using ubuntu here. Use the git version
+23:04   Neuromatic │  If you have problems with it, we can spend you better help
+23:07  irc-5225225 │  Neuromatic: Well, mint, but close enough. I'll try to compile the git version.,
+23:08       ravenx │  use checkinstall
+23:08       ravenx │  for painless removing if it doesn't work.
+23:08       ravenx │  i tried bspwm on my linux mint desktop and i haven't had luck.  let me know if you do.
+23:09       ravenx │  Neuromatic: are you using a login manager?
+23:09   Neuromatic │  ravenx: no
+23:09       ravenx │  so just the tty text on arch boot?
+23:10   Neuromatic │  Yea, but i've got a nice /etc/issue :P
+23:12       ravenx │  what's that?
+23:13   Neuromatic │  /etc/issue is a file that will be displayed over the login prompt.
+23:13       ravenx │  ooh
+23:14       ravenx │  how did you "decorate" yours?
+23:14        tbuck │  TIL. learned a lot today actually
+23:14       ravenx │  i learned that you can customize that prompt jus tnow.
+23:14       ravenx │  what is the \r and the (\l) though?
+23:15   Neuromatic │  \r is kernel and \l … I#ve fogotten :P
+23:15   Neuromatic │  http://paste.unixhub.net/index.php/4MnI/bash
+23:15   Neuromatic │  mv this to /etc/issue and relogin ;)
+23:15       ravenx │  FORK BOMB DETECTED.
+23:15       ravenx │  NEIN.
+23:15       ravenx │  j/k.
+23:16   Neuromatic │  No, its a colored "Archlinux" and some information
+23:16       ravenx │  sweet.
+23:16       ravenx │  gonna give it a try after my volume bar
+23:16       ravenx │  another 5 mins
+23:16       ravenx │  then i re login.
+23:17   Neuromatic │  nice
+23:25       ravenx │  okay so how do i copy that in to ensure the spacing doesn't get fucked?
+23:25       ravenx │  just vim, insert, middle mouse button?
+23:26   Neuromatic │  In those cases I use xclip
+23:26       ravenx │  how do i xclip?
+23:26       ravenx │  :(
+23:27   Neuromatic │  install xclip -> mark the text from paste.unixhub and do xclip -o > file
+23:28       ravenx │  ah i see
+23:29       ravenx │  it says "zsh permission denied: issue
+23:29        tbuck │  ravenx: i have a vim command: set pastetoggle=<F2>
+23:29   Neuromatic │  do it in your home dir an then mv it to /etc
+23:29       ravenx │  LOL i just remembered i had in my vimrc
+23:30        tbuck │  i just hit f2 in insert mode, hold shift and middle click and things will get pasted in without the indentation
+23:30        tbuck │  although that might not be what you need in this situation
+23:31       ravenx │  i think i got it
+23:31       ravenx │  will reboot to see
+23:31         quit │  ravenx
+23:31   Neuromatic │  lol
+--- Log closed Sa Dez 28 23:53:53 2013
+--- Log opened Sa Dez 28 23:57:36 2013
+23:57         join │  Neuromatic
+23:57        names │  Total: 0 ops, 0 halfops, 0 voices, 12 normal
+23:57 Join to #bspwm was synced in 1 secs
+--- Day changed So Dez 29 2013
+00:32         quit │  irc-5225225
+02:44         join │  Bryan792
+07:28         part │  Mechanimal
+07:29         join │  Mechanimal
+07:57          you │  Neuromatic|afk
+08:52     loadedice│  tomato
+08:52        tomato│  loadedice
+10:33         join │  irc-5225225
+11:07         quit │  irc-5225225
+11:20         join │  irc-5225225
+11:26         join │  mentero
+12:21         quit │  irc-5225225
+12:59         join │  senft
+14:23         quit │  senft
+14:27         join │  senft
+14:28         quit │  senft
+14:29         join │  senft
+14:32         join │  irc-5225225
+14:33         quit │  Bryan792
+15:09          you │  Neuromatic
+15:54         quit │  senft
+16:28         join │  FreeFull_
+16:28         join │  tbuck_
+16:33        nsplit │ "Netsplit" *.net <-> *.split quits: FreeFull, Mechanimal, tbuck
+16:41         njoin │ "Netsplit" over, joins: Mechanimal
+17:27         quit │  irc-5225225
+19:38         join │  irc-5225225
+20:29         join │  klaasvakie
+20:45         quit │  mentero
+21:00         join │  mentero
+22:18         quit │  klaasvakie
+22:58     FreeFull_│  FreeFull
+23:37         quit │  irc-5225225
+23:40         join │  Bryan792
+23:51          you │  Neuromatic|afk
+23:52         join │  irc-5225225
+--- Day changed Mo Dez 30 2013
+00:03         quit │  irc-5225225
+00:15         quit │  Bryan792
+00:40         quit │  mentero
+00:52          you │  Neuromatic
+00:55         join │  Bryan792
+02:24         quit │  Bryan792
+02:40         join │  Bryan792
+06:34         join │  simpleirc1
+06:51         quit │  simpleirc1
+10:22         join │  irc-5225225
+11:09         join │  senft
+12:19         quit │  FreeFull
+13:10         quit │  senft
+13:33         quit │  Bryan792
+16:52         quit │  irc-5225225
+19:16         join │  exelens
+19:19         quit │  exelens
+19:27         join │  nestula
+19:27         quit │  nestula
+19:32         join │  irc-5225225
+20:38         join │  kyle_
+20:38         kyle_│  Guest59515
+20:38         quit │  Mechanimal
+--- Log closed Mo Dez 30 21:22:22 2013
+--- Log opened Mo Dez 30 21:23:59 2013
+21:23         join │  Neuromatic
+21:23        names │  Total: 0 ops, 0 halfops, 0 voices, 11 normal
+21:24 Join to #bspwm was synced in 1 secs
+23:10         join │  danny
+23:10         quit │  danny
+--- Log opened Di Dez 31 00:27:14 2013
+00:27         join │  Neuromatic
+00:27        names │  Total: 0 ops, 0 halfops, 0 voices, 11 normal
+00:27 Join to #bspwm was synced in 0 secs
+00:43         quit │  irc-5225225
+03:18         join │  17SADR8GO
+03:29         quit │  17SADR8GO
+03:35         join │  Lopi
+11:00         join │  Bryan792
+11:37         join │  irc-5225225
+11:43         quit │  Bryan792
+12:27         quit │  irc-5225225
+12:46         join │  Dragon707
+12:54         join │  irc-5225225
+13:50         join │  Bryan792
+14:30         part │  Guest59515
+14:52         join │  Mechanimal
+15:20         quit │  Bryan792
+16:49         join │  spirts
+17:01         quit │  spirts
+17:23         quit │  loadedice
+17:24         join │  loadedice
+18:38         join │  u12
+19:31         quit │  Lopi
+19:31         join │  Lopi
+19:34         quit │  u12
+19:53         quit │  tbuck_
+20:36         part │  ehtesh
+21:09         join │  tbuck
+--- Log closed Di Dez 31 23:01:57 2013
+--- Log opened Mi Jan 01 01:06:29 2014
+01:06         join │  Neuromatic
+01:06        names │  Total: 0 ops, 0 halfops, 0 voices, 11 normal
+01:06 Join to #bspwm was synced in 2 secs
+01:59         quit │  tbuck
+02:17         quit │  irc-5225225
+03:06         join │  Bryan792
+04:43          you │  Neuromatic|afk
+04:44         part │  Mechanimal
+04:44         join │  Mechanimal
+05:16         join │  tbuck
+10:59         join │  irc-5225225
+11:58         quit │  irc-5225225
+13:48         join │  irc-5225225
+17:49         quit │  irc-5225225
+22:05         quit │  Bryan792
+23:00         part │  Mechanimal
+--- Day changed Do Jan 02 2014
+00:14         join │  Mechanimal
+00:47         join │  ctt
+01:03         quit │  ctt
+01:39         join │  ravenx
+01:46         join │  Bryan792
+03:03         quit │  ravenx
+04:30         part │  Mechanimal
+08:29         join │  ravenx
+10:48         quit │  ravenx
+13:20         quit │  Bryan792
+20:53         join │  Mechanimal
+--- Log closed Do Jan 02 21:17:37 2014
+--- Log opened Do Jan 02 21:29:06 2014
+21:29         join │  Neuromatic
+21:29        names │  Total: 0 ops, 0 halfops, 0 voices, 10 normal
+21:29 Join to #bspwm was synced in 1 secs
+22:55         join │  earsplit
+23:16         join │  Bryan792
+23:58         part │  Mechanimal
+--- Day changed Fr Jan 03 2014
+01:06         quit │  tbuck
+01:06         join │  tbuck
+01:13         quit │  tbuck
+02:26         quit │  earsplit
+03:24         join │  Mechanimal
+03:53         join │  ravenx
+04:12         quit │  ravenx
+04:15         join │  ravenx
+05:55         quit │  ravenx
+13:24         quit │  tuftedocelot
+13:25         join │  tuftedocelot
+16:19         quit │  Bryan792
+--- Log closed Fr Jan 03 17:23:37 2014
+--- Log opened Fr Jan 03 17:26:26 2014
+17:26         join │  Neuromatic
+17:26        names │  Total: 0 ops, 0 halfops, 0 voices, 9 normal
+17:26 Join to #bspwm was synced in 0 secs
+17:35         join │  Jumblemuddle
+18:00         join │  frakingchrist
+18:37         quit │  frakingchrist
+18:56         join │  isitmoist
+20:03         quit │  Jumblemuddle
+20:21         join │  ravenx
+20:23         quit │  ravenx
+20:25         join │  ravenx
+20:29         join │  tbuck
+22:20         quit │  ravenx
+23:48         join │  dizzydave
+23:49    dizzydave │  hey does anyone happen to remember which page the blank window was figured out?
+--- Day changed Sa Jan 04 2014
+00:18         join │  tstrokes
+00:19     tstrokes │  exit
+00:19    dizzydave │  "/exit"
+00:21         quit │  tstrokes
+00:25         join │  tstrokes
+00:26     tstrokes │  This is probably asked pretty frequently but I can't seem to get bar to work.
+00:27     tstrokes │  panel and panel_bar are running
+00:27     tstrokes │  the fifo is up
+00:28     tstrokes │  no errors
+00:28     tstrokes │  but no panel
+00:29   Neuromatic │  bar is installed?
+00:30     tstrokes │  yes installed from the aur "which bar" yields "/usr/bin/bar"
+00:31   Neuromatic │  the baskerville utils are installed?
+00:32     tstrokes │  sutils installed
+00:32   Neuromatic │  xtitle and clock?
+00:33   Neuromatic │  see his git
+00:33     tstrokes │  yep both installed
+00:33   Neuromatic │  Then you did somthing wrong
+00:33   Neuromatic │  permissions of panels fifo?
+00:34   Neuromatic │  panel and panel_bar are executable?
+00:34   Neuromatic │  the scripts are downloaded in raw?
+00:34     tstrokes │  yep cloned from github and executable
+00:35   Neuromatic │  check you panel_fifo for perms and make sure that the correct vars are set in /etc/profile
+00:35    dizzydave │  make sure they're all looking in the right places
+00:36    dizzydave │  did you get them from earsplit's git or from baskerville?
+00:37     tstrokes │  baskerville
+00:37     tstrokes │  what should the permissions be on panel-fifo
+00:37    dizzydave │  hmm that one was pretty straightforward iirc
+00:38   Neuromatic │  prw-r--r--
+00:38     tstrokes │  yep
+00:39   Neuromatic │  your panel_fifo has the corrent name in panel and panel_bar?
+00:39    dizzydave │  did you try running the script from a shell?
+00:39    dizzydave │  or does it not work even then?
+00:39     tstrokes │  the panel is already running
+00:40     tstrokes │  So it appears like everything is setup correctly
+00:40   Neuromatic │  then pkill all and run from your term
+00:41     tstrokes │  that is weird it works
+00:41     tstrokes │  ok
+00:43     tstrokes │  I will have to mess with it thanks
+00:43         quit │  tstrokes
+00:44    dizzydave │  sounds like something needs to be chmod'ed
+00:58         quit │  dizzydave
+01:02         join │  Bryan792
+01:53         quit │  WonderWoofy
+01:57         join │  WonderWoofy
+05:17         join │  ravenx
+07:45         quit │  WonderWoofy
+07:46         join │  WonderWoofy
+09:12         quit │  ravenx
+10:10        nsplit │ "Netsplit" *.net <-> *.split quits: Lopi, isitmoist, Mechanimal
+10:10        nsplit │ "Netsplit" *.net <-> *.split quits: Dragon707
+10:10        nsplit │ "Netsplit" *.net <-> *.split quits: Tsyesika
+10:10        nsplit │ "Netsplit" *.net <-> *.split quits: WonderWoofy, tbuck, Bryan792
+10:11        nsplit │ "Netsplit" *.net <-> *.split quits: tuftedocelot
+10:29         njoin │ "Netsplit" over, joins: Lopi
+10:29         njoin │ "Netsplit" over, joins: WonderWoofy, Tsyesika
+10:30         join │  Dragon707
+10:30         join │  tuftedocelot
+10:30         join │  Bryan792
+10:30         join │  tbuck
+10:35         join │  isitmoist
+10:35         join │  Mechanimal
+14:57         quit │  Bryan792
+15:26         join │  dizzydave
+--- Log closed Sa Jan 04 16:07:57 2014
+--- Log opened Sa Jan 04 16:12:36 2014
+16:12         join │  Neuromatic
+16:12        names │  Total: 0 ops, 0 halfops, 0 voices, 12 normal
+16:12 Join to #bspwm was synced in 1 secs
+16:21         quit │  dizzydave
+16:52         quit │  WonderWoofy
+19:06         join │  dizzydave
+19:39    dizzydave │  anyone know what page I should read to make a blank window?
+19:44   Neuromatic │  What did you mean w/ 'blank window'?
+19:44    dizzydave │  pretty much just an empty space that I can manipulate like an ordinary branch
+19:45   Neuromatic │  This feature is not longer available in bspwm
+19:45         quit │  isitmoist
+19:45    dizzydave │  Ah ok, I knew I saw it a while back while I was struggling with my panel_bar
+19:45    dizzydave │  thanks anyways though
+20:26        tbuck │  Neuromatic: there arent frames in bspwm anymore?
+20:26        tbuck │  damn... im still on version 0.8.6 and if thats the case im just noever going to update
+20:26         part │  Mechanimal
+20:26        tbuck │  keeps removing/changin shit
+20:26   Neuromatic │  tbuck: The `frames` are replaced by pseudotiling
+20:27        tbuck │  ok so changed not removed
+20:27        tbuck │  still... he needs to figure his shit out. too many small changes
+20:28   Neuromatic │  I think he was doing that cuz earsplit wanted him to do it
+20:29        tbuck │  ah. i need to follow development better. ive been out of the loop lately
+20:30   Neuromatic │  But if I remember correclty, the psuedotiling was scheluled and this `frame` stuff was only a test run…
+20:30   Neuromatic │  lol, I thought fraun_ has trouble with bspwm; why he did not join #bspwm?
+20:31        tbuck │  yeah ive been waiting for him lol
+20:31        tbuck │  id rather help people here than spam unixhub with bspwm stuff
+20:31   Neuromatic │  yea
+20:31   Neuromatic │  unixhub is not a support channel
+20:31        tbuck │  nope
+20:34         quit │  dizzydave
+21:10         join │  WonderWoofy
+21:12         quit │  WonderWoofy
+21:13         join │  WonderWoofy
+21:16         quit │  WonderWoofy
+21:18         join │  WonderWoofy
+21:59         join │  phill_
+21:59       phill_ │  hello
+22:00   Neuromatic │  hellp phill_
+22:01       phill_ │  could someone help me with installing bspwm on crunchbang
+22:01   Neuromatic │  Where is the problem?
+22:01       phill_ │  i crunchbang is using slim as its default login manager
+22:02   Neuromatic │  Ah I see; this problem is already known
+22:02       phill_ │  yep
+22:02   Neuromatic │  Did you followd the guide on the arch wiki?
+22:02       phill_ │  i folowed the tutorion on bspwm's git page
+22:02   Neuromatic │  Can I see your .xinitrc
+22:02   Neuromatic │  ?
+22:03       phill_ │  how can i acces it?
+22:03       phill_ │  sorry im new to linux
+22:04   Neuromatic │  Oh, then please dont use bspwm. It is under high development and only for advanved users at this moment.
+22:04   Neuromatic │  There is no stable version. you will ever have trouble with it
+22:04       phill_ │  then which tiling wm should i install?
+22:05   Neuromatic │  There are many. You choosed bspwm so I think i3 or herbstluftwm can be your taste
+22:07       phill_ │  thanks,i'll try one of them
+22:07         quit │  phill_
+23:48         quit │  WonderWoofy
+23:49         join │  WonderWoofy
+--- Day changed So Jan 05 2014
+02:53         join │  ravenx
+03:18         join │  Mechanimal
+03:18         quit │  ravenx
+03:23         join │  ravenx
+03:48         quit │  ravenx
+04:02         join │  ravenx
+04:04       ravenx │  blist online
+04:07         quit │  ravenx
+05:31         join │  Bryan792
+06:35         quit │  Mechanimal
+06:38         join │  Mechanimal
+06:42         quit │  Bryan792
+--- Log closed So Jan 05 12:51:58 2014
+--- Log opened Mo Jan 06 19:30:06 2014
+19:30         join │  Neuromatic
+19:30        names │  Total: 0 ops, 0 halfops, 0 voices, 10 normal
+19:30 Join to #bspwm was synced in 0 secs
+20:28         join │  Mechanimal
+20:45         quit │  frakingchrist
+20:45         join │  frakingchrist
+20:50         quit │  Mechanimal
+20:53         join │  Mechanimal
+21:02         quit │  frakingchrist
+21:02         join │  frakingchrist
+21:29         quit │  Mechanimal
+21:31         join │  Mechanimal
+21:49         join │  Bryan792
+22:03         quit │  Bryan792
+22:18         quit │  frakingchrist
+23:50         quit │  Mechanimal
+23:52         join │  Mechanimal
+--- Day changed Di Jan 07 2014
+01:13         join │  Bryan792
+01:24         quit │  Bryan792
+02:25         join │  Bryan792
+02:28         join │  ChasingLogic
+02:31         quit │  ChasingLogic
+02:32         join │  ChasingLogic
+02:34         quit │  Bryan792
+03:28         quit │  dansbandit
+03:35         join │  Bryan792
+03:42         join │  dansbandit
+03:58         join │  ravenx
+04:35         quit │  Bryan792
+04:42         quit │  ChasingLogic
+06:03         quit │  Mechanimal
+06:04         join │  Mechanimal
+06:19         quit │  tuftedocelot
+06:19         join │  tuftedocelot
+06:36        nsplit │ "Netsplit" *.net <-> *.split quits: supplantr, WonderWoofy
+06:37         njoin │ "Netsplit" over, joins: WonderWoofy
+06:52        nsplit │ "Netsplit" *.net <-> *.split quits: ravenx
+06:57         njoin │ "Netsplit" over, joins: ravenx
+07:00         join │  Bryan792
+07:04         part │  ravenx
+07:35         quit │  Mechanimal
+07:37         join │  Mechanimal
+07:41         quit │  WonderWoofy
+07:42         join │  WonderWoofy
+09:14         join │  supplantr
+10:13         join │  ravenx
+10:44         quit │  ravenx
+13:07         join │  senft
+14:33         quit │  dansbandit
+15:03         join │  frakingchrist
+15:05         quit │  frakingchrist
+16:09         quit │  Bryan792
+17:38         quit │  Mechanimal
+17:40         join │  Mechanimal
+18:28         join │  lopi1
+18:34         quit │  Lopi
+18:38         quit │  tbuck
+18:40         lopi1│  Lopi
+18:46         join │  Mechanim1l
+18:47         join │  tbuck
+18:50         quit │  Mechanimal
+19:11         quit │  tbuck
+19:14         join │  tbuck
+19:20         quit │  WonderWoofy
+19:21         quit │  tbuck
+19:25         join │  tbuck
+19:36         join │  WonderWoofy
+19:47        nsplit │ "Netsplit" *.net <-> *.split quits: WonderWoofy
+19:48         njoin │ "Netsplit" over, joins: WonderWoofy
+19:58         join │  ravenx
+20:00         join │  WonderWo1
+20:01         quit │  WonderWoofy
+20:03         quit │  ravenx
+20:40         quit │  Mechanim1l
+20:42         join │  Mechanimal
+20:51         quit │  Mechanimal
+21:10         join │  Bryan792
+21:41         join │  ravenx
+21:43         quit │  senft
+21:43         quit │  ravenx
+22:02         join │  Mechanimal
+23:12         quit │  WonderWo1
+23:18         join │  WonderWoofy
+--- Day changed Mi Jan 08 2014
+00:44         join │  ravenx
+00:57         quit │  Mechanimal
+00:59         join │  Mechanimal
+01:59         quit │  WonderWoofy
+02:00         join │  WonderWoofy
+02:32         quit │  Mechanimal
+02:42         quit │  ravenx
+02:43         join │  ravenx
+02:51         quit │  ravenx
+02:52         join │  ravenx
+--- Log closed Mi Jan 08 03:06:52 2014
+--- Log opened Mi Jan 08 03:38:14 2014
+03:38         join │  Neuromatic
+03:38        names │  Total: 0 ops, 0 halfops, 0 voices, 9 normal
+03:38 Join to #bspwm was synced in 18 secs
+04:04         quit │  Bryan792
+05:08         join │  Mechanimal
+05:33         join │  ravenx
+06:41         part │  tbuck
+07:06         join │  Bryan792
+07:07         part │  Bryan792
+07:56         quit │  ravenx
+09:31         join │  senft
+15:07         quit │  senft
+15:33         quit │  Neuromatic
+--- Log closed Mi Jan 08 15:33:48 2014
+--- Log opened Mi Jan 08 15:33:56 2014
+15:33         join │  Neuromatic
+15:33        names │  Total: 0 ops, 0 halfops, 0 voices, 8 normal
+15:33 Join to #bspwm was synced in 7 secs
+17:44         join │  dotpyfe
+20:25         join │  dansbandit
+21:11         join │  frakingchrist
+22:18         quit │  frakingchrist
+--- Day changed Do Jan 09 2014
+00:08         join │  ravenx
+01:45         part │  ravenx
+09:56         join │  ravenx
+10:10         quit │  ravenx
+11:25         join │  hardcore
+13:26         join │  senft
+14:24     hardcore │  Hi have no bar can someone help please? bspwmrc sais: panel: not found
+14:24     hardcore │  i have it in ~/.config/bspwm/examples/panel
+14:31  tuftedocelo │  Did you chmod +s the file? Is it in your path?
+14:34     hardcore │  yes its in path and now i did chmod +s but same error
+14:35     hardcore │  oh wait login/logout
+14:36  tuftedocelo │  Sorry, chomod +x
+14:36  tuftedocelo │  *chmod +x
+14:36  tuftedocelo │  Can't type today
+14:38     hardcore │  thanks it works now
+14:39     hardcore │  but my terminals overlap the bar is this normal?
+15:13         join │  frakingchrist
+15:51   Neuromatic │  hardcore: You have to set the bspwm-padding
+17:13         quit │  senft
+20:15         join │  th3voic3
+21:11         quit │  th3voic3
+22:07         quit │  Heikai
+22:17         quit │  frakingchrist
+22:54      dotpyfe │  anyone have experience setting multiple monitors?
+22:55      dotpyfe │  i tried bspc monitor firstone -d I II III IV V VI, bspc monitor secondone -d VII VIII IX X
+22:55      dotpyfe │  but this resulted in the numbers getting assigned to the opposite monitors
+22:56      dotpyfe │  and the numbers in bar being not at all what they should be (ie i go to desktop I, it shows im on desktop VII)
+22:56      dotpyfe │  i got it to work with the monitors swapped, but this was not the behavior i wanted
+22:56      dotpyfe │  i wonder if it might be something to do with xrandr....
+23:17         join │  ichiban
+23:17      ichiban │  Howdy
+23:22         part │  ichiban
+--- Day changed Fr Jan 10 2014
+00:42   dansbandit │  yeah i've got it to work dotpyfe
+00:42   dansbandit │  have you tried running xrandr to check that you are using the right monitors?
+00:42      dotpyfe │  yup
+00:42      dotpyfe │  i have LVDS-0 and VGA-0
+00:42      dotpyfe │  but maybe im not using xrandr correctly?
+00:43      dotpyfe │  display is on lvds-0 by default
+00:43      dotpyfe │  in .xinitrc i do 'xrandr --output vga-0 --options...'
+00:48   dansbandit │  you need to mess with that I think
+00:48      dotpyfe │  oh yeah?
+00:48   dansbandit │  I'm using AMD's non-free driver and setting it up with amdcccle
+00:49   dansbandit │  unfortunately the "wrong" monitor has the panel but it should work!
+00:50      dotpyfe │  well that sounds similar to my issue
+00:50      dotpyfe │  like
+00:50      dotpyfe │  if i start desktops I - w/e on lvds-0, which is the 'main' display
+00:50      dotpyfe │  it has crazy behavior
+00:51      dotpyfe │  but if i start them on vga-0, the external
+00:51      dotpyfe │  it works correctly
+00:51   dansbandit │  my only problem is that the panel is on the wrong monitor
+00:51   dansbandit │  but the right monitor has the right tags for me
+00:51      dotpyfe │  my panel stretches across both
+00:51      dotpyfe │  haha
+00:52   dansbandit │  I had that problem before
+00:52   dansbandit │  you need to make with XINERAMA=1
+00:53      dotpyfe │  hm, interesting
+00:53   dansbandit │  you mean like the title is in between the monitors?
+00:53      dotpyfe │  bspwm, i assume
+00:53         join │  ravenx
+00:53   dansbandit │  https://github.com/lemonboy/bar
+00:54   dansbandit │  read xinerama support
+00:54      dotpyfe │  ah, you meant bar
+00:54      dotpyfe │  kk
+00:57      dotpyfe │  ill poke around with xrandr more
+00:57      dotpyfe │  thanks for the advice
+01:04   dansbandit │  np
+01:26       ravenx │  ls
+01:26       ravenx │  i gotta question about " super + t"
+01:26       ravenx │  "bspc desktop -l next"
+01:27       ravenx │  i dont quite know what that does. but when i click super + t, it kinda makes my application go full screen
+01:27       ravenx │  but why the weird name "next?"
+01:54  tuftedocelo │  -l, --layout CYCLE_DIR|monocle|tiled
+01:54  tuftedocelo │  Set or cycle the layout of the selected desktop.
+01:54  tuftedocelo │  Goes to the next layout, monocle or tiled
+02:27         quit │  ravenx
+07:15         quit │  supplantr
+07:16         join │  supplantr
+08:46     hardcore │  good morning
+08:54         join │  ravenx
+09:15         quit │  ravenx
+09:16         join │  ravenx
+09:22         quit │  ravenx
+13:23         join │  frakingchrist
+--- Log closed Fr Jan 10 14:43:17 2014
+--- Log opened So Jan 12 17:05:02 2014
+17:05         join │  Neuromatic
+17:05        names │  Total: 0 ops, 0 halfops, 0 voices, 14 normal
+17:05 Join to #bspwm was synced in 0 secs
+17:28   dansbandit │  I'm using trayer Mapley
+17:29   dansbandit │  check this out https://bbs.archlinux.org/viewtopic.php?id=175548
+17:33       Mapley │  dansbandit: i.e., on a panel?
+17:33       Mapley │  I was using a hacky workaround but often the tray would get stuck behind bar/dzen2
+17:34       Mapley │  Thanks anyways - I'll check it out.
+17:35   dansbandit │  yeah I run it after panel and it goes on top
+17:36   dansbandit │  pgrep trayer > /dev/null | trayer
+17:36   dansbandit │  or something like that
+19:39         join │  ravenx
+19:40       ravenx │  sup nig nogs
+19:40       ravenx │  oops wrong channel
+19:41   Neuromatic │  lol fenriz :D
+19:46       ravenx │  XD
+--- Log closed So Jan 12 20:08:57 2014
+--- Log opened Mo Jan 13 20:12:43 2014
+20:12         join │  Neuromatic
+20:12        names │  Total: 0 ops, 0 halfops, 0 voices, 12 normal
+20:12 Join to #bspwm was synced in 1 secs
+--- Log closed Mo Jan 13 20:19:26 2014
+--- Log opened Mo Jan 13 20:27:31 2014
+20:27         join │  Neuromatic
+20:27        names │  Total: 0 ops, 0 halfops, 0 voices, 12 normal
+20:27  (sendak.freenode.net)[freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+20:27 Join to #bspwm was synced in 1 secs
+22:23         quit │  frakingchrist
+23:39         join │  rudylorren
+23:39   rudylorren │  Hello all
+23:41   dansbandit │  sup
+23:41   rudylorren │  I have a few questions
+23:42   rudylorren │  1. how do I change the colors of the Bar Aint Recursive
+23:42   rudylorren │  2. my cursor is just a big X most of the time, some apps it shows up
+23:43   rudylorren │  I put the panel_colors file in my panel folder in .config but the bar is the default blue
+23:45   Neuromatic │  Please read the manpages
+23:45   rudylorren │  for bspwm?
+23:55   Neuromatic │  No, for the programs you want to use
+23:59   rudylorren │  thanks
+23:59   Neuromatic │  No Problem
+--- Day changed Di Jan 14 2014
+00:00         quit │  rudylorren
+01:50         quit │  Heikai
+01:50         join │  Heikai
+02:03         join │  ravenx
+--- Log closed Di Jan 14 02:39:48 2014
+--- Log opened Di Jan 14 13:01:59 2014
+13:01         join │  Neuromatic
+13:01        names │  Total: 0 ops, 0 halfops, 0 voices, 12 normal
+13:01 Join to #bspwm was synced in 1 secs
+13:57         join │  Introspection
+13:57  Introspecti │  hey is it possible to reload the bspwm config during run-time?
+14:06         quit │  Introspection
+14:39         join │  frakingchrist
+14:40         quit │  frakingchrist
+17:34         join │  frakingchrist
+22:18         quit │  frakingchrist
+22:35         join │  ravenx
+22:36         quit │  ravenx
+23:09         join │  ravenx
+--- Log closed Di Jan 14 23:12:02 2014
+--- Log opened Mi Jan 15 05:42:19 2014
+05:42         join │  Neuromatic
+05:42        names │  Total: 0 ops, 0 halfops, 0 voices, 13 normal
+05:42 Join to #bspwm was synced in 1 secs
+06:09         quit │  ravenx
+09:21         join │  ravenx
+10:20         quit │  ravenx
+12:51         join │  Faiden
+12:52       Faiden │  Hello, I have a problem. WHen i split windows my windows split to the left side. How do I make them split on the right side?
+12:54       Faiden │  ok nwm i think i solved it
+12:54       Faiden │  damn a good night sleep does wonders
+--- Log closed Mi Jan 15 14:03:41 2014
+--- Log opened Do Jan 16 10:22:36 2014
+10:22         join │  Neuromatic
+10:22        names │  Total: 0 ops, 0 halfops, 0 voices, 12 normal
+10:22 Join to #bspwm was synced in 0 secs
+15:02         join │  frakingchrist
+15:40         join │  aishi
+15:44         quit │  aishi
+16:12         join │  aishi
+16:14         quit │  aishi
+16:17         join │  aishi
+16:23         quit │  aishi
+16:23         join │  aishi
+18:00         quit │  aishi
+18:01         join │  aishi
+18:25         part │  aishi
+19:07         quit │  Mechanimal
+--- Log opened Do Jan 16 19:13:46 2014
+19:13         join │  Neuromatic
+19:13        names │  Total: 0 ops, 0 halfops, 0 voices, 12 normal
+19:13 Join to #bspwm was synced in 0 secs
+19:37         quit │  frakingchrist
+19:48         join │  frakingchrist
+20:02         join │  ravenx
+20:07         quit │  ravenx
+20:25         join │  Mechanimal
+21:51         join │  ravenx
+22:19         join │  cornu
+22:26         quit │  frakingchrist
+22:27         quit │  ravenx
+--- Log closed Do Jan 16 22:39:25 2014
+--- Log opened Fr Jan 17 15:38:15 2014
+15:38         join │  Neuromatic
+15:38        names │  Total: 0 ops, 0 halfops, 0 voices, 15 normal
+15:38 Join to #bspwm was synced in 0 secs
+15:39         join │  frakingchrist
+16:43         quit │  dansbandit
+16:52         quit │  Bryan792
+17:29         join │  Mapley
+17:40       Mapley │  Has anyone here ever had problems with bar/panel failing to start even with "panel &" in the bspwmrc file?
+17:40       Mapley │  Since that's what I'm encountering at the moment.
+17:40  tuftedocelo │  Is it in your PATH and marked executable?
+17:40       Mapley │  yes.
+17:40       Mapley │  Sometimes it starts, sometimes it doesn't.
+17:41       Mapley │  No errors when starting up, and all the fonts are fine.
+17:42   Neuromatic │  Maybe the bar is already running. Try pkill bar and restart bar via term
+17:42       Mapley │  Neuromatic: that's what I've been doing ^^
+17:42       Mapley │  Apparently it /is/ already running but it isn't visible.
+17:44   Neuromatic │  Then kill bar restart X and start bar manuelly.
+18:20         quit │  Heikai
+18:20         join │  Heikai
+18:21         quit │  Heikai
+18:21         join │  Heikai
+19:19         join │  Bryan792
+19:41         join │  Eisenhans
+20:05         quit │  Bryan792
+20:05         join │  Bryan792
+20:12         quit │  Bryan792
+20:14         join │  Bryan792
+20:26       Mapley │  Ignore that, it was a missing & in the bspwmrc
+20:35         quit │  Bryan792
+--- Log closed Fr Jan 17 20:38:04 2014
+--- Log opened Sa Jan 18 11:14:55 2014
+11:14         join │  Neuromatic
+11:14        names │  Total: 0 ops, 0 halfops, 0 voices, 16 normal
+11:14 Join to #bspwm was synced in 1 secs
+11:59         join │  smlb
+13:56         quit │  Color_Green
+14:32         join │  __-__asd
+15:16         quit │  __-__asd
+16:41         join │  rudylorren
+16:47         quit │  rudylorren
+16:49        nsplit │ "Netsplit" *.net <-> *.split quits: tbuck
+16:52         njoin │ "Netsplit" over, joins: tbuck
+16:56        nsplit │ "Netsplit" *.net <-> *.split quits: tbuck
+16:58         njoin │ "Netsplit" over, joins: tbuck
+18:13         join │  earsplit
+18:13         join │  Mossepo
+18:49         part │  Mechanimal
+18:49         join │  Mechanimal
+--- Log closed Sa Jan 18 18:56:32 2014
+--- Log opened Sa Jan 18 19:03:10 2014
+19:03         join │  Neuromatic
+19:03        names │  Total: 0 ops, 0 halfops, 0 voices, 18 normal
+19:03 Join to #bspwm was synced in 0 secs
+19:29         join │  ravenx
+20:04         quit │  earsplit
+22:50         quit │  ravenx
+23:29         quit │  smlb
+23:32         join │  earsplit
+23:32      earsplit│  Guest63192
+23:49         quit │  Guest63192
+--- Log closed Sa Jan 18 23:50:12 2014
+--- Log opened So Jan 19 10:26:30 2014
+10:26         join │  Neuromatic
+10:26        names │  Total: 0 ops, 0 halfops, 0 voices, 16 normal
+10:26 Join to #bspwm was synced in 0 secs
+12:21         join │  smlb
+13:15         join │  itntjdk
+--- Log closed So Jan 19 13:29:59 2014
+--- Log opened So Jan 19 13:40:40 2014
+13:40         join │  Neuromatic
+13:40        names │  Total: 0 ops, 0 halfops, 0 voices, 18 normal
+13:40 Join to #bspwm was synced in 1 secs
+14:36         quit │  smlb
+14:37         join │  smlb
+15:13         join │  glitch_
+15:13       glitch_│  help
+15:14          help│  Guest78389
+15:14    Guest78389│  _glitch
+15:17         quit │  smlb
+15:18      _glitch │  Quick help? I'm trying to set up bspwm and I'm at the end, where I'm adding the examples to my /etc/profile. I ran export PATH=$PATH: /path/to/example (/home/glitch/.config/devkit0) but I receive the following error: -- bash:export:
+15:18         join │  smlb
+15:19      _glitch │  bash: export: `home/glitch.config/devkit0`: not a valid identifier
+15:19      _glitch │  bash: export: `home/glitch/.config/devkit0`: not a valid identifier [forgot my /]
+15:19         quit │  itntjdk
+15:42         quit │  _glitch
+16:11         join │  earsplit
+16:11      earsplit│  Guest90867
+16:19         quit │  Guest90867
+16:19         join │  earsplit_
+--- Log closed So Jan 19 16:59:34 2014
+--- Log opened So Jan 19 20:38:10 2014
+20:38         join │  Neuromatic
+20:38        names │  Total: 0 ops, 0 halfops, 0 voices, 18 normal
+20:38 Join to #bspwm was synced in 0 secs
+21:13         join │  earsplit_
+21:21         quit │  ravenx
+21:23         quit │  earsplit_
+21:50         join │  earsplit_
+22:19         quit │  smlb
+22:53         quit │  Mossepo
+23:13         join │  mossepo
+23:15         join │  ravenx
+23:46         quit │  ravenx
+--- Day changed Mo Jan 20 2014
+00:05         quit │  mossepo
+00:14         join │  mossepo
+00:49        Mapley│  DashieIsTheBest[
+00:51         quit │  earsplit_
+01:05         quit │  mossepo
+01:05 DashieIsTheBe│  Mapley
+01:20         join │  rudylorren
+02:13       doodums│  thadood
+02:32         join │  dansbandit
+02:50         join │  ravenx
+02:54         join │  earsplit_
+03:13         join │  itntjdk
+03:51         quit │  ravenx
+03:53         join │  ravenx
+04:42         quit │  rudylorren
+04:43         join │  rudylorren
+04:50         quit │  rudylorren
+04:56         join │  rudylorren
+05:18         quit │  rudylorren
+05:23         quit │  Eisenhans
+05:40         quit │  ravenx
+07:03         quit │  earsplit_
+07:19         join │  Eisenhans
+07:20         quit │  itntjdk
+08:18         join │  aishi
+09:48         quit │  aishi
+10:09         join │  aishi
+10:13         quit │  aishi
+10:22         join │  smlb
+11:15         join │  aishi
+11:16         quit │  aishi
+12:28         quit │  smlb
+12:32         join │  smlb
+12:55         quit │  smlb
+14:00         join │  smlb
+15:53         join │  nbca
+16:08         join │  Bryan792
+16:12         quit │  nbca
+16:33         join │  tfland
+16:42         join │  nbca
+16:44         quit │  nbca
+16:44         join │  nbca
+16:44         join │  yurecdvgts
+16:45         quit │  nbca
+16:45         join │  nbca
+16:46         join │  specter
+16:51         quit │  specter
+16:51         quit │  yurecdvgts
+16:53         quit │  tfland
+17:00         quit │  smlb
+17:09         quit │  Bryan792
+17:56         join │  promkatalog
+17:57         join │  dmigod
+17:58       dmigod │  Ive been trying to get bspwm working but it crashes just as I log in from gdm
+17:58       dmigod │  :(
+17:59       dmigod │  I made a session file in gnome-sessions and a bspwm start script in usr/bin
+17:59       dmigod │  also added a 'xterm &' just before bspwm in the start script, I can see the xterm starting before it crashes and takes me back to the login screen
+17:59       dmigod │  anyone knows whats up?
+18:01       dmigod │  it worked this one time, then I quit and changed urxvt to xterm in sxhkdrc and restarted, been crashing since and I tried changing it back and everything but still crashing
+18:02         join │  earsplit_
+--- Log closed Mo Jan 20 18:04:18 2014
+--- Log opened Mo Jan 20 18:07:41 2014
+18:07         join │  Neuromatic
+18:07        names │  Total: 0 ops, 0 halfops, 0 voices, 20 normal
+18:07 Join to #bspwm was synced in 0 secs
+18:10         quit │  promkatalog
+18:13         quit │  dmigod
+18:15         join │  dmigod
+18:19       dmigod │  I tried adding `zenity --info --text="bspwm exited with $?"` right after bspwm and it exited with 1
+18:19       dmigod │  what maybe causing this in bspwm? any ideas?
+18:22    earsplit_ │  hmmmm
+18:22    earsplit_ │  so you're trying to start a blank gtk window
+18:22    earsplit_ │  are you sure its bspwm and not zenity?
+18:22    earsplit_ │  bspwm works fine otherwise?
+18:26         join │  smlb
+18:31         join │  itntjdk
+18:38   Neuromatic │  Those scripts are only werking if bspwm os piped through the script…
+18:38   Neuromatic │  *is
+18:49       dmigod │  ohh, there are some other stuff I said earlier
+18:49       dmigod │  my bspwm isnt working
+18:49   Neuromatic │  Whats goes wrong?
+18:49       dmigod │  I login from gdm and bspwm exits
+18:49       dmigod │  and Im back at the login prompt
+18:49       dmigod │  I tried adding a xterm before bspwm and I can see it start and then all of it exits and Im back at the login prompt
+18:49   Neuromatic │  DId you defined a bspwm socket?
+18:50       dmigod │  I dont think so, I added a session file to gdm, thats it
+18:50       dmigod │  I hve to add a socket too huh?
+18:50   Neuromatic │  See `man bspwm` you can (or should) define a socket for bspwm
+18:51       dmigod │  thank you, I'll look up about sockets
+18:51   Neuromatic │  export BSPWM_SOCKET=/tmp/bspwm_socket in /etc/profile
+18:53         join │  rudylorren
+18:54         join │  mossepo
+18:56       dmigod │  Ive added that to /etc/profile, is there anything else I should be doing?
+18:57       dmigod │  oh well, I'll log of and see what happens
+18:57       dmigod │  thank you
+18:57         quit │  dmigod
+19:00         join │  dmigod
+19:01       dmigod │  Thank you guys, it worked!!!! Now I just have to spend the whole night tweaking the heck out of it! :)
+19:05         quit │  dmigod
+19:14         join │  Bryan792
+19:16    earsplit_ │  :D
+19:29         quit │  itntjdk
+19:38         quit │  Heikai
+19:40         join │  Heikai
+19:53   Neuromatic │  earsplit_: The redditor got an answer now ;)
+19:56    earsplit_ │  hehehehe
+19:57    earsplit_ │  he wasnt very nice
+19:57   rudylorren │  the guy about the firefox?
+19:57    earsplit_ │  yeah
+19:57    earsplit_ │  dont tell me it was you
+19:58   rudylorren │  no, i tried to help him
+19:58   rudylorren │  he got all snappy and i deleted my help
+20:00   rudylorren │  he sounded like he wanted to figure it out on his own
+20:10         quit │  rudylorren
+20:45         join │  ravenx
+20:53         quit │  earsplit_
+21:02         quit │  ravenx
+21:02         join │  ravenx
+21:04         quit │  ravenx
+21:04         join │  ravenx
+21:27         join │  rudylorren
+21:29         quit │  ravenx
+22:07         quit │  dotpyfe
+22:07         quit │  rudylorren
+22:07         join │  rudylorren
+22:08         join │  ravenx
+22:12         join │  dotpyfe
+22:31         quit │  ravenx
+22:38      mossepo │  Hi all. I'd like to split workspaces over 2 monitors in dzen, so that I'd have monitor #1 specific workspaces shown on that monitor and monitor #2 specific workspaces shown on the other. Currently they're all together on monitor #1. Is this possible?
+23:14   Neuromatic │  There never was a guy here who figured out completly, sry
+23:15         quit │  rudylorren
+23:28         join │  earsplit_
+23:31         quit │  earsplit_
+23:32         join │  earsplit
+23:32      earsplit│  Guest44781
+23:32         quit │  Guest44781
+23:34         join │  earsplit_
+23:56         quit │  smlb
+--- Day changed Di Jan 21 2014
+00:37         join │  itntjdk
+01:36         join │  rudylorren
+01:38         quit │  rudylorren
+02:02         quit │  earsplit_
+02:27         join │  angelic_sedition
+02:37         quit │  nbca
+02:53         part │  angelic_sedition
+02:57         join │  angelic_sedition
+02:57         join │  earsplit_
+03:03         quit │  earsplit_
+03:07         join │  egroeg
+03:08       egroeg │  hi.  i want to go back to the default X mouse cursor.  i tried xsetroot -cursor_name X_cursor but it's tiny
+03:09       egroeg │  is that the correct cursor_name?
+03:11         join │  ravenx
+03:16         quit │  tbuck
+03:17         join │  tbuck
+03:17         quit │  tbuck
+03:18         join │  tbuck
+03:19         join │  nbca
+03:23  tuftedocelo │  Try left_ptr
+03:24       egroeg │  tried it.  that's the normal pointer.  too mainstream :)
+03:24       egroeg │  i want to go back to the default x one
+03:25  tuftedocelo │  Wait, like the big black X?
+03:25       egroeg │  yeah
+03:25  tuftedocelo │  Oh, no idea in that case. Sorry :(
+03:25       ravenx │  hi guys
+03:25       egroeg │  cool.  thanks though
+03:25       ravenx │  is there a way of making a terminal with the command "cal 3"
+03:25       ravenx │  start up everytime i log in?
+03:25       ravenx │  but the catch is that i want the terminal a certain size in a certain position?
+03:31         join │  earsplit_
+03:47         quit │  itntjdk
+03:48         part │  egroeg
+04:12         quit │  Bryan792
+04:56        tbuck │  ravenx: should be possible
+04:56       ravenx │  is it something you have done?
+04:56       ravenx │  if so, can you i see your configs?
+04:56        tbuck │  you should be able to do something with the arguments passed to your term when you open it
+04:56        tbuck │  like urxvt -c 'cal 3' or something like that
+04:58       ravenx │  right
+04:58       ravenx │  but in terms of having it positioned in a certain space on my desktop?
+04:58        tbuck │  there should be args for that too
+04:59       ravenx │  kk
+04:59       ravenx │  so it is possible
+04:59       ravenx │  i juts didn't wanna first crawl through a man page looking for something that isn't there.
+04:59        tbuck │  yeah sounds like it
+04:59        tbuck │  theres stuff like that for rxvt at least
+04:59  angelic_sed │  ravenx: what's the point of having it positioned in a certain place? is there something else you're trying to do?
+05:00       ravenx │  yes, because when i start up my computer, i want the calcurse application to always be at the bottom left as i always refer to it and add to it
+05:00       ravenx │  and on desktop 1, where calcurse is always staying, i only ever need two more terminals, making it a total of three.
+05:01        tbuck │  yeah the size and positioning wouldnt work unless it was floating of course
+05:01  tuftedocelo │  Possibly the private window state in bspwm?
+05:01  tuftedocelo │  I'm not sure how it's used in practice
+05:02  tuftedocelo │  https://github.com/baskerville/bspwm#window-states
+05:03  angelic_sed │  I don't understand why it's called private
+05:03       ravenx │  ooh
+05:03       ravenx │  private eh?
+05:03       ravenx │  is tha tsomething that's new?
+05:03       ravenx │  o_O
+05:04        tbuck │  not really
+05:04       ravenx │  any of you guys use private?
+05:04        tbuck │  it kinda locks the window in place and tiles around it
+05:04       ravenx │  would love to see some configs.
+05:04        tbuck │  ive never really used it myself just played with it
+05:04       ravenx │  yes, that sounds like it.
+05:05       ravenx │  locks the window in place and tiles around it.
+05:05        tbuck │  i have a binding to call `bspc window -t private`
+05:05        tbuck │  thats all it is really
+05:05    earsplit_ │  yeah
+05:05    earsplit_ │  someone requested it a while back
+05:06       ravenx │  hrm tbuck ,by the sounds of it...
+05:06  angelic_sed │  private makes me think of
+05:06    earsplit_ │  i use it once in a while
+05:06       ravenx │  bspc window -t private is more of a hotkey you stcik in sxhkd?
+05:06  angelic_sed │   bspc control --toggle-visibility
+05:06       ravenx │  earsplit_: is it in your config?
+05:06        tbuck │  ravenx: yeah
+05:06    earsplit_ │  yeah i use it once in a while
+05:06       ravenx │  hm, so i would have to press a button everytime i want to make it private?
+05:06        tbuck │  yeah unless you had a rule of some sort
+05:07    earsplit_ │  well all it does is lock a node
+05:07    earsplit_ │  basically
+05:07    earsplit_ │  i'm not sure about the implementation
+05:07       ravenx │  k
+05:07       ravenx │  gonna experiement with it and maybe post in the bspwm thread on arch if i dont get it
+05:08  angelic_sed │  ravenx: do you have your dotfiles on github?
+05:08       ravenx │  yup
+05:09       ravenx │  do you want to see them?
+05:11  angelic_sed │  ravenx: i do
+05:11       ravenx │  www.github.com/esn89/
+05:11       ravenx │  i should have a scrot of what my current state looks like.
+05:13    earsplit_ │  i like the panel padding
+05:13       ravenx │  thank you :)
+05:14    earsplit_ │  what's hogging your cpu?
+05:15  angelic_sed │  thanks
+05:15       ravenx │  hrm.
+05:15       ravenx │  no clue, let me look
+05:15  angelic_sed │  I like going through people's config files and stealing as much as I can. I did that with earsplit's the other day.
+05:15       ravenx │  it may have been "at that moment"
+05:15    earsplit_ │  in that screenshot
+05:15    earsplit_ │  my dotfiles repo blows
+05:16    earsplit_ │  it needs reorganization and a bootstrap script
+05:16       ravenx │  haha
+05:16       ravenx │  gave you a shout out on my dotfiles
+05:16       ravenx │  hope you saw it, earsplit_
+05:16    earsplit_ │  hahahaha
+05:16       ravenx │  also, looking at my CPU now, it has very low usage.  might hav ebeen spur of the moment.
+05:17    earsplit_ │  thanks :D
+05:17       ravenx │  np :)
+05:17  angelic_sed │  you should see my dotfiles
+05:17       ravenx │  sure thing, i'll hvae a look.
+05:17  angelic_sed │  they are totally chaotic
+05:17  angelic_sed │  haha I'll post them when I clean up my vimrc
+05:17       ravenx │  alrighty
+05:17  angelic_sed │  btw what are you using for your vim status line?
+05:17       ravenx │  vim-airline
+05:18       ravenx │  it's really lightweight, and "stays-outta-your-way"
+05:18  angelic_sed │  me too
+05:18  angelic_sed │  mine is uglier though
+05:18       ravenx │  lotsa colorschemes to pick from and has integration for plugins like syntastic and the like.
+05:18       ravenx │  oh
+05:18       ravenx │  use the base16 color scheme
+05:18    earsplit_ │  there's also https://github.com/itchyny/lightline.vim
+05:18  angelic_sed │  i'll check it out
+05:18       ravenx │  i made that color scheme for vim-airline *shameless self promotion*
+05:19  angelic_sed │  why do you have a zsh theme but a bashrc?
+05:19    earsplit_ │  nice
+05:19    earsplit_ │  i made airline use terminal defaults once
+05:19       ravenx │  angelic_sedition: sometimes, work/school servers won't let me have root and install zsh.
+05:19    earsplit_ │  but i never really looked at it so i uninstalled it
+05:19       ravenx │  earsplit_: jesus, how many more clones of the powerline-eseque do we have lol
+05:19       ravenx │  i remember it all started off with lokaltog's powerline, then vim-airline now this.
+05:19  angelic_sed │  ravenx: I hate that
+05:19    earsplit_ │  you could also write it all in the ~/.bashrc
+05:19  angelic_sed │  I hate powerline
+05:19    earsplit_ │  and do a `source ~/.bashrc` in your zshrc
+05:20       ravenx │  earsplit_: ah, i never thought of that..
+05:20    earsplit_ │  the syntax is the same for most things
+05:20       ravenx │  but i use the fuck outta oh-my-zsh plugins lol
+05:20    earsplit_ │  it should theoretically work
+05:20    earsplit_ │  which ones?
+05:20  angelic_sed │  i feel like my config files are insanely big
+05:20    earsplit_ │  i only really use the left / right prompts and backwards history search in zsh
+05:21  angelic_sed │  my zshrc is approaching 1.5k lines
+05:21       ravenx │  angelic_sedition: you hate powerline?  look what i did over the weekend:
+05:21       ravenx │  http://i.imgur.com/qNqbLGy.png
+05:22       ravenx │  wtf, 1.5kline zsh? ....
+05:22       ravenx │  just cuz i had too much time on my hands.
+05:22    earsplit_ │  this guy loves vim plugins: https://github.com/itchyny
+05:22  angelic_sed │  that actually looks pretty cool
+05:22  angelic_sed │  I'm still using tmux-powerline instead of powerline
+05:22    earsplit_ │  thats super nice
+05:22       ravenx │  earsplit_: oh lawd.   they're multiplying.
+05:22       ravenx │  is that his fulltime job haha?
+05:23       ravenx │  thanks :)
+05:23       ravenx │  the configs for that is hidden in https://github.com/esn89/dotfiles/tree/master/bspwm/temp
+05:23  angelic_sed │  Shougo is the best
+05:23       ravenx │  yes, everything he touches is Gold.
+05:25    earsplit_ │  this is all i use zsh for: http://i.imgur.com/BJ6ftFO.gif
+05:25    earsplit_ │  l / r and that dumb completion
+05:26       ravenx │  lol
+05:26       ravenx │  you know, for zsh you dont even have to type cd.
+05:26       ravenx │  it has made me that lazy.
+05:26    earsplit_ │  i cant do that
+05:26    earsplit_ │  it'll ruin me in ssh land
+05:26    earsplit_ │  i've already got the bad habit of the vim commands
+05:26  angelic_sed │  do any of you use fasd?
+05:27       ravenx │  hahaha, ssh-land
+05:27    earsplit_ │  esc-0-i
+05:27    earsplit_ │  i do it all the time instead of hitting home
+05:27       ravenx │  we've all been there and had that "where the fuck am i" look
+05:27       ravenx │  nope, never heard of fasd
+05:27    earsplit_ │  ahahahah
+05:27    earsplit_ │  first result: https://www.google.com/search?q=fasd&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a
+05:27    earsplit_ │  wow
+05:27       ravenx │  lmao
+05:27    earsplit_ │  i mean i shouldnt be laughing but
+05:28    earsplit_ │  hahahahahahaha
+05:28  tuftedocelo │  That got dark real fast
+05:28       ravenx │  very.
+05:28       ravenx │  earsplit_ is going to hell :P
+05:28  angelic_sed │  heard of autojump?
+05:28       ravenx │  nope
+05:28    earsplit_ │  i should open an issue on github for that reason alone
+05:28    earsplit_ │  there was something like this on hackernews last week
+05:29    earsplit_ │  kind of like bookmarks for a shell session
+05:29    earsplit_ │  i cant remember if this was it or not
+05:29  angelic_sed │  i used to use bookmarks.. ranger has spoiled me though
+05:30       ravenx │  what is bookmarks?
+05:30       ravenx │  like tabs on your terminal?
+05:30    earsplit_ │  no like
+05:30  angelic_sed │  bookmarking most used directories?
+05:30    earsplit_ │  instead of 'cd /vary/long/directory/structure/to/some/dumb/java/config/file'
+05:31    earsplit_ │  cdb dumbjavaconfig
+05:31  angelic_sed │  i do aliases
+05:31  angelic_sed │  and I would do fasd if it worked
+05:31       ravenx │  ah i never knew it can have that bookmarked
+05:32    earsplit_ │  `cd -` is useful if you didn't know about it
+05:33    earsplit_ │  switches you to the previous directory you were in
+05:33       ravenx │  nice, kinda like a 'back' button in the browser then.
+05:33        tbuck │  theres also `cd `
+05:33        tbuck │  brings you home
+05:34    earsplit_ │  i never found 'cd ~' too difficult to type
+05:34        tbuck │  yeah its not really
+05:34        tbuck │  lol
+05:34  angelic_sed │  i have - aliased to cd -
+05:35  angelic_sed │  actually might just work with auto cd though..
+05:35    earsplit_ │  i was thinking about getting one of these: http://arstechnica.com/staff/2014/01/stop-trying-to-innovate-keyboards-youre-just-making-them-worse/
+05:35    earsplit_ │  and then i saw the tilde key was missing
+05:35  angelic_sed │  btw here's my desktop http://angelic-sedition.deviantart.com/art/Clean-Desktop-427909312?q=gallery%3Aangelic-sedition&qo=0
+05:35       ravenx │  sigh, thinkpads :(
+05:35       ravenx │  fallen from grace.
+05:36  angelic_sed │  i just starting using bspwm the other day so I haven't really done much with bar though
+05:36    earsplit_ │  its there its just where right alt usually is
+05:36    earsplit_ │  less is more
+05:36    earsplit_ │  there's also a few sick bar patches on github right now
+05:36  angelic_sed │  all normal keyboards are terrible
+05:36       ravenx │  how did you get htat molecule thingy?
+05:36       ravenx │  and what molecule is that?
+05:37  angelic_sed │  it's lsd
+05:37    earsplit_ │  one for clickable areas, one for xinerama, and one for runtime configuration
+05:37  angelic_sed │  the lsd theme for conky
+05:37    earsplit_ │  still that laptop is tempting
+05:38  angelic_sed │  earsplit_: can you link me to that?
+05:38  angelic_sed │  what's tempting about it?
+05:39    earsplit_ │  2560x1440 in a 14" laptop with integrated graphics
+05:39    earsplit_ │  and a 9 hour battery life
+05:39       ravenx │  the X1 carbon?
+05:39    earsplit_ │  the new one
+05:39       ravenx │  does it have a tactile middle click button?
+05:39       ravenx │  i guess not then.
+05:39       ravenx │  the new has one, big integrated trackpad.
+05:40    earsplit_ │  i use the nipple
+05:40  tuftedocelo │  nipple 4 lyfe
+05:40  angelic_sed │  the keyboard is so bad it makes me want to puke though
+05:40  angelic_sed │  what is the nipple?
+05:40  tuftedocelo │  I have a current gen X1 Carbon
+05:40    earsplit_ │  the little red dot in the keyboard
+05:40    earsplit_ │  really?
+05:40  tuftedocelo │  The TrackPoint
+05:40    earsplit_ │  can you do me a solid and let me know how hot it runs?
+05:40  angelic_sed │  like for mouse movement?
+05:41         quit │  mossepo
+05:41    earsplit_ │  yeah
+05:41  tuftedocelo │  earsplit_: not very
+05:41  angelic_sed │  oh
+05:41  angelic_sed │  i don't do mouse movement
+05:41    earsplit_ │  super useful since you dont ever have to move your hands from the keyboard
+05:41    earsplit_ │  i cant live without it
+05:41       ravenx │  i use the nipple as well.  but i need that middle click button.
+05:41  angelic_sed │  i already don't ever have to move my hands from the keyboard
+05:41  tuftedocelo │  The fan will spin up occasionally, but spin back down again
+05:41  angelic_sed │  no nipple needed
+05:41    earsplit_ │  angelic does the x1 not have a middle click button?
+05:41    earsplit_ │  whats the output of `sensors` tell you?
+05:42  angelic_sed │  other guy/girl has the x1
+05:42    earsplit_ │  oh sorry i meant tuftedocel
+05:42  tuftedocelo │  earsplit_: it's off right now, but I'd say it average low-mid 40s
+05:43  tuftedocelo │  (also, by current gen, I meant currently available. The model that came out last year)
+05:44  tuftedocelo │  (sorry if I confused you there)
+05:45    earsplit_ │  ok thats good
+05:45    earsplit_ │  im always worried with all those parts so close together it would get hotter
+05:45       ravenx │  so dies it have the middle click?
+05:46    earsplit_ │  ^ tuftedocel :D
+05:46  tuftedocelo │  It does have the middle click
+05:46    earsplit_ │  WOOOO
+05:46  angelic_sed │  what's the middle click for
+05:47    earsplit_ │  i have an x230 and i love it to death, but the screen is annoyingly small sometimes
+05:47    earsplit_ │  for scrolling with the track point
+05:47    earsplit_ │  instead of two finger scrolling
+05:47    earsplit_ │  you hit the middle mouse with your thumb and use the track point
+05:47    earsplit_ │  which is sometimes very useful
+05:47  angelic_sed │  when?
+05:47       ravenx │  and you and paste with it
+05:47       ravenx │  and open a link in a new tab with it
+05:47       ravenx │  basically, i can't live wihtout it.
+05:48    earsplit_ │  those too
+05:48    earsplit_ │  i never realized how much i use it
+05:48  angelic_sed │  but
+05:48  angelic_sed │  pentadactyl
+05:48    earsplit_ │  i mean i use vimperator
+05:48    earsplit_ │  yeah
+05:48    earsplit_ │  but for instance tumblr
+05:48    earsplit_ │  i dont want to keep repeatedly hitting the space bar
+05:48    earsplit_ │  i just hold middle mouse down with my thumb and put a lil pressure on the red thing
+05:48    earsplit_ │  and it goes on forever
+05:48  angelic_sed │  could probably just map that to a key
+05:49  angelic_sed │  i'm going to try that actually..
+05:50         quit │  angelic_sedition
+05:50    earsplit_ │  https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X120e#TrackPoint_scrolling_.28wheel_emulation.29
+05:50         join │  angelic_sedition
+05:50    earsplit_ │  i dont even tihnk about it
+05:50    earsplit_ │  i guess i use a combination of the trackpoint / spacebar / j,k / G and gg
+05:51       ravenx │  sounds exactrly like me
+05:51  angelic_sed │  can xdotool send scrolling?
+05:51  angelic_sed │  i do a bunch of pageup and down which I have on a layer
+05:51    earsplit_ │  you left right as i linked it i think
+05:51    earsplit_ │  https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X120e#TrackPoint_scrolling_.28wheel_emulation.29
+05:51    earsplit_ │  its just xorg
+05:52  angelic_sed │  oh nice
+05:52  angelic_sed │  I accidentally closed my tmux window
+05:52       ravenx │  If I want the terminal with "calcurse" to be private
+05:52       ravenx │  is there a way ot 'detecting' it
+05:52  tuftedocelo │  Aforementioned laptop: http://i.imgur.com/GvpUp2y.jpg
+05:52  angelic_sed │  oh i actually have done this already and just totally forgot
+05:53       ravenx │  and have bspwm recognize it as "calcurse" and then know to private it?
+05:53       ravenx │  tuftedocelot: that's a sexy laptop.
+05:53  tuftedocelo │  The weight and slimness is the best thing
+05:53       ravenx │  so that something we have to get soon?  until the new x1 carbon comes out and fucks us all over?
+05:53    earsplit_ │  i like the new x1
+05:54  tuftedocelo │  Resolution could be better, but it isn't bad 1600x900
+05:54    earsplit_ │  i've got an x230 at 1366x768
+05:54       ravenx │  is it IPS?
+05:54  tuftedocelo │  Been there. I had an x130e at that res before my X1
+05:54    earsplit_ │  i always drool over new laptops but its hard to give up
+05:54    earsplit_ │  yeah its IPS
+05:54    earsplit_ │  its pimped out too
+05:54    earsplit_ │  1tb hdd, 256 ssd, 16gb ram
+05:55    earsplit_ │  waiting on a drive replacement though my hdd died on me
+05:56       ravenx │  i'm on a x201 righ tnow
+05:56    earsplit_ │  thinkpad circlejerk
+05:56       ravenx │  it's been 3.5 years wiht it, it's still running like it is brand new out of the box
+05:56       ravenx │  i dont have the heart to get rid of it.
+05:56    earsplit_ │  i think mine just needs a clean
+05:56       ravenx │  cosmetics aside, it is basically new.
+05:56  tuftedocelo │  I used to have a z61m, but I broke it :(
+05:56    earsplit_ │  do you ever clean out the fans?
+05:56       ravenx │  and i dont want to give up a non-island keyboard.
+05:56    earsplit_ │  how did you break a thinkpad i thought it was impossible?
+05:56       ravenx │  earsplit_: absolutely
+05:57    earsplit_ │  with what? ive been meaning to do that
+05:57       ravenx │  compressed air ofc.
+05:57  tuftedocelo │  I took it apart trying to do a deep clean and the reassembly did not go as planned
+05:57       ravenx │  another thing about thinkpads is that they are very easy to take apart
+05:57       ravenx │  and reassemble.
+05:57       ravenx │  tuftedocelot: ouch.
+05:57    earsplit_ │  how do you keep the fan from spinning?
+05:57  angelic_sed │  ywhen did thinkpads stop sucking?
+05:57       ravenx │  a straigtened paperclip
+05:57       ravenx │  and i also allowed it to spin most of the time, so that the dust would be come loose.
+05:58       ravenx │  though, you have an x230, i dont know if that is completely different.
+05:58    earsplit_ │  its a little weird
+05:58    earsplit_ │  only one fan though
+05:59       ravenx │  thing with the x1 carbon is that....it doesn't have a removable battery
+05:59       ravenx │  and you can swap the ram out for more
+05:59  tuftedocelo │  Yeah, I'll agree with you there. Luckily, the dude I got mine from maxed it out at 8GB
+05:59       ravenx │  also, can you guys take a look at this x1 carbon, something is wrong with this display:  http://shop.lenovo.com/ca/en/laptops/thinkpad/x-series/x1-carbon/#techspecs
+05:59       ravenx │  tuftedocelot: though sometimes i take a step back and think " do i really need all that ram"
+05:59       ravenx │  especialyl someone who runs a WM and arch lol
+06:00       ravenx │  everything boots in 5 seconds, ssd or not.
+06:00       ravenx │  okay i lied, maybe 7.
+06:00       ravenx │  but still.
+06:00  tuftedocelo │  Hehe, yeah. I think after booting, I'm at like 140MB RAM usage
+06:00  angelic_sed │  I actually use a lot of ram
+06:00    earsplit_ │  i do too
+06:00    earsplit_ │  mysql can be a bitch
+06:00  angelic_sed │  The other day I was using over 5 gigs of ram and 5 gigs of swap
+06:01       ravenx │  hot damn.
+06:01       ravenx │  but regarding the thinkpad i just linke dyou guys.
+06:01       ravenx │  how come the display is so shitty?
+06:02  tuftedocelo │  Probably the cheapest Lenovo could source at the price point they wanted to make
+06:04       ravenx │  ah
+06:04       ravenx │  but i thought you guys mentioned that you saw a carbon with 2k+ resolution
+06:04  tuftedocelo │  That's the newly announced model
+06:04  tuftedocelo │  Doesn't come out for another month or two
+06:04       ravenx │  aaaah i see
+06:05       ravenx │  so i get a choice between pixels, or a middle click.
+06:05       ravenx │  FUUUCK  YOU, LENOVO.
+06:05       ravenx │  FUCK YOU TOO IBM FOR SELLING IT
+06:05  tuftedocelo │  ibm, y. y u do dis
+06:05  angelic_sed │  pixels any day
+06:06  tuftedocelo │  Does the Chromebook Pixel have a middle click?
+06:06       ravenx │  nope
+06:07       ravenx │  it also has fucked up ctrl/alt/fn buttons
+06:07       ravenx │  and plus, the biggest size is 32gb
+06:07       ravenx │  though it is very attractive.
+06:07       ravenx │  doesn't it need to run archlinux in an arm6 arch?
+06:07  tuftedocelo │  I believe there's a Core i5 mdoel
+06:08    earsplit_ │  if you dont need power, there's always ebay
+06:09  tuftedocelo │  https://play.google.com/store/devices/details/Google_Chromebook_Pixel_LTE?id=chromebook_pixel_lte
+06:09    earsplit_ │  ive got a friend who owns 14 thinkpad t60s
+06:09    earsplit_ │  buys them for like $50
+06:09    earsplit_ │  he's stocked for life
+06:09  tuftedocelo │  I miss the T61p. 15" screen, but 1920x1200 display
+06:09  tuftedocelo │  Mein gott
+06:09    earsplit_ │  i cant deal with that big of a computer ever again
+06:10  tuftedocelo │  Tell that to a guy in my class who lugs around a 17" laptop and is probably an inch or so thick
+06:11  tuftedocelo │  It's one of those Dell "desktop replacement" models
+06:12  angelic_sed │  Mine is only 13".. 17" might be nice :D
+06:12  tuftedocelo │  You could swap one with a pavestone and I'd doubt he'd notice the difference in his bag
+06:12    earsplit_ │  just get a monitor
+06:12    earsplit_ │  best of both worlds
+06:14  tuftedocelo │  G'night everyone. Heading to bed. Good convo tonight. 10/10 would converse with again
+06:15       ravenx │  gn
+06:19    earsplit_ │  night
+06:23         quit │  ravenx
+07:06         join │  aishi
+08:38         quit │  earsplit_
+09:16         quit │  angelic_sedition
+09:43         quit │  aishi
+10:11         join │  smlb
+10:35         quit │  smlb
+11:13         join │  Bryan792
+11:20         quit │  Bryan792
+11:32         join │  smlb
+12:04         join │  frakingchrist
+12:56         quit │  frakingchrist
+13:49         join │  Bryan792
+14:29         join │  mossepo
+15:45         join │  earsplit
+15:45      earsplit│  Guest79607
+15:46         quit │  Guest79607
+15:46         join │  earsplit_
+16:03         join │  frakingchrist
+16:21         join │  Mossepo_
+16:33         quit │  smlb
+16:49         quit │  frakingchrist
+16:49         join │  smlb
+17:34         join │  angelic_sedition
+17:55         quit │  angelic_sedition
+18:01         quit │  smlb
+18:09         quit │  hardcore
+18:09         join │  hardcore_
+18:28         join │  rudylorren
+18:35         quit │  Bryan792
+18:55         quit │  earsplit_
+19:02         quit │  Mossepo_
+19:12         join │  earsplit_
+19:15         quit │  earsplit_
+19:16         join │  Bryan792
+19:16         join │  earsplit
+19:16      earsplit│  Guest96881
+19:31         quit │  Guest96881
+19:33         part │  Bryan792
+19:43         join │  smlb
+19:47         join │  Absolute0
+19:47    Absolute0 │  How do I change the default super key for sxhkd?
+19:51    Absolute0 │  %s/super/alt/g
+19:52   rudylorren │   The valid modifier names are: super, hyper, meta, alt, control, ctrl, shift, mode_switch, lock, mod1, mod2, mod3, mod4 and mod5.
+20:00      dotpyfe │  rudylorren: i forget, how do you check what key modX is bound to
+20:00      dotpyfe │  i used to know when i used xmonad...
+20:01   rudylorren │  i know this one
+20:01   rudylorren │  hold on
+20:02   rudylorren │  xbindkeys -k will work
+20:02   rudylorren │  but theres another one i'm blanking on
+20:03      dotpyfe │  haha no worries
+20:03      dotpyfe │  i was just curious
+20:07   rudylorren │  xmodmap
+20:07      dotpyfe │  ah, yes!
+20:07      dotpyfe │  thats what it was
+20:07      dotpyfe │  cheers mate
+20:08   rudylorren │  indeed :)
+20:15    Absolute0 │  how do I switch windows?
+20:15    Absolute0 │  alt/super + tab/j/k won't work
+20:15    Absolute0 │  clicking on a window doesn't seem to activate it
+20:16    Absolute0 │  I am using the default sxhkd config
+20:18    Absolute0 │  hmm, maybe bspc isn't responding correctly?
+20:19    Absolute0 │  Failed to connect to socket.
+20:22    Absolute0 │  sdsdsI am using lightdm to start bspwm, could that be the issue?
+20:23    Absolute0 │  yup
+20:27         join │  Guest96881
+20:34         quit │  Absolute0
+20:34         join │  Mossepo_
+21:14         quit │  smlb
+22:03   Neuromatic │  Why the bloody hell is here only activity when I'm afk?
+22:05   Guest96881 │  no idea
+22:06   Guest96881 │  bad luck
+22:06        tbuck │  it happens
+22:06        tbuck │  lol
+22:06   Guest96881 │  why does freenode keep deauthenitcating me
+22:06   Guest96881 │  whenever i put my computer to sleep it gives me this damn guest name
+22:06         quit │  Guest96881
+22:07         join │  earsplit
+22:07      earsplit│  Guest66342
+22:07      dotpyfe │  heh, i was wondering why you switched nicks like 5 times yesterday
+22:09   Guest66342 │  i dont know whats going on
+22:09   Guest66342 │  i can't seem to register with freenode for some reason
+22:09   Guest66342 │  or identify i mean
+22:09   Guest66342 │  whaaaat
+22:13   Neuromatic │  Contact an Admin :P
+22:18         quit │  rudylorren
+22:19         join │  rudylorren
+22:31   rudylorren │  so I want to start firefox in monocle mode on a desktop,  im reading the manpage, but i'm not undertanding it properly, does anyone have an example?
+22:31         join │  angelic_sedition
+22:39         quit │  Mossepo_
+22:45         quit │  Mechanimal
+22:49   Neuromatic │  sorry, i'd never used monocle…
+22:52         quit │  Guest66342
+22:55         join │  Mechanimal
+23:00         quit │  Mapley
+23:13         join │  Mapley
+23:14         join │  earsplit
+23:14      earsplit│  Guest37537
+23:25   Guest37537 │  :(
+23:25   Guest37537 │  stupid freenode
+23:26   rudylorren │  can you unregister a nick?
+23:31         quit │  rudylorren
+23:32   Guest37537 │  no i'm trying to hunt down admins in freenode land
+23:33  angelic_sed │  why?
+23:45         join │  rudylorren
+23:46   rudylorren │  bspc desktop I --layout monocle
+23:46   rudylorren │  for those interested :)
+23:52         quit │  Mechanimal
+23:54         quit │  rudylorren
+23:56         join │  Mechanimal
+23:58   Guest37537 │  hmmm?
+--- Day changed Mi Jan 22 2014
+00:06    Guest37537│  earsplit
+00:08         quit │  earsplit
+00:08         join │  earsplit
+00:09         join │  rudylorren
+--- Log opened Mi Jan 22 01:16:46 2014
+01:16         join │  Neuromatic
+01:16        names │  Total: 0 ops, 0 halfops, 0 voices, 22 normal
+01:16 Join to #bspwm was synced in 0 secs
+01:47         quit │  rudylorren
+01:47         join │  rudylorren
+01:48         quit │  Heikai
+01:48         quit │  rudylorren
+01:49         join │  Heikai
+01:49         join │  rudylorren
+01:54         join │  ravenx
+01:54         quit │  ravenx
+02:09         join │  ravenx
+02:25         quit │  earsplit
+02:35         quit │  rudylorren
+02:38         join │  rudylorren
+--- Log closed Mi Jan 22 02:57:08 2014
+--- Log opened Mi Jan 22 17:48:15 2014
+17:48         join │  Neuromatic
+17:48        names │  Total: 0 ops, 0 halfops, 0 voices, 18 normal
+17:48 Join to #bspwm was synced in 0 secs
+17:49         join │  Mossepo_
+17:53         join │  Mechanimal
+17:56         join │  frakingchrist
+18:29         quit │  Mossepo_
+18:35         quit │  Bryan792
+18:44         join │  smlb
+19:13         quit │  frakingchrist
+19:30         join │  Mossepo_
+19:31         quit │  Mossepo_
+20:13         join │  Bryan792
+20:14         join │  frakingchrist
+20:24         quit │  frakingchrist
+20:27         quit │  smlb
+20:29         join │  smlb
+20:37         join │  ravenx
+20:37       ravenx │  2morning.
+21:19     earsplit │  morning?!
+21:19      dotpyfe │  maybe in your country
+21:19     earsplit │  mysql sucks
+21:19     earsplit │  its like the C of databases
+21:19      dotpyfe │  how so?
+21:20      dotpyfe │  c is necessary, mysql is not :P
+21:20     earsplit │  it just takes some serious manual intervention
+21:20     earsplit │  which is a good thing
+21:20     earsplit │  but
+21:21     earsplit │  i've been trying to debug the same query all morning
+21:21     earsplit │  and after 4 hours found a fix
+21:21      dotpyfe │  heh
+21:21      dotpyfe │  as much as i dislike oracle, their sql server has some massively impressive debugging tools
+21:22     earsplit │  just using the CLI client works for me
+21:22     earsplit │  the problem was that someone arbitrarly named our indexes
+21:22       ravenx │  sorry, i meant afternoon.
+21:22       ravenx │  bored in my lectures!
+21:22      dotpyfe │  oh, gross
+21:22     earsplit │  so instead of the index for "count" being "count" or "index_count"
+21:22     earsplit │  they're all named IDX_69420666662
+21:23       ravenx │  hahaha
+21:23      dotpyfe │  its totally more... uh.... secure....
+21:23      dotpyfe │  >.>
+21:23      dotpyfe │  <.<
+21:23     earsplit │  oh i know why that is
+21:23     earsplit │  nevermindddddddd
+21:24       ravenx │  you at work, earsplit ?
+21:24     earsplit │  yeah
+21:24     earsplit │  well working from home today
+21:26       ravenx │  that must be nic en cozy
+21:26       ravenx │  cuppa coffee, stay in bed, headphones
+21:26       ravenx │  my idea of paradise.
+21:27  tuftedocelo │  earsplit: isn't that Oracle's default behavior for indices?
+21:29      dotpyfe │  tuftedocelot: shouldnt be
+21:29     earsplit │  no it was Doctrine
+21:29     earsplit │  database wrapper for php
+21:30      dotpyfe │  recommended naming scheme was somethign like IDX_<tablename>_<indexnumber>
+21:31  tuftedocelo │  Aga
+21:31  tuftedocelo │  *aha
+21:31     earsplit │  in this case it looked like 16 bit encodings of tablename-indexnumber
+21:32     earsplit │  or sorry 16 character encodings of those two things
+21:32     earsplit │  just a buttpain
+21:34     earsplit │  also, oracle bad, mariadb good
+21:35  tuftedocelo │  Btw, what's your aur helper of choice?
+21:35  tuftedocelo │  earsplit ^
+21:36  tuftedocelo │  Well, everyone
+21:36      dotpyfe │  we get oracle for free for the dept
+21:36  tuftedocelo │  Gather round and share
+21:36      dotpyfe │  so its useful in class
+21:36      dotpyfe │  also - historical cruft
+21:36     earsplit │  i use packer
+21:36     earsplit │  just because i installed it first
+21:36       ravenx │  earsplit: do you use arch for work?
+21:38     earsplit │  yeah
+21:38     earsplit │  everyone else has a macbook
+21:38     earsplit │  lol
+21:39      dotpyfe │  heh, thats how my lab meetings are
+21:39      dotpyfe │  everyone on macbook, me in my 'black sheep' thinkpad
+21:39  tuftedocelo │  Haha, you missed out on the thinkpad circlejerk the other night
+21:39     earsplit │  nah i was here for that
+21:39      dotpyfe │  think he meant me
+21:39     earsplit │  oh
+21:39     earsplit │  hahaha
+21:39      dotpyfe │  tufty and i know each other irl
+21:40      dotpyfe │  so theres oob communcation there
+21:40      dotpyfe │  i was looking into buying one of those new x1 carbons
+21:40      dotpyfe │  but they keybaord.... oh god why
+21:40       ravenx │  haha
+21:40      dotpyfe │  *the
+21:40       ravenx │  x201 for life :P
+21:40      dotpyfe │  fuck i suck at typing today
+21:40       ravenx │  later!
+21:40         quit │  ravenx
+21:41      dotpyfe │  dat resolution though
+21:43     earsplit │  yeah
+21:43     earsplit │  i dunno with 10 workspaces 1366x768 is livable
+21:43     earsplit │  it just sucks when i'm testing the website i'm making
+21:43      dotpyfe │  i mean, it helps
+21:43      dotpyfe │  but when im doing kernel debugging
+21:43      dotpyfe │  and want to have 4+ vim or tmux panes open
+21:43      dotpyfe │  it gets hairy
+21:44     earsplit │  do you work on the kernel?
+21:44         quit │  mossepo
+21:44      dotpyfe │  sorta, i work on a vmm that is a kernel module
+21:45     earsplit │  virtual memory or virtual machine?
+21:45     earsplit │  and do you do that for real life or school?
+21:45      dotpyfe │  latter to both
+21:45      dotpyfe │  haha
+21:45      dotpyfe │  purely academic
+21:45      dotpyfe │  http://www.v3vee.org/palacios/
+21:48     earsplit │  i use docker, which i guess uses this: https://wiki.openstack.org/wiki/Docker
+21:48     earsplit │  docker is amazing
+21:49      dotpyfe │  i havent looked at it a ton
+21:49     earsplit │  interesting read: http://www.slideshare.net/fasgoncalves/hypervisor-versus-linux-containers
+21:49      dotpyfe │  cheers, ill take a look
+21:49      dotpyfe │  where do you work?
+21:50     earsplit │  rewriting an archaic website
+21:50     earsplit │  for http://www.someecards.com/
+21:50      dotpyfe │  oh cool
+21:50     earsplit │  but i studied computer engineering in school and did a lot more low level stuff
+21:50      dotpyfe │  you freelance then?
+21:50     earsplit │  well this is a fulltime
+21:51     earsplit │  its just me and 4 other people though
+21:51     earsplit │  super startuppy
+21:51     earsplit │  i wanted some experience at the top of the stack after doing C and FPGA development all of college
+21:51      dotpyfe │  ah ai see
+21:52      dotpyfe │  oh fpga
+21:52      dotpyfe │  definitely went low level
+21:52      dotpyfe │  haha
+21:52     earsplit │  yeah its some cool stuff
+21:52      dotpyfe │  i did ce in undergrad, but more software route
+21:52      dotpyfe │  now im doing cs
+21:52     earsplit │  nice
+21:52     earsplit │  i was never required ot take alogrithms
+21:52     earsplit │  i got very little of the CS
+21:52     earsplit │  a lot more of the EE
+21:52      dotpyfe │  yeah i had a bunch of catching up the first year of grad school
+21:53     earsplit │  thats how i feel now
+21:53      dotpyfe │  also the split depends very much on the school
+21:53     earsplit │  yeah it was also a relatively new program
+21:53      dotpyfe │  like at uiuc ce and cs have almost the same reqs
+21:53      dotpyfe │  at nu ce and ee were closer
+21:53     earsplit │  whats nu?
+21:54      dotpyfe │  northwestern
+21:54     earsplit │  northweastern?
+21:54     earsplit │  nice
+21:54     earsplit │  you must be freezing
+21:54      dotpyfe │  a bit :<
+21:54     earsplit │  is there a decent tech scene up there?
+21:55      dotpyfe │  um, its growing
+21:55      dotpyfe │  chicago is trying to be more tech friendly
+21:55      dotpyfe │  groupon is here
+21:55      dotpyfe │  googles office is hugely expanding
+21:55     earsplit │  seems like the case with all their offices
+21:56      dotpyfe │  yeah
+21:56      dotpyfe │  you in cali?
+21:56     earsplit │  NYC
+21:56      dotpyfe │  aha
+21:56      dotpyfe │  cool
+21:56      dotpyfe │  speaking of school, i have to run to a meeting
+21:56      dotpyfe │  catch ya later
+21:57     earsplit │  peace
+22:37         quit │  Eisenhans
+22:40         join │  Eisenhans
+22:57         join │  Mossepo
+23:03         quit │  Bryan792
+23:30         quit │  Mossepo
+23:53         join │  angelic_sedition
+23:53  angelic_sed │  does bloom ever get on here?
+--- Day changed Do Jan 23 2014
+00:04        tbuck │  not once
+00:04         quit │  Neuromatic
+--- Log closed Do Jan 23 00:04:17 2014
+--- Log opened Do Jan 23 17:06:02 2014
+17:06         join │  Neuromatic
+17:06        names │  Total: 0 ops, 0 halfops, 0 voices, 19 normal
+17:06 Join to #bspwm was synced in 0 secs
+17:35      dotpyfe │  ah, i love the smell of coffee in the morning
+17:38     earsplit │  amen
+17:38     earsplit │  i just got a nice coffee grinder and a scale
+17:38     earsplit │  to perfect my pour over technique
+17:38         join │  Mechanimal
+17:38      dotpyfe │  sweet
+17:38      dotpyfe │  chemex?
+17:38     earsplit │  yeah
+17:38  tuftedocelo │  Heaven forbid you're a gram short
+17:39      dotpyfe │  what grinder did you get
+17:39     earsplit │  eyeballing coffee beans is hardddd
+17:39      dotpyfe │  true that
+17:39     earsplit │  a baratza conical burr
+17:39  tuftedocelo │ googles
+17:40      dotpyfe │  very nice
+17:40         part │  Mechanimal
+17:40  tuftedocelo │  http://www.amazon.com/Baratza-Encore-Conical-Coffee-Grinder/dp/B007F183LK ?
+17:40      dotpyfe │  im rockin a bodum
+17:41         join │  Mechanimal
+17:41      dotpyfe │  kickstarted a cold brewer which should be coming in soon
+17:41      dotpyfe │  that shoudl be interesting
+17:42      dotpyfe │  tuftedocelot: restart prosody plz, cant start an otr channel
+17:42  tuftedocelo │  Hm, odd. Will do
+--- Log closed Do Jan 23 17:43:15 2014
+--- Log opened Do Jan 23 17:53:11 2014
+17:53         join │  Neuromatic
+17:53        names │  Total: 0 ops, 0 halfops, 0 voices, 20 normal
+17:53 Join to #bspwm was synced in 1 secs
+17:53  tuftedocelo │  That's a good point
+17:53  tuftedocelo │  Everyone instantly consumed, you've got something to use for a long time
+17:54      dotpyfe │  on the flipside
+17:54      dotpyfe │  cafestol may have liver benefits
+17:54      dotpyfe │  and may prevent parkinsons
+17:54      dotpyfe │  so i say
+17:54      dotpyfe │  drink up
+17:54  tuftedocelo │  Hooray booze + coffee
+17:55  tuftedocelo │  Though the combination gives me a migraine so that's out
+17:55      dotpyfe │  speaking of http://arstechnica.com/science/2013/12/caffeine-alcohol-keeps-your-chromosomes-just-right/
+17:55      dotpyfe │  my lifestyle is now justified
+17:58     earsplit │  hahaha
+17:58     earsplit │  i unforunately can't drink coffee with alcohol or a crash terribly
+17:59     earsplit │  i'm fine with that five hour shit
+18:00      dotpyfe │  the 5 hour energys?
+18:12         quit │  angelic_sedition
+18:18         join │  dmigod
+--- Log closed Do Jan 23 18:21:31 2014
+--- Log opened Do Jan 23 19:49:44 2014
+19:49         join │  Neuromatic
+19:49        names │  Total: 0 ops, 0 halfops, 0 voices, 22 normal
+19:49 Join to #bspwm was synced in 1 secs
+20:02         join │  smlb_
+20:02         quit │  smlb
+20:27         quit │  Mossepo
+20:41         join │  Mossepo
+20:50      dotpyfe │  earsplit: hows overkill going
+20:55         Clap │  there is bspc "pointer -t %i %i" in the default config
+20:55         Clap │  what are these %i ?
+21:01     earsplit │  i dont use overkill
+21:02     earsplit │  Clap: i'm guessing x and y positions
+21:02         Clap │  yes but what does this syntax mean ?
+21:02     earsplit │  read the man page
+21:02     earsplit │     Pointer
+21:02     earsplit │         General Syntax
+21:02     earsplit │             pointer OPTIONS
+21:02     earsplit │         Options
+21:02     earsplit │             -g, --grab focus|move|resize_side|resize_corner
+21:03     earsplit │                 Initiate the given pointer action.
+21:03     earsplit │             -t, --track <x> <y>
+21:03     earsplit │                 Pass the pointer root coordinates for the current pointer action.
+21:03      dotpyfe │  ah whoops, mixed up you and windelicato
+21:04      dotpyfe │  haha my bad
+21:04         quit │  Mossepo
+21:05     earsplit │  same person :D
+21:05  tuftedocelo │  s/windelicato/stebalien
+21:05     earsplit │  are you talking about Stebalien?
+21:06     earsplit │  i dont see why conky + a shell script aren't sufficient enough
+21:06     earsplit │  i mean its not the cleanest solution
+21:06     earsplit │  but it works
+21:08         Clap │  I read thins but I don't get the meaning of the %i itself
+21:09  tuftedocelo │  It's a placeholder for the x,y coordinates
+21:10         Clap │  ok
+21:11     earsplit │  it does feel a little hacky
+21:12      dotpyfe │  people have too many names
+21:12      dotpyfe │  though im guilty of that myself
+21:12      dotpyfe │  i stole dotpyfe from tuftedocelot
+21:12     earsplit │  in C %i is a format specifier for integers
+21:13         Clap │  then it only means "integer" ? but who fills this placeholder next ?
+21:14     earsplit │  so i'm guessing he reads in the X and Y from a scanf call somewhere
+21:14     earsplit │  using %i as placeholders
+21:16     earsplit │  bam: https://github.com/baskerville/bspwm/blob/master/messages.c#L732
+21:16     earsplit │  :D
+21:17         Clap │  I… think… I got it
+21:18         Clap │  well, in fact, %i and %i magically turn into the pointer position at run time
+21:19         Clap │  i mean, sxhkd replaces this with pointer position
+21:19     earsplit │  well if you wnated to generalize that for other WM's, you could use `xdotool getmouselocation`
+21:22         Clap │  ok
+21:23     earsplit │  are you using it with bspwm or sxhkd?
+21:25         Clap │  sxhkd
+21:25         Clap │  I'm editing sxhkd config file for now
+21:26     earsplit │  sorry i meant bspwm or a different WM
+21:26     earsplit │  if you're using it with BSPWM there's no reason to change the pointer settings in the default config
+21:27         Clap │  nevermind, i got the piece of man that answers my question : http://paste.awesom.eu/msl
+21:28     earsplit │  :D
+21:28     earsplit │  i missed that too
+21:28         Clap │  It actually is in the sxhkd man
+21:32         join │  rudylorren
+21:47         quit │  rudylorren
+21:58         join │  rudylorren
+21:58         Clap │  ok, I'm almost there
+22:04         Clap │  do you know a way tha would grow a window instead of moving one of the edge ?
+22:04         Clap │  (^ maybe this has no sense. In this case, just tell me and I will try to reformulate)
+22:05   rudylorren │  prepare for spam
+22:05   rudylorren │  # change window gap at run time
+22:05   rudylorren │  super + ctrl + equal
+22:05   rudylorren │      bspc config -d focused window_gap $((`bspc config -d focused window_gap` + 5 ))
+22:05   rudylorren │  super + ctrl + shift + equal
+22:05   rudylorren │      bspc config top_padding 16; bspc config -d focused window_gap 15
+22:05   rudylorren │  super + ctrl + minus
+22:05   rudylorren │      bspc config -d focused window_gap $((`bspc config -d focused window_gap` - 5 ))
+22:05   rudylorren │  super + ctrl + shift + minus
+22:05   rudylorren │      bspc config top_padding 16; bspc config -d focused window_gap 0
+22:06         Clap │  sorry, that was not the question :}
+22:06         Clap │  I want to resize a window with the keyboard
+22:07         Clap │  but I don't want to manipulate one edge at a time
+22:07  tuftedocelo │  How else are you going to do it?
+22:08         Clap │  well, the window could grow equally to left and right simply by doing -> and shrinking when presing <-
+22:09   rudylorren │  that will grow and shrink all windows on the screen
+22:09      dotpyfe │  rudylorren: i think he meant resize the window, not the gaps (but maybe im wrong)
+22:09      dotpyfe │  Clap: how would you know if you _can_ grow in both sides
+22:09      dotpyfe │  say the window is at an edge
+22:10   rudylorren │  my mistake
+22:10         Clap │  in this case, It could gro more to the other side
+22:10      dotpyfe │  i suspect it would also need to work slightly differently for tiling vs floating windows
+22:10         Clap │  (i tried this : http://paste.awesom.eu/xvM but it does not work)
+22:10      dotpyfe │  i mean yes, but you need to be ale to detect that
+22:12         Clap │  looks like it's not possible easily then
+22:18         quit │  frakingchrist
+22:35         quit │  rudylorren
+22:36         Clap │  is there a way to tab windows is bspwm ?
+22:37     earsplit │  not that i know of
+22:37         Clap │  ok
+22:37     earsplit │  its the WM's job to do that
+22:37     earsplit │  and the feature doesn't exist
+22:38     earsplit │  there might be a way to start BSPWM in some DE or something but i haven't seen that done
+22:38     earsplit │  you could make a feature request
+22:38     earsplit │  on the arch thread
+22:39         Clap │  I was planning to run bspwm in mate , replacing marco
+22:39         Clap │  *as a replacement of
+22:44         join │  rudylorren
+22:44         quit │  rudylorren
+23:06         join │  Absolute0
+23:07         quit │  Absolute0
+23:07         join │  Absolute0
+23:08    Absolute0 │  How do I get the widgets in panel show in this screenshot: http://fc00.deviantart.net/fs71/f/2013/245/7/8/vintage_notebook_by_earspl1t-d6kt9qb.png ?
+23:15         Clap │  I think you should check https://github.com/windelicato/dotfiles/tree/master/.config/bspwm
+23:15    Absolute0 │  spanks
+23:16    Absolute0 │  panel_conky...
+23:16    Absolute0 │  too much work to get this stuff all nice and fancy :)
+23:16         Clap │  but it's all ready to be used !
+23:16    Absolute0 │  yeah yeah...
+23:17         Clap │  ha ha ha
+23:17    Absolute0 │  what does auto_alternate and bordeless_monacle do?
+23:18    Absolute0 │  I didn't understand the man page descriptions
+23:19    Absolute0 │  Is there a way to set panel configs without recompiling it each time?
+23:20    Absolute0 │  kind of unconvential to not have a config file
+23:22         Clap │  I don't understand, why would you compile your panel each time ?
+23:23    Absolute0 │  I wasn't able to find any docs on panel, but from looking at the files the only config I could find was config.h in the bar src dir
+23:23    Absolute0 │  make && sudo make install changed the style of the panel
+23:23    Absolute0 │  is there a saner method to tweak the panel ui?
+23:24    Absolute0 │  Configuration
+23:24    Absolute0 │  -------------
+23:24    Absolute0 │  Change the config.h file and you're good to go!
+23:24    Absolute0 │  The text background and foreground are respectively the first and the second
+23:24    Absolute0 │  entries in the palette (COLOR0 and COLOR1).
+23:25         Clap │  I'm sorry but I can't help you on this one
+23:27    Absolute0 │  I think bspwm's window resize is buggy when totem(gnome's video player) is running
+23:27    Absolute0 │  it's has very noticable lag
+23:36  tuftedocelo │  Absolute0: recompiling is the only way to config bar. You're right in that it's unconventional, but it is what it is
+23:40         quit │  Mechanimal
+23:41         join │  Mechanimal
+23:56    Absolute0 │  okie dokes
+23:57    Absolute0 │  xmonad recompiles itself each time your edit the config iirc
+23:57    Absolute0 │  so I should just set some sxhkd binding to recompile bar
+23:57    Absolute0 │  If I spelled that correctly
+23:57  tuftedocelo │  You plan on modifying bar that often?
+23:57  tuftedocelo │  (also, spelling is correct)
+23:58    Absolute0 │  baskerville should add some vowels to his project names
+23:58  tuftedocelo │  Hahaha
+23:58    Absolute0 │  they're a pain in the ass to remember and type
+23:58  tuftedocelo │  sxhkd = simple x hotkey daemon
+23:58    Absolute0 │  yeah...
+23:58    Absolute0 │  I need to look it up every time I want to edit the config
+23:59    Absolute0 │  like xmobar
+23:59    Absolute0 │  I will never forget that
+23:59  tuftedocelo │  Tab completion is pretty handy. "sx[Tab]"
+23:59    Absolute0 │  tuftedocelot: not good enough
+--- Day changed Fr Jan 24 2014
+00:00  tuftedocelo │  alias? alias editbinds='vim .config/sxhkd/sxkhdrc' ?
+00:00    Absolute0 │  yup :)
+00:01    Absolute0 │  something like keybinder, binarywm would be a lot easier to work with
+00:01    Absolute0 │  the shell is not so much an issue
+00:01    Absolute0 │  but everytime I need to google something about them, i almost always get it wrong
+00:02    Absolute0 │  dinner time
+00:02         quit │  Absolute0
+00:14         Clap │  well, thanks for the help and good night
+00:14         part │  Clap
+--- Log closed Fr Jan 24 00:19:37 2014
+--- Log opened Fr Jan 24 13:50:16 2014
+13:50         join │  Neuromatic
+13:50        names │  Total: 0 ops, 0 halfops, 0 voices, 19 normal
+13:50 Join to #bspwm was synced in 0 secs
+14:02         quit │  aishi
+14:30         quit │  smlb
+14:45         join │  smlb
+14:51         join │  Bryan792
+15:06         join │  frakingchrist
+15:55         join │  Mossepo
+16:10         quit │  Bryan792
+16:25         quit │  Mossepo
+16:49         join │  earsplit
+18:09         quit │  earsplit
+18:58         join │  earsplit
+19:05    smrtz|nix │  sie tbuck, I'm not.
+19:35         quit │  Mechanimal
+19:37         join │  Mechanimal
+19:38    smrtz|nix │  I read that bspwm represents tiled windows as leaves in a binary  tree.  Can someone give me a bit more information please?
+19:41  tuftedocelo │  Did you read the man page?
+19:42    smrtz|nix │  tuftedocelot: No.  I don't even have bspwm installed.  I'm thinking about trying it, but I don't really understand it.
+19:42  tuftedocelo │  https://github.com/baskerville/bspwm
+19:43    smrtz|nix │  Thanks, reading now.
+19:43         join │  scott1
+19:45    smrtz|nix │  Oh, I see.
+19:45    smrtz|nix │  thanks.
+19:45    smrtz|nix │  How's the multimonitor support?
+19:45  tuftedocelo │  It's fine
+19:45  tuftedocelo │  Using it like that now
+19:45    smrtz|nix │  Easy to set up?
+19:46    smrtz|nix │  I'm on awesomewm and arch, and I'm planning on switching to debian and something else so that it's a little easier to set up and use.
+19:47  tuftedocelo │  Easy to set up is a relative statement
+19:47    smrtz|nix │  True...
+19:51  tuftedocelo │  It isn't bad as long as you read the docs
+19:51    smrtz|nix │  tuftedocelot: cool, thanks for the help.
+19:55  tuftedocelo │  no problem
+19:58         part │  smrtz|nix
+19:59         join │  ravenx
+20:00         join │  smrtz|nix
+20:05         part │  smrtz|nix
+20:29         quit │  frakingchrist
+20:31         quit │  ravenx
+20:32         join │  frakingchrist
+20:47         quit │  frakingchrist
+20:54         quit │  scott1
+20:56         join │  angelic_sedition
+21:21         quit │  angelic_sedition
+21:28         join │  frakingchrist
+21:38         join │  ravenx
+21:49         quit │  ravenx
+22:07         quit │  earsplit
+22:14         quit │  frakingchrist
+22:34         part │  chiggins
+23:25         join │  angelic_sedition
+23:43         join │  earsplit
+--- Log closed Fr Jan 24 23:59:53 2014
+--- Log opened Sa Jan 25 11:49:02 2014
+11:49         join │  Neuromatic
+11:49        names │  Total: 0 ops, 0 halfops, 0 voices, 15 normal
+11:49 Join to #bspwm was synced in 0 secs
+13:04         join │  th3voic3
+13:11         quit │  th3voic3
+13:11         join │  th3voic3
+13:32         quit │  th3voic3
+13:42         join │  th3voic3
+14:39         join │  Bryan792
+14:46         quit │  th3voic3
+14:49         join │  th3voic3
+14:59         join │  th3voic31
+14:59         quit │  th3voic31
+15:01         quit │  th3voic3
+16:30         quit │  Bryan792
+18:04         join │  angelic_sedition
+18:48         join │  earsplit
+19:09         join │  Bryan792
+19:22         join │  Mechanimal
+19:32         quit │  angelic_sedition
+19:42         quit │  earsplit
+19:53         part │  Bryan792
+19:53         join │  Bryan792
+19:57         part │  Bryan792
+20:20         join │  angelic_sedition
+20:29         join │  earsplit
+20:39      dotpyfe │  earsplit: do you know if theres a way to set default split ratios for a specific program, like for pidgin
+20:40         quit │  earsplit
+--- Log closed Sa Jan 25 20:42:13 2014
+--- Log opened So Jan 26 00:02:03 2014
+00:02         join │  Neuromatic
+00:02        names │  Total: 0 ops, 0 halfops, 0 voices, 17 normal
+00:02 Join to #bspwm was synced in 2 secs
+00:17         join │  th3voic3
+00:17         quit │  smlb
+00:18         join │  smlb
+00:41         quit │  smlb
+00:57         quit │  th3voic3
+--- Log closed So Jan 26 03:44:29 2014

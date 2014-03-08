@@ -1,0 +1,982 @@
+--- Log opened Sa Dez 28 15:07:56 2013
+15:07         join │  Neuromatic
+15:07 %%        mode │  +t
+15:07        names │  Total: 2 ops, 0 halfops, 0 voices, 8 normal
+15:07 Join to #twitter__Neuromatic_ was synced in 0 secs
+15:07  prolinux_de │  [2013-12-26 15:01:11] [00] GPU-Computing mit R #linux http://t.co/9w1lSt4NLR <pro-linux.de/-010267d>
+15:07   coldmirror │  [2013-12-26 15:25:45] [01] Gottverdammte Spambots, ich will keinen "canada goose parka"!! Was zum Geier ist das überhaupt??
+15:07      UnixHub │  [2013-12-26 21:47:34] [02] Official shell accounts order page: UnixHub shell accounts are ready for purchase! These are one year terms, s... http://t.co/NfGF3KREPW <bit.ly/19l0lD1>
+15:07   coldmirror │  [2013-12-26 22:56:39] [03] Transformais! Halb Transformer, halb Mais!
+15:07  SemperVideo │  [2013-12-27 09:31:09] [04] MITM: Spaß mit Trafficmanipulationen: http://t.co/ZsoDZnjcKt <youtu.be/cDq_rHEY5lA?a> über @YouTube
+15:07  prolinux_de │  [2013-12-27 10:09:27] [05] Ubuntu und Anroid als Dualboot #linux http://t.co/k5QiWNFZOS <pro-linux.de/-0h215085>
+15:07  echtallwiss │  [2013-12-27 11:33:46] [06] Was machst du nur aus deinem Leben, mein Sohn? Als ich in deinem Alter war hatte ich schon 10.000 Abonnenten! #YoutubeIn20Jahren
+15:07  SemperVideo │  [2013-12-27 13:31:29] [07] Windows: Unsichere Verschlüsselung finden http://t.co/uLbnPqaneG <sempervideo.de/?p=9882>
+15:07  echtallwiss │  [2013-12-27 14:54:30] [08] Bald bin ich wieder da :) RT: @diesererik: Macht @echtallwissend eigentlich noch Videos auf #youtube?
+15:07  echtallwiss │  [2013-12-27 16:34:22] [09] Brauner Affe hat einen Wein ausgesucht. http://t.co/2kjj0mMozu <instagram.com/p/ibiYjjJq8p/>
+15:07  echtallwiss │  [2013-12-27 20:34:56] [0a] Was so los ist mit diesem Doktor Allwissend  :) http://t.co/FQys7R9D4D <youtube.com/watch?v=24FuRh…>
+15:07   coldmirror │  [2013-12-27 23:34:24] [0b] Hrrrrrm. Dieses Gefühl sein Bestes zu geben und dann nicht gut genug zu sein... :C *willkürlicher keine erklärung gebender drama post*
+15:07      UnixHub │  [2013-12-27 23:59:22] [0c] Need help with XML/XSL: Hello there!
+15:07      UnixHub │  [2013-12-27 23:59:22] I'm been working with this "System Information Manager" program past week... http://t.co/v497Ywbt31 <bit.ly/1cGfxxl>
+15:07  SemperVideo │  [09:31:34] [0d] MITM: Kekse klauen: http://t.co/yl9UrwfiRM <youtu.be/O55rmbXFsi4?a> über @YouTube
+15:07  echtallwiss │  [11:15:16] [0e] Ich traue mich ja gar nicht, dieses Video zu posten. Na gut, ich mach's doch :)  http://t.co/UBV7EqmYYw <bit.ly/zuschuechtern>
+15:07  echtallwiss │  [12:45:08] [0f] RT @CookieShock: @echtallwissend Kinder, das passiert, wenn ihr 2 Umzugskartons auf einmal tragen wollt: http://t.co/5cNuJmjqg5 <pic.twitter.com/5cNuJmjqg5>
+15:07  SemperVideo │  [13:14:44] [10] Raspberry Pi: TOR Hotspot installieren http://t.co/9xPI5aB9fZ <sempervideo.de/?p=9888>
+15:07  echtallwiss │  [13:22:32] [11] RT @LetsPlayJuri9: http://t.co/PnxVG0OomR <puu.sh/61dHp.jpg> Der @echtallwissend mit dem besten Gesicht aller Zeiten.
+15:07  SemperVideo │  [13:28:25] [12] http://t.co/ibXlup4dDa <sempervideo.de/?p=9886>
+15:07  echtallwiss │  [14:47:20] [13] RT @diedroggi: als wäre gestern nicht schon der schönste Restjahrestag gewesen... KINDER, DER DOKTOR IST WIEDER DA!! @echtallwissend!http://t.co/SePEfcG990 <youtube.com/watch?v=foumnN…>
+15:12        nsplit │ "Netsplit" Neuromatic.fritz.box <-> twitter.Neuromatic.fritz.box quits: echtallwissend, coldmirror, UnixHub, YouriMouton, Schokonudel, SemperVideo, twitter__Neuromatic_, prolinux_de
+15:12         root │  Cleaning up channel, bye!
+15:12       kicked │  Neuromatic
+--- Log closed Sa Dez 28 15:12:06 2013
+--- Log opened Sa Dez 28 15:13:05 2013
+15:13         join │  Neuromatic
+15:13 %%        mode │  +t
+15:13        names │  Total: 2 ops, 0 halfops, 0 voices, 8 normal
+15:13 Join to #twitter__Neuromatic_ was synced in 0 secs
+15:13  prolinux_de │  [2013-12-26 15:01:11] [00] GPU-Computing mit R #linux http://t.co/9w1lSt4NLR <pro-linux.de/-010267d>
+15:13   coldmirror │  [2013-12-26 15:25:45] [01] Gottverdammte Spambots, ich will keinen "canada goose parka"!! Was zum Geier ist das überhaupt??
+15:13      UnixHub │  [2013-12-26 21:47:34] [02] Official shell accounts order page: UnixHub shell accounts are ready for purchase! These are one year terms, s... http://t.co/NfGF3KREPW <bit.ly/19l0lD1>
+15:13   coldmirror │  [2013-12-26 22:56:39] [03] Transformais! Halb Transformer, halb Mais!
+15:13  SemperVideo │  [2013-12-27 09:31:09] [04] MITM: Spaß mit Trafficmanipulationen: http://t.co/ZsoDZnjcKt <youtu.be/cDq_rHEY5lA?a> über @YouTube
+15:13  prolinux_de │  [2013-12-27 10:09:27] [05] Ubuntu und Anroid als Dualboot #linux http://t.co/k5QiWNFZOS <pro-linux.de/-0h215085>
+15:13  echtallwiss │  [2013-12-27 11:33:46] [06] Was machst du nur aus deinem Leben, mein Sohn? Als ich in deinem Alter war hatte ich schon 10.000 Abonnenten! #YoutubeIn20Jahren
+15:13  SemperVideo │  [2013-12-27 13:31:29] [07] Windows: Unsichere Verschlüsselung finden http://t.co/uLbnPqaneG <sempervideo.de/?p=9882>
+15:13  echtallwiss │  [2013-12-27 14:54:30] [08] Bald bin ich wieder da :) RT: @diesererik: Macht @echtallwissend eigentlich noch Videos auf #youtube?
+15:13  echtallwiss │  [2013-12-27 16:34:22] [09] Brauner Affe hat einen Wein ausgesucht. http://t.co/2kjj0mMozu <instagram.com/p/ibiYjjJq8p/>
+15:13  echtallwiss │  [2013-12-27 20:34:56] [0a] Was so los ist mit diesem Doktor Allwissend  :) http://t.co/FQys7R9D4D <youtube.com/watch?v=24FuRh…>
+15:13   coldmirror │  [2013-12-27 23:34:24] [0b] Hrrrrrm. Dieses Gefühl sein Bestes zu geben und dann nicht gut genug zu sein... :C *willkürlicher keine erklärung gebender drama post*
+15:13      UnixHub │  [2013-12-27 23:59:22] [0c] Need help with XML/XSL: Hello there!
+15:13      UnixHub │  [2013-12-27 23:59:22] I'm been working with this "System Information Manager" program past week... http://t.co/v497Ywbt31 <bit.ly/1cGfxxl>
+15:13  SemperVideo │  [09:31:34] [0d] MITM: Kekse klauen: http://t.co/yl9UrwfiRM <youtu.be/O55rmbXFsi4?a> über @YouTube
+15:13  echtallwiss │  [11:15:16] [0e] Ich traue mich ja gar nicht, dieses Video zu posten. Na gut, ich mach's doch :)  http://t.co/UBV7EqmYYw <bit.ly/zuschuechtern>
+15:13  echtallwiss │  [12:45:08] [0f] RT @CookieShock: @echtallwissend Kinder, das passiert, wenn ihr 2 Umzugskartons auf einmal tragen wollt: http://t.co/5cNuJmjqg5 <pic.twitter.com/5cNuJmjqg5>
+15:13  SemperVideo │  [13:14:44] [10] Raspberry Pi: TOR Hotspot installieren http://t.co/9xPI5aB9fZ <sempervideo.de/?p=9888>
+15:13  echtallwiss │  [13:22:32] [11] RT @LetsPlayJuri9: http://t.co/PnxVG0OomR <puu.sh/61dHp.jpg> Der @echtallwissend mit dem besten Gesicht aller Zeiten.
+15:13  SemperVideo │  [13:28:25] [12] http://t.co/ibXlup4dDa <sempervideo.de/?p=9886>
+15:13  echtallwiss │  [14:47:20] [13] RT @diedroggi: als wäre gestern nicht schon der schönste Restjahrestag gewesen... KINDER, DER DOKTOR IST WIEDER DA!! @echtallwissend!http://t.co/SePEfcG990 <youtube.com/watch?v=foumnN…>
+--- Log closed Sa Dez 28 16:42:59 2013
+--- Log opened Sa Dez 28 16:56:04 2013
+16:56         join │  Neuromatic
+16:56 %%        mode │  +t
+16:56        names │  Total: 2 ops, 0 halfops, 0 voices, 8 normal
+16:56 Join to #twitter__Neuromatic_ was synced in 1 secs
+16:56  prolinux_de │  [2013-12-26 15:01:11] [00] GPU-Computing mit R #linux http://t.co/9w1lSt4NLR <pro-linux.de/-010267d>
+16:56   coldmirror │  [2013-12-26 15:25:45] [01] Gottverdammte Spambots, ich will keinen "canada goose parka"!! Was zum Geier ist das überhaupt??
+16:56      UnixHub │  [2013-12-26 21:47:34] [02] Official shell accounts order page: UnixHub shell accounts are ready for purchase! These are one year terms, s... http://t.co/NfGF3KREPW <bit.ly/19l0lD1>
+16:56   coldmirror │  [2013-12-26 22:56:39] [03] Transformais! Halb Transformer, halb Mais!
+16:56  SemperVideo │  [2013-12-27 09:31:09] [04] MITM: Spaß mit Trafficmanipulationen: http://t.co/ZsoDZnjcKt <youtu.be/cDq_rHEY5lA?a> über @YouTube
+16:56  prolinux_de │  [2013-12-27 10:09:27] [05] Ubuntu und Anroid als Dualboot #linux http://t.co/k5QiWNFZOS <pro-linux.de/-0h215085>
+16:56  echtallwiss │  [2013-12-27 11:33:46] [06] Was machst du nur aus deinem Leben, mein Sohn? Als ich in deinem Alter war hatte ich schon 10.000 Abonnenten! #YoutubeIn20Jahren
+16:56  SemperVideo │  [2013-12-27 13:31:29] [07] Windows: Unsichere Verschlüsselung finden http://t.co/uLbnPqaneG <sempervideo.de/?p=9882>
+16:56  echtallwiss │  [2013-12-27 14:54:30] [08] Bald bin ich wieder da :) RT: @diesererik: Macht @echtallwissend eigentlich noch Videos auf #youtube?
+16:56  echtallwiss │  [2013-12-27 16:34:22] [09] Brauner Affe hat einen Wein ausgesucht. http://t.co/2kjj0mMozu <instagram.com/p/ibiYjjJq8p/>
+16:56  echtallwiss │  [2013-12-27 20:34:56] [0a] Was so los ist mit diesem Doktor Allwissend  :) http://t.co/FQys7R9D4D <youtube.com/watch?v=24FuRh…>
+16:56   coldmirror │  [2013-12-27 23:34:24] [0b] Hrrrrrm. Dieses Gefühl sein Bestes zu geben und dann nicht gut genug zu sein... :C *willkürlicher keine erklärung gebender drama post*
+16:56      UnixHub │  [2013-12-27 23:59:22] [0c] Need help with XML/XSL: Hello there!
+16:56      UnixHub │  [2013-12-27 23:59:22] I'm been working with this "System Information Manager" program past week... http://t.co/v497Ywbt31 <bit.ly/1cGfxxl>
+16:56  SemperVideo │  [09:31:34] [0d] MITM: Kekse klauen: http://t.co/yl9UrwfiRM <youtu.be/O55rmbXFsi4?a> über @YouTube
+16:56  echtallwiss │  [11:15:16] [0e] Ich traue mich ja gar nicht, dieses Video zu posten. Na gut, ich mach's doch :)  http://t.co/UBV7EqmYYw <bit.ly/zuschuechtern>
+16:56  echtallwiss │  [12:45:08] [0f] RT @CookieShock: @echtallwissend Kinder, das passiert, wenn ihr 2 Umzugskartons auf einmal tragen wollt: http://t.co/5cNuJmjqg5 <pic.twitter.com/5cNuJmjqg5>
+16:56  SemperVideo │  [13:14:44] [10] Raspberry Pi: TOR Hotspot installieren http://t.co/9xPI5aB9fZ <sempervideo.de/?p=9888>
+16:56  echtallwiss │  [13:22:32] [11] RT @LetsPlayJuri9: http://t.co/PnxVG0OomR <puu.sh/61dHp.jpg> Der @echtallwissend mit dem besten Gesicht aller Zeiten.
+16:56  SemperVideo │  [13:28:25] [12] http://t.co/ibXlup4dDa <sempervideo.de/?p=9886>
+16:56  echtallwiss │  [14:47:20] [13] RT @diedroggi: als wäre gestern nicht schon der schönste Restjahrestag gewesen... KINDER, DER DOKTOR IST WIEDER DA!! @echtallwissend!http://t.co/SePEfcG990 <youtube.com/watch?v=foumnN…>
+18:36  YouriMouton │  [14] Just bought BiteSMS on my newly jailbroken iPhone on iOS7, I hope it's worth it!
+19:12  echtallwiss │  [15] Immer wenn ich bei anderen Leuten bin, schlauche ich mit ein bisschen Internet von ihnen. #Umzug… http://t.co/XbLWw4rPVq <instagram.com/p/ieZUxWJq36/>
+20:14  YouriMouton │  [16] https://t.co/GtvUmWzCGk <news.ycombinator.com/item?id=6971127> can't wait to get started reading about this ! #unix #xv6
+20:31         join │  freebsd
+20:31         join │  netbsd
+20:31         join │  freebsdsecurity
+20:31         join │  openbsd
+20:32         join │  openbsdeurope
+20:33         join │  archlinux
+20:34         join │  gentoo
+20:34         join │  GentooHardened
+20:34         join │  debian
+20:35         join │  pkgsrc
+20:35         join │  pkgsrc_bugs
+20:35         join │  linuxfoundation
+20:35         join │  Linux
+23:29  linuxfounda │  [17] Eben Upton: There's never been better time to be a software engineer. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+--- Log closed Sa Dez 28 23:53:53 2013
+--- Log opened Sa Dez 28 23:57:50 2013
+23:57         join │  Neuromatic
+23:57 %%        mode │  +t
+23:57        names │  Total: 2 ops, 0 halfops, 0 voices, 20 normal
+23:57 Join to #twitter__Neuromatic_ was synced in 0 secs
+23:57  echtallwiss │  [2013-12-27 20:34:56] [00] Was so los ist mit diesem Doktor Allwissend  :) http://t.co/FQys7R9D4D <youtube.com/watch?v=24FuRh…>
+23:57  linuxfounda │  [2013-12-27 20:40:01] [01] [Slideshow] Top 10 Linux-Based Gifts for 2013 Under $400 http://t.co/1PkgT4Vkix <bit.ly/1cWeBzG> Do you have a favorite?
+23:57   coldmirror │  [2013-12-27 23:34:24] [02] Hrrrrrm. Dieses Gefühl sein Bestes zu geben und dann nicht gut genug zu sein... :C *willkürlicher keine erklärung gebender drama post*
+23:57      UnixHub │  [2013-12-27 23:59:22] [03] Need help with XML/XSL: Hello there!
+23:57      UnixHub │  [2013-12-27 23:59:22] I'm been working with this "System Information Manager" program past week... http://t.co/v497Ywbt31 <bit.ly/1cGfxxl>
+23:57  linuxfounda │  [07:01:00] [04] Win Linux gear! Tell us your fave quote from this video and tag w/ #Linux2013: http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> Drawing Jan 3. http://t.co/Sghlzd3ltJ <pic.twitter.com/Sghlzd3ltJ>
+23:57  SemperVideo │  [09:31:34] [05] MITM: Kekse klauen: http://t.co/yl9UrwfiRM <youtu.be/O55rmbXFsi4?a> über @YouTube
+23:57  echtallwiss │  [11:15:16] [06] Ich traue mich ja gar nicht, dieses Video zu posten. Na gut, ich mach's doch :)  http://t.co/UBV7EqmYYw <bit.ly/zuschuechtern>
+23:57  echtallwiss │  [12:45:08] [07] RT @CookieShock: @echtallwissend Kinder, das passiert, wenn ihr 2 Umzugskartons auf einmal tragen wollt: http://t.co/5cNuJmjqg5 <pic.twitter.com/5cNuJmjqg5>
+23:57  SemperVideo │  [13:14:44] [08] Raspberry Pi: TOR Hotspot installieren http://t.co/9xPI5aB9fZ <sempervideo.de/?p=9888>
+23:57  echtallwiss │  [13:22:32] [09] RT @LetsPlayJuri9: http://t.co/PnxVG0OomR <puu.sh/61dHp.jpg> Der @echtallwissend mit dem besten Gesicht aller Zeiten.
+23:57  SemperVideo │  [13:28:25] [0a] http://t.co/ibXlup4dDa <sempervideo.de/?p=9886>
+23:57  linuxfounda │  [14:23:00] [0b] "Open source is everywhere. Now it's time to take it to the next level and make the world a better place." http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+23:57  echtallwiss │  [14:47:20] [0c] RT @diedroggi: als wäre gestern nicht schon der schönste Restjahrestag gewesen... KINDER, DER DOKTOR IST WIEDER DA!! @echtallwissend!http://t.co/SePEfcG990 <youtube.com/watch?v=foumnN…>
+23:57  linuxfounda │  [18:00:09] [0d] Happy Birthday, Linus! http://t.co/lFpnzO6z2y <pic.twitter.com/lFpnzO6z2y>
+23:57  YouriMouton │  [18:36:49] [0e] Just bought BiteSMS on my newly jailbroken iPhone on iOS7, I hope it's worth it!
+23:57  echtallwiss │  [19:12:56] [0f] Immer wenn ich bei anderen Leuten bin, schlauche ich mit ein bisschen Internet von ihnen. #Umzug… http://t.co/XbLWw4rPVq <instagram.com/p/ieZUxWJq36/>
+23:57  pkgsrc_bugs │  [19:30:17] [10] pkg/48482 lang/f2c does not build http://t.co/CswDClripr <gnats.NetBSD.org/48482>
+23:57  YouriMouton │  [20:14:10] [11] https://t.co/GtvUmWzCGk <news.ycombinator.com/item?id=6971127> can't wait to get started reading about this ! #unix #xv6
+23:57  linuxfounda │  [20:30:05] [12] Want to learn about bug hunting and fixing? #GSoC intern Calvin Owens shares how he learned: http://t.co/6w9PkF02xK <bit.ly/1c82GlR>
+23:57  linuxfounda │  [23:29:00] [13] Eben Upton: There's never been better time to be a software engineer. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+--- Day changed So Dez 29 2013
+02:44  linuxfounda │  [14] Snowden Revelations Spur Engineer's Open Source Donation http://t.co/RXNG6UO18k <bit.ly/1cARRW1> #Linux http://t.co/ADvFBWS1Ze <pic.twitter.com/ADvFBWS1Ze>
+08:01  linuxfounda │  [15] Win Linux gear! Tell us your fave quote from this video and tag w/ #Linux2013: http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> Drawing Jan 3. http://t.co/Sghlzd3ltJ <pic.twitter.com/Sghlzd3ltJ>
+08:57  prolinux_de │  [16] ODROID-U3: Einplatinenrechner mit 2 GB RAM und Quad-Core-CPU #linux http://t.co/wFosq8DDUi <pro-linux.de/-0h215086>
+09:31  SemperVideo │  [17] Ergänzung VPN-Server installieren: http://t.co/h7SzQWbzWz <youtu.be/bSteoHnWuLw?a> über @YouTube
+13:32  SemperVideo │  [18] Windows: Taskleiste entfernen http://t.co/iZdv8JlM4z <sempervideo.de/?p=9891>
+15:34  SemperVideo │  [19] Raspberry Pi: Adblock Proxy installieren http://t.co/6jlqgPhVsw <sempervideo.de/?p=9893>
+17:23   coldmirror │  [1a] hja äh... Jurassic Park.... nachgespielt... vom Original kaum zu unterscheiden: http://t.co/TQC9PHPs7Q <youtube.com/watch?v=FZYKD4…>
+19:59  echtallwiss │  [1b] RT @BATurkish: Der nächste, der ein Format mit Fakten, ungewöhnlichen Dingen o.ä. macht, bekommt ne miese Schelle!!!
+20:26  linuxfounda │  [1c] We literally have the power to change the world because we created all these tools the world runs on. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+20:42  linuxfounda │  [1d] The top 10 Linux videos of 2013: http://t.co/Q8RXpXt0OY <bit.ly/1cEgOTL>
+22:20  linuxfounda │  [1e] 28 #Android security apps tested via ZDNet: http://t.co/wOUEsLWWAn <zd.net/18FlYum>
+23:32  echtallwiss │  [1f] RT @EgoArtZ: Freundliche Grüße an @echtallwissend http://t.co/mKcuT4pqgH <pic.twitter.com/mKcuT4pqgH>
+--- Day changed Mo Dez 30 2013
+00:49  linuxfounda │  [20] Are you a Linux newbie? Check out these tips for troubleshooting in the command line: http://t.co/B9TEqFgr3L <bit.ly/18GIqmQ>
+04:36  linuxfounda │  [21] Linux tip: How to edit a remote file over ssh http://t.co/9Fksl51tqO <bit.ly/1cA1Gag>
+07:00  linuxfounda │  [22] Virtual training course Feb. 3-7: Linux Kernel Internals and Debugging http://t.co/wm4VFXhpiY <bit.ly/12PwZGR>
+07:37      UnixHub │  [23] UHGit Information: UHGitThe Official UnixHub Git Server
+07:37      UnixHub │  ------------------------------------------------------... http://t.co/sUCmRUalux <bit.ly/19xMLsR>
+09:31  SemperVideo │  [24] MITM: Schutz für Android: http://t.co/igG9W6k6nr <youtu.be/Yu-z4MLyCQY?a> über @YouTube
+09:33  prolinux_de │  [25] Darktable 1.4 spricht Lua und unterstützt Masken #linux http://t.co/jygj69aMTh <pro-linux.de/-0h215087>
+12:45   coldmirror │  [26] Neben 2.Staffel Hannibal kommt am 28.Feb auch Bride of Re-Animator uncut/remastered auf Bluray raus?? Das wird der beste Tag meines Lebens!!
+13:12  prolinux_de │  [27] Europäische Grüne wollen E-Mails verschlüsseln #linux http://t.co/LlAgbEX5hr <pro-linux.de/-0h215089>
+13:44  SemperVideo │  [28] Firefox 28: Australis ist da http://t.co/SBUIEUh8ji <sempervideo.de/?p=9895>
+13:50  pkgsrc_bugs │  [29] pkg/48485 RAKE_HACK in devel/ruby-rake/Makefile makes the "rake" gem invisible http://t.co/KLnMZNSmmD <gnats.NetBSD.org/48485>
+15:47  SemperVideo │  [2a] Ubuntu 13.10: Amazon-Suche abschalten http://t.co/jYYdvU1svq <sempervideo.de/?p=9897>
+16:52  linuxfounda │  [2b] How to install and get started with OpenStack via @CarlaSchroder http://t.co/zvlNnN7SMp <bit.ly/12UE2y1> #Linux
+18:36  linuxfounda │  [2c] Ready to get started with Linux but not sure how? Watch this free, on-demand video tutorial: http://t.co/Ut3JbhZm4l <bit.ly/1aFbSMJ>
+20:56  linuxfounda │  [2d] The Most Popular Linux Stories of 2013 on http://t.co/RvEuHHZqpH <Linux.com>: http://t.co/RNycJf5VKX <bit.ly/1cCPkhC> http://t.co/ZsXGC7Y8W5 <pic.twitter.com/ZsXGC7Y8W5>
+21:02  echtallwiss │  [2e] RT @GermanLetsPlay: Warum träume ich eigentlich nie von Adolf? :((
+--- Log closed Mo Dez 30 21:22:19 2013
+--- Log opened Mo Dez 30 21:24:10 2013
+21:24         join │  Neuromatic
+21:24 %%        mode │  +t
+21:24        names │  Total: 2 ops, 0 halfops, 0 voices, 20 normal
+21:24 Join to #twitter__Neuromatic_ was synced in 0 secs
+21:24  echtallwiss │  [2013-12-29 19:59:19] [00] RT @BATurkish: Der nächste, der ein Format mit Fakten, ungewöhnlichen Dingen o.ä. macht, bekommt ne miese Schelle!!!
+21:24  linuxfounda │  [2013-12-29 20:26:00] [01] We literally have the power to change the world because we created all these tools the world runs on. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+21:24  linuxfounda │  [2013-12-29 20:42:36] [02] The top 10 Linux videos of 2013: http://t.co/Q8RXpXt0OY <bit.ly/1cEgOTL>
+21:24  linuxfounda │  [2013-12-29 22:20:00] [03] 28 #Android security apps tested via ZDNet: http://t.co/wOUEsLWWAn <zd.net/18FlYum>
+21:24  echtallwiss │  [2013-12-29 23:32:09] [04] RT @EgoArtZ: Freundliche Grüße an @echtallwissend http://t.co/mKcuT4pqgH <pic.twitter.com/mKcuT4pqgH>
+21:24  linuxfounda │  [00:49:00] [05] Are you a Linux newbie? Check out these tips for troubleshooting in the command line: http://t.co/B9TEqFgr3L <bit.ly/18GIqmQ>
+21:24  linuxfounda │  [04:36:00] [06] Linux tip: How to edit a remote file over ssh http://t.co/9Fksl51tqO <bit.ly/1cA1Gag>
+21:24  linuxfounda │  [07:00:10] [07] Virtual training course Feb. 3-7: Linux Kernel Internals and Debugging http://t.co/wm4VFXhpiY <bit.ly/12PwZGR>
+21:24      UnixHub │  [07:37:23] [08] UHGit Information: UHGitThe Official UnixHub Git Server
+21:24      UnixHub │  [07:37:23] ------------------------------------------------------... http://t.co/sUCmRUalux <bit.ly/19xMLsR>
+21:24  SemperVideo │  [09:31:03] [09] MITM: Schutz für Android: http://t.co/igG9W6k6nr <youtu.be/Yu-z4MLyCQY?a> über @YouTube
+21:24  prolinux_de │  [09:33:30] [0a] Darktable 1.4 spricht Lua und unterstützt Masken #linux http://t.co/jygj69aMTh <pro-linux.de/-0h215087>
+21:24   coldmirror │  [12:45:43] [0b] Neben 2.Staffel Hannibal kommt am 28.Feb auch Bride of Re-Animator uncut/remastered auf Bluray raus?? Das wird der beste Tag meines Lebens!!
+21:24  prolinux_de │  [13:12:33] [0c] Europäische Grüne wollen E-Mails verschlüsseln #linux http://t.co/LlAgbEX5hr <pro-linux.de/-0h215089>
+21:24  SemperVideo │  [13:44:41] [0d] Firefox 28: Australis ist da http://t.co/SBUIEUh8ji <sempervideo.de/?p=9895>
+21:24  pkgsrc_bugs │  [13:50:11] [0e] pkg/48485 RAKE_HACK in devel/ruby-rake/Makefile makes the "rake" gem invisible http://t.co/KLnMZNSmmD <gnats.NetBSD.org/48485>
+21:24  SemperVideo │  [15:47:05] [0f] Ubuntu 13.10: Amazon-Suche abschalten http://t.co/jYYdvU1svq <sempervideo.de/?p=9897>
+21:24  linuxfounda │  [16:52:45] [10] How to install and get started with OpenStack via @CarlaSchroder http://t.co/zvlNnN7SMp <bit.ly/12UE2y1> #Linux
+21:24  linuxfounda │  [18:36:00] [11] Ready to get started with Linux but not sure how? Watch this free, on-demand video tutorial: http://t.co/Ut3JbhZm4l <bit.ly/1aFbSMJ>
+21:24  linuxfounda │  [20:56:44] [12] The Most Popular Linux Stories of 2013 on http://t.co/RvEuHHZqpH <Linux.com>: http://t.co/RNycJf5VKX <bit.ly/1cCPkhC> http://t.co/ZsXGC7Y8W5 <pic.twitter.com/ZsXGC7Y8W5>
+21:24  echtallwiss │  [21:02:05] [13] RT @GermanLetsPlay: Warum träume ich eigentlich nie von Adolf? :((
+22:19  YouriMouton │  [14] Yay my gcc (4.8.2) pkgsrc port works!
+22:35  linuxfounda │  [15] Getting started with #Android App Development: How to Create an Options Menu http://t.co/FXhVNG6XLu <bit.ly/1cx736p>
+22:51  YouriMouton │  [16] RT @angealbertini: Mach-O 101 v1.0a (bugfixes, thx to @push_pnx) http://t.co/exvAOpY5ea <imgur.com/a/PbN8H#6> http://t.co/clBZyEMGYS <pic.twitter.com/clBZyEMGYS>
+--- Log opened Di Dez 31 00:27:27 2013
+00:27         join │  Neuromatic
+00:27 %%        mode │  +t
+00:27        names │  Total: 2 ops, 0 halfops, 0 voices, 20 normal
+00:27 Join to #twitter__Neuromatic_ was synced in 0 secs
+00:27  linuxfounda │  [2013-12-29 22:20:00] [00] 28 #Android security apps tested via ZDNet: http://t.co/wOUEsLWWAn <zd.net/18FlYum>
+00:27  echtallwiss │  [2013-12-29 23:32:09] [01] RT @EgoArtZ: Freundliche Grüße an @echtallwissend http://t.co/mKcuT4pqgH <pic.twitter.com/mKcuT4pqgH>
+00:27  linuxfounda │  [2013-12-30 00:49:00] [02] Are you a Linux newbie? Check out these tips for troubleshooting in the command line: http://t.co/B9TEqFgr3L <bit.ly/18GIqmQ>
+00:27  linuxfounda │  [2013-12-30 04:36:00] [03] Linux tip: How to edit a remote file over ssh http://t.co/9Fksl51tqO <bit.ly/1cA1Gag>
+00:27  linuxfounda │  [2013-12-30 07:00:10] [04] Virtual training course Feb. 3-7: Linux Kernel Internals and Debugging http://t.co/wm4VFXhpiY <bit.ly/12PwZGR>
+00:27      UnixHub │  [2013-12-30 07:37:23] [05] UHGit Information: UHGitThe Official UnixHub Git Server
+00:27      UnixHub │  [2013-12-30 07:37:23] ------------------------------------------------------... http://t.co/sUCmRUalux <bit.ly/19xMLsR>
+00:27  SemperVideo │  [2013-12-30 09:31:03] [06] MITM: Schutz für Android: http://t.co/igG9W6k6nr <youtu.be/Yu-z4MLyCQY?a> über @YouTube
+00:27  prolinux_de │  [2013-12-30 09:33:30] [07] Darktable 1.4 spricht Lua und unterstützt Masken #linux http://t.co/jygj69aMTh <pro-linux.de/-0h215087>
+00:27   coldmirror │  [2013-12-30 12:45:43] [08] Neben 2.Staffel Hannibal kommt am 28.Feb auch Bride of Re-Animator uncut/remastered auf Bluray raus?? Das wird der beste Tag meines Lebens!!
+00:27  prolinux_de │  [2013-12-30 13:12:33] [09] Europäische Grüne wollen E-Mails verschlüsseln #linux http://t.co/LlAgbEX5hr <pro-linux.de/-0h215089>
+00:27  SemperVideo │  [2013-12-30 13:44:41] [0a] Firefox 28: Australis ist da http://t.co/SBUIEUh8ji <sempervideo.de/?p=9895>
+00:27  pkgsrc_bugs │  [2013-12-30 13:50:11] [0b] pkg/48485 RAKE_HACK in devel/ruby-rake/Makefile makes the "rake" gem invisible http://t.co/KLnMZNSmmD <gnats.NetBSD.org/48485>
+00:27  SemperVideo │  [2013-12-30 15:47:05] [0c] Ubuntu 13.10: Amazon-Suche abschalten http://t.co/jYYdvU1svq <sempervideo.de/?p=9897>
+00:27  linuxfounda │  [2013-12-30 16:52:45] [0d] How to install and get started with OpenStack via @CarlaSchroder http://t.co/zvlNnN7SMp <bit.ly/12UE2y1> #Linux
+00:27  linuxfounda │  [2013-12-30 18:36:00] [0e] Ready to get started with Linux but not sure how? Watch this free, on-demand video tutorial: http://t.co/Ut3JbhZm4l <bit.ly/1aFbSMJ>
+00:27  linuxfounda │  [2013-12-30 20:56:44] [0f] The Most Popular Linux Stories of 2013 on http://t.co/RvEuHHZqpH <Linux.com>: http://t.co/RNycJf5VKX <bit.ly/1cCPkhC> http://t.co/ZsXGC7Y8W5 <pic.twitter.com/ZsXGC7Y8W5>
+00:27  echtallwiss │  [2013-12-30 21:02:05] [10] RT @GermanLetsPlay: Warum träume ich eigentlich nie von Adolf? :((
+00:27  YouriMouton │  [2013-12-30 22:19:33] [11] Yay my gcc (4.8.2) pkgsrc port works!
+00:27  linuxfounda │  [2013-12-30 22:35:00] [12] Getting started with #Android App Development: How to Create an Options Menu http://t.co/FXhVNG6XLu <bit.ly/1cx736p>
+00:27  YouriMouton │  [2013-12-30 22:51:57] [13] RT @angealbertini: Mach-O 101 v1.0a (bugfixes, thx to @push_pnx) http://t.co/exvAOpY5ea <imgur.com/a/PbN8H#6> http://t.co/clBZyEMGYS <pic.twitter.com/clBZyEMGYS>
+01:01  linuxfounda │  [14] Win Linux gear! Tell us your fave quote from this video and tag w/ #Linux2013: http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> Drawing Jan 3. http://t.co/Sghlzd3ltJ <pic.twitter.com/Sghlzd3ltJ>
+05:02  linuxfounda │  [15] Get a weekly dose of #Linux news straight to your inbox: http://t.co/W7xaqacJ5R <linux.com/newsletter>
+08:26  linuxfounda │  [16] Eben Moglen: In 25 years of doing this work I have never seen us fail to rise to a challenge. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+08:31  SemperVideo │  [17] Vielen Dank und guten Rutsch: http://t.co/CKEPOvdsIM <youtu.be/iESVpF0Kqb0?a> über @YouTube
+10:22      UnixHub │  [18] UHGit Changelog Thread: This will be consistently updated as I make changes to UHGit.
+10:22      UnixHub │  --December 31st, 2013--A... http://t.co/SHboLdZLmJ <bit.ly/19Ex8TD>
+12:02  prolinux_de │  [19] GnuCash 2.6 freigegeben #linux http://t.co/uUlN4EeGVJ <pro-linux.de/-0h21508a>
+12:17  SemperVideo │  [1a] Tor: Exit-Knoten vorbestimmen http://t.co/U05vrtRmXM <sempervideo.de/?p=9899>
+12:30  prolinux_de │  [1b] Siduction 2013.2 mit Systemd veröffentlicht #linux http://t.co/LG3hPu5Jg5 <pro-linux.de/-0h21508b>
+13:08  linuxfounda │  [1c] 2013: A Linux Christmas via ZDNet http://t.co/IaJYIKMVmI <zd.net/1kVtfP1>
+15:12  echtallwiss │  [1d] RT @DerToyPimp: Manche YouTuber feiern sich selber mehr als ihre Zuschauer.
+15:18  echtallwiss │  [1e] Es gibt einen Klub hemdentragender Youtuber? Yeah! :D RT: @jonas1015119: @echtallwissend Der Klub der Hemdtragenden YouTuber feiert dich
+15:28  echtallwiss │  [1f] Allen einen guten Rutsch! Ich habe mich für Silvester mal wieder  Indie Provinz verzogen :) http://t.co/s1IrV56LFZ <instagram.com/p/iluDhQJq9d/>
+15:35  pkgsrc_bugs │  [20] pkg/48486 apache 24 uses libs from gcc, not from gcc48-libs-4.8.2nb1 http://t.co/MG1gxy7xqB <gnats.NetBSD.org/48486>
+16:06  prolinux_de │  [16:01:55] [21] Einen guten Rutsch und ein frohes neues Jahr! #linux http://t.co/0AggW1hHd0 <pro-linux.de/-0h21508c>
+17:33  linuxfounda │  [17:00:12] [22] A look at #Linux kernel developer Steve Rostedt's workspace: http://t.co/tJ7aI0AiWG <bit.ly/1d3r5Wx>
+18:24         join │  denysonique
+20:13  linuxfounda │  [23] [Review] Inforce IFC6410: Quad-Core Snapdragon SBC for $150 http://t.co/11fExI8SdL <bit.ly/1cjJ8dW> #Linux http://t.co/cXh9ghslCV <pic.twitter.com/cXh9ghslCV>
+--- Log closed Di Dez 31 23:01:57 2013
+--- Log opened Mi Jan 01 01:07:06 2014
+01:07         join │  Neuromatic
+01:07 %%        mode │  +t
+01:07        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+01:07 Join to #twitter__Neuromatic_ was synced in 0 secs
+01:07  echtallwiss │  [2013-12-30 21:02:05] [00] RT @GermanLetsPlay: Warum träume ich eigentlich nie von Adolf? :((
+01:07  YouriMouton │  [2013-12-30 22:19:33] [01] Yay my gcc (4.8.2) pkgsrc port works!
+01:07  linuxfounda │  [2013-12-30 22:35:00] [02] Getting started with #Android App Development: How to Create an Options Menu http://t.co/FXhVNG6XLu <bit.ly/1cx736p>
+01:07  YouriMouton │  [2013-12-30 22:51:57] [03] RT @angealbertini: Mach-O 101 v1.0a (bugfixes, thx to @push_pnx) http://t.co/exvAOpY5ea <imgur.com/a/PbN8H#6> http://t.co/clBZyEMGYS <pic.twitter.com/clBZyEMGYS>
+01:07  linuxfounda │  [2013-12-31 01:01:00] [04] Win Linux gear! Tell us your fave quote from this video and tag w/ #Linux2013: http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> Drawing Jan 3. http://t.co/Sghlzd3ltJ <pic.twitter.com/Sghlzd3ltJ>
+01:07  linuxfounda │  [2013-12-31 05:02:00] [05] Get a weekly dose of #Linux news straight to your inbox: http://t.co/W7xaqacJ5R <linux.com/newsletter>
+01:07  linuxfounda │  [2013-12-31 08:26:00] [06] Eben Moglen: In 25 years of doing this work I have never seen us fail to rise to a challenge. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+01:07  SemperVideo │  [2013-12-31 08:31:22] [07] Vielen Dank und guten Rutsch: http://t.co/CKEPOvdsIM <youtu.be/iESVpF0Kqb0?a> über @YouTube
+01:07      UnixHub │  [2013-12-31 10:22:45] [08] UHGit Changelog Thread: This will be consistently updated as I make changes to UHGit.
+01:07      UnixHub │  [2013-12-31 10:22:45] --December 31st, 2013--A... http://t.co/SHboLdZLmJ <bit.ly/19Ex8TD>
+01:07  prolinux_de │  [2013-12-31 12:02:52] [09] GnuCash 2.6 freigegeben #linux http://t.co/uUlN4EeGVJ <pro-linux.de/-0h21508a>
+01:07  SemperVideo │  [2013-12-31 12:17:17] [0a] Tor: Exit-Knoten vorbestimmen http://t.co/U05vrtRmXM <sempervideo.de/?p=9899>
+01:07  prolinux_de │  [2013-12-31 12:30:54] [0b] Siduction 2013.2 mit Systemd veröffentlicht #linux http://t.co/LG3hPu5Jg5 <pro-linux.de/-0h21508b>
+01:07  linuxfounda │  [2013-12-31 13:08:00] [0c] 2013: A Linux Christmas via ZDNet http://t.co/IaJYIKMVmI <zd.net/1kVtfP1>
+01:07  echtallwiss │  [2013-12-31 15:12:48] [0d] RT @DerToyPimp: Manche YouTuber feiern sich selber mehr als ihre Zuschauer.
+01:07  echtallwiss │  [2013-12-31 15:18:20] [0e] Es gibt einen Klub hemdentragender Youtuber? Yeah! :D RT: @jonas1015119: @echtallwissend Der Klub der Hemdtragenden YouTuber feiert dich
+01:07  echtallwiss │  [2013-12-31 15:28:46] [0f] Allen einen guten Rutsch! Ich habe mich für Silvester mal wieder  Indie Provinz verzogen :) http://t.co/s1IrV56LFZ <instagram.com/p/iluDhQJq9d/>
+01:07  pkgsrc_bugs │  [2013-12-31 15:35:15] [10] pkg/48486 apache 24 uses libs from gcc, not from gcc48-libs-4.8.2nb1 http://t.co/MG1gxy7xqB <gnats.NetBSD.org/48486>
+01:07  prolinux_de │  [2013-12-31 16:01:55] [11] Einen guten Rutsch und ein frohes neues Jahr! #linux http://t.co/0AggW1hHd0 <pro-linux.de/-0h21508c>
+01:07  linuxfounda │  [2013-12-31 17:00:12] [12] A look at #Linux kernel developer Steve Rostedt's workspace: http://t.co/tJ7aI0AiWG <bit.ly/1d3r5Wx>
+01:07  linuxfounda │  [2013-12-31 20:13:01] [13] [Review] Inforce IFC6410: Quad-Core Snapdragon SBC for $150 http://t.co/11fExI8SdL <bit.ly/1cjJ8dW> #Linux http://t.co/cXh9ghslCV <pic.twitter.com/cXh9ghslCV>
+01:27  YouriMouton │  [14] RT @tetedulinuxien: Some people like to create crappy Makefiles, I wonder why...
+01:39  linuxfounda │  [15] New 'Real-World' Benchmark Could Shake Up Top500 Supercomputer List http://t.co/DiPbjSUzl4 <bit.ly/1cCN1ew> #Linux
+06:10  linuxfounda │  [16] ZDNet reports 2013 is Linux's most successful showing in a holiday sales season http://t.co/IaJYIKMVmI <zd.net/1kVtfP1>
+12:34   coldmirror │  [17] Mein Silvester... - Tjaaa, ich hab Silvester im Krankenhaus verbracht. Mit Krankenbett, Spritzen und... http://t.co/zxqrckLKFz <tmblr.co/ZO7eQx12vxfs->
+18:36  linuxfounda │  [18] The 2013 Top 7 Best Linux Distributions for You http://t.co/AfxzPJhMz4 <bit.ly/18JbRF0>
+22:29  linuxfounda │  [19] Eben Upton: There's no better time to be working on platforms like Linux. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+--- Day changed Do Jan 02 2014
+01:04  linuxfounda │  [1a] How to Set Password Policy on Linux via http://t.co/hSfFlsIKfj <Xmodulo.com> http://t.co/mAjixWUYDu <bit.ly/1d6z7hh>
+03:48  linuxfounda │  [1b] [Video] E12 How to Set up Simple Samba Security and Add Users: 
+03:48  linuxfounda │  http://t.co/hgW9aMQpf7 <bit.ly/1bUrnlu> #Linux
+10:26      UnixHub │  [1c] Darkthrone's finest member: I like bspwm, 
+10:26      UnixHub │  see you all on #unixhub
+10:26      UnixHub │  Sincerely, 
+10:26      UnixHub │  Fenriz. http://t.co/sWjJnKK9iz <bit.ly/19Kuwk1>
+11:38      freebsd │  [1d] BLOG: FreeBSD 10.0-RC3 Now Available: The third RC build of the 10.0-RELEASE release cycle is now available on... http://t.co/e6OCwyr3jH <bit.ly/1limnZd>
+11:38      freebsd │  [1e] BLOG: PC-BSD 10.0-RC2 Available: The first PC-BSD 10.0-RELEASE image, based upon FreeBSD 10.0-RC2, is now avai... http://t.co/c7w2BYlBVv <bit.ly/1dchMna>
+11:38      freebsd │  [1f] BLOG: Weekly Feature Digest 12/27/13: Just a short update today to let you all know what the low down is!
+11:38      freebsd │  PC-B... http://t.co/xjbDNQnyar <bit.ly/1dchMnb>
+11:38      freebsd │  [20] BLOG: Faces of FreeBSD – Isabell Long: FACES OF FREEBSDEach week we are sharing a story from someone involved ... http://t.co/M2DJDtTPZn <bit.ly/19zcgtN>
+11:38      freebsd │  [21] BLOG: Last Day to Make 2013 Donation to The FreeBSD Foundation: It's hard to believe that 2014 is just around ... http://t.co/C04psITcMw <bit.ly/1d4LtGL>
+13:25  prolinux_de │  [22] Commotion: Software für vermaschte Netze in Version 1.0 freigegeben #linux http://t.co/HhwGFBfBsF <pro-linux.de/-0h21508d>
+14:45      freebsd │  [23] NEWS: FreeBSD 10.0-RC4 Available: The third RC build for the FreeBSD-10.0 release cycle is now available. ISO ... http://t.co/GG0HFQzfp8 <bit.ly/1dcONQe>
+15:35  linuxfounda │  [24] 10 predictions for open source in 2014 via @TechRepublic http://t.co/zACYo6kfpN <tek.io/1dbpDRM> #Linux
+16:04  prolinux_de │  [25] Debatte um das Init-System bei Debian 8 hält an #linux http://t.co/yvGaPl8ZFg <pro-linux.de/-0h21508e>
+17:11  prolinux_de │  [26] X-Server 1.15 mit DRI3 veröffentlicht #linux http://t.co/TrMZm9Fp6a <pro-linux.de/-0h21508f>
+18:29  linuxfounda │  [27] What's your favorite video editor? Here's the top 3 according to @CarlaSchroder http://t.co/py9XsKMxHJ <bit.ly/WWFi0G>
+20:53  linuxfounda │  [28] Linux Wins the Desktop in 2014 and 3 More Bold Predictions from @CarlaSchroder http://t.co/8qBABmz1ag <bit.ly/1cL3I7J> http://t.co/3DQh1SgjK0 <pic.twitter.com/3DQh1SgjK0>
+--- Log closed Do Jan 02 21:17:37 2014
+--- Log opened Do Jan 02 21:29:32 2014
+21:29         join │  Neuromatic
+21:29 %%        mode │  +t
+21:29        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+21:29 Join to #twitter__Neuromatic_ was synced in 0 secs
+21:29  linuxfounda │  [2014-01-01 01:39:00] [00] New 'Real-World' Benchmark Could Shake Up Top500 Supercomputer List http://t.co/DiPbjSUzl4 <bit.ly/1cCN1ew> #Linux
+21:29  linuxfounda │  [2014-01-01 06:10:00] [01] ZDNet reports 2013 is Linux's most successful showing in a holiday sales season http://t.co/IaJYIKMVmI <zd.net/1kVtfP1>
+21:29   coldmirror │  [2014-01-01 12:34:01] [02] Mein Silvester... - Tjaaa, ich hab Silvester im Krankenhaus verbracht. Mit Krankenbett, Spritzen und... http://t.co/zxqrckLKFz <tmblr.co/ZO7eQx12vxfs->
+21:29  linuxfounda │  [2014-01-01 18:36:00] [03] The 2013 Top 7 Best Linux Distributions for You http://t.co/AfxzPJhMz4 <bit.ly/18JbRF0>
+21:29  linuxfounda │  [2014-01-01 22:29:00] [04] Eben Upton: There's no better time to be working on platforms like Linux. http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> #Linux2013
+21:29  linuxfounda │  [01:04:00] [05] How to Set Password Policy on Linux via http://t.co/hSfFlsIKfj <Xmodulo.com> http://t.co/mAjixWUYDu <bit.ly/1d6z7hh>
+21:29  linuxfounda │  [03:48:00] [06] [Video] E12 How to Set up Simple Samba Security and Add Users: 
+21:29  linuxfounda │  [03:48:00] http://t.co/hgW9aMQpf7 <bit.ly/1bUrnlu> #Linux
+21:29      UnixHub │  [10:26:38] [07] Darkthrone's finest member: I like bspwm, 
+21:29      UnixHub │  [10:26:38] see you all on #unixhub
+21:29      UnixHub │  [10:26:38] Sincerely, 
+21:29      UnixHub │  [10:26:38] Fenriz. http://t.co/sWjJnKK9iz <bit.ly/19Kuwk1>
+21:29      freebsd │  [11:38:02] [08] BLOG: Last Day to Make 2013 Donation to The FreeBSD Foundation: It's hard to believe that 2014 is just around ... http://t.co/C04psITcMw <bit.ly/1d4LtGL>
+21:29      freebsd │  [11:38:02] [09] BLOG: Faces of FreeBSD – Isabell Long: FACES OF FREEBSDEach week we are sharing a story from someone involved ... http://t.co/M2DJDtTPZn <bit.ly/19zcgtN>
+21:29      freebsd │  [11:38:02] [0a] BLOG: Weekly Feature Digest 12/27/13: Just a short update today to let you all know what the low down is!
+21:29      freebsd │  [11:38:02] PC-B... http://t.co/xjbDNQnyar <bit.ly/1dchMnb>
+21:29      freebsd │  [11:38:02] [0b] BLOG: PC-BSD 10.0-RC2 Available: The first PC-BSD 10.0-RELEASE image, based upon FreeBSD 10.0-RC2, is now avai... http://t.co/c7w2BYlBVv <bit.ly/1dchMna>
+21:29      freebsd │  [11:38:02] [0c] BLOG: FreeBSD 10.0-RC3 Now Available: The third RC build of the 10.0-RELEASE release cycle is now available on... http://t.co/e6OCwyr3jH <bit.ly/1limnZd>
+21:29  prolinux_de │  [13:25:34] [0d] Commotion: Software für vermaschte Netze in Version 1.0 freigegeben #linux http://t.co/HhwGFBfBsF <pro-linux.de/-0h21508d>
+21:29      freebsd │  [14:45:43] [0e] NEWS: FreeBSD 10.0-RC4 Available: The third RC build for the FreeBSD-10.0 release cycle is now available. ISO ... http://t.co/GG0HFQzfp8 <bit.ly/1dcONQe>
+21:29  linuxfounda │  [15:35:00] [0f] 10 predictions for open source in 2014 via @TechRepublic http://t.co/zACYo6kfpN <tek.io/1dbpDRM> #Linux
+21:29  prolinux_de │  [16:04:36] [10] Debatte um das Init-System bei Debian 8 hält an #linux http://t.co/yvGaPl8ZFg <pro-linux.de/-0h21508e>
+21:29  prolinux_de │  [17:11:37] [11] X-Server 1.15 mit DRI3 veröffentlicht #linux http://t.co/TrMZm9Fp6a <pro-linux.de/-0h21508f>
+21:29  linuxfounda │  [18:29:00] [12] What's your favorite video editor? Here's the top 3 according to @CarlaSchroder http://t.co/py9XsKMxHJ <bit.ly/WWFi0G>
+21:29  linuxfounda │  [20:53:00] [13] Linux Wins the Desktop in 2014 and 3 More Bold Predictions from @CarlaSchroder http://t.co/8qBABmz1ag <bit.ly/1cL3I7J> http://t.co/3DQh1SgjK0 <pic.twitter.com/3DQh1SgjK0>
+21:52   coldmirror │  [14] RT @Einsfestival: Deepster Shit für Intelligenzallergiker! @coldmirror jetzt online und im TV http://t.co/z8mHlTBQiz <einsfestival.de/mediathek/play…> #Japanoschlampen
+23:02  linuxfounda │  [15] Win Linux gear! Tell us your fave quote from this video and tag w/ #Linux2013: http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> Drawing Jan 3.
+--- Day changed Fr Jan 03 2014
+02:07  linuxfounda │  [16] eWeek: Linux Makes Open Source a Software Industry Force http://t.co/ddike2kn2m <bit.ly/1ddpkWL> #linux
+05:46  linuxfounda │  [17] The best Linux apps and games of 2013 via ITWorld: http://t.co/4Yhc6ndgUi <bit.ly/1dbqNwC>
+06:30  pkgsrc_bugs │  [18] pkg/48493 devel/gobject-introspection on DragonFly 3.7-DEVELOPMENT libintl.h: No such file or directory http://t.co/wh5LcxkY0e <gnats.NetBSD.org/48493>
+11:39  prolinux_de │  [19] Fedora ruft zum Test von DNF auf #linux http://t.co/Un390ZkQF9 <pro-linux.de/-0h215090>
+11:45  echtallwiss │  [1a] RT @LeKWiNK: Ich mag den Bart von @echtallwissend.
+11:45  echtallwiss │  So, lobend erwähnt. Jetzt gibt's wieder Dresche! #Tweef!
+11:46   coldmirror │  [1b] Das Kartenspiel "Gloom" ist seit 2004 draußen, herrlich düster und es gibt KEINE deutsche Version davon. Will das kein Spielverlag?! :C
+11:48  echtallwiss │  [1c] Kurz geantwortet: http://t.co/hkmo0ZIUw8 <pic.twitter.com/hkmo0ZIUw8>
+12:49  echtallwiss │  [1d] Leute, die Amazon-Rezensionen schreiben, als würden sie im Feuilleton der FAZ veröffentlicht...
+14:29  echtallwiss │  [1e] RT @KeomaNullZwei: Finde #DoctorWho nun nicht mehr gut, weil das zu viele andere gut finden. Kann ich nicht angeben. Ab sofort mag ich Filme mit Ilja Richter.
+15:17   coldmirror │  [1f] Ach ich spiel malwieder ein bisschen Skyrim, tütütü, "Sprich mit Borkul die Bestie", okay--HEILIGE HUBBAHUBBAFSFFSGG inhttp://bit.ly/1gw8zdE
+15:18   coldmirror │  [20] Ach ich spiel malwieder ein bisschen Skyrim, tütütü, "Sprich mit Borkul die Bestie", okay--HEILIGE HUBBAHUBBAFSFFSGG http://t.co/Pqp9pH0wp4 <bit.ly/1gw8zdE>
+--- Log closed Fr Jan 03 17:23:37 2014
+--- Log opened Fr Jan 03 17:26:44 2014
+17:26         join │  Neuromatic
+17:26 %%        mode │  +t
+17:26        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+17:26 Join to #twitter__Neuromatic_ was synced in 0 secs
+17:26  prolinux_de │  [2014-01-02 13:25:34] [00] Commotion: Software für vermaschte Netze in Version 1.0 freigegeben #linux http://t.co/HhwGFBfBsF <pro-linux.de/-0h21508d>
+17:26      freebsd │  [2014-01-02 14:45:43] [01] NEWS: FreeBSD 10.0-RC4 Available: The third RC build for the FreeBSD-10.0 release cycle is now available. ISO ... http://t.co/GG0HFQzfp8 <bit.ly/1dcONQe>
+17:26  linuxfounda │  [2014-01-02 15:35:00] [02] 10 predictions for open source in 2014 via @TechRepublic http://t.co/zACYo6kfpN <tek.io/1dbpDRM> #Linux
+17:26  prolinux_de │  [2014-01-02 16:04:36] [03] Debatte um das Init-System bei Debian 8 hält an #linux http://t.co/yvGaPl8ZFg <pro-linux.de/-0h21508e>
+17:26  prolinux_de │  [2014-01-02 17:11:37] [04] X-Server 1.15 mit DRI3 veröffentlicht #linux http://t.co/TrMZm9Fp6a <pro-linux.de/-0h21508f>
+17:26  linuxfounda │  [2014-01-02 18:29:00] [05] What's your favorite video editor? Here's the top 3 according to @CarlaSchroder http://t.co/py9XsKMxHJ <bit.ly/WWFi0G>
+17:26  linuxfounda │  [2014-01-02 20:53:00] [06] Linux Wins the Desktop in 2014 and 3 More Bold Predictions from @CarlaSchroder http://t.co/8qBABmz1ag <bit.ly/1cL3I7J> http://t.co/3DQh1SgjK0 <pic.twitter.com/3DQh1SgjK0>
+17:26   coldmirror │  [2014-01-02 21:52:51] [07] RT @Einsfestival: Deepster Shit für Intelligenzallergiker! @coldmirror jetzt online und im TV http://t.co/z8mHlTBQiz <einsfestival.de/mediathek/play…> #Japanoschlampen
+17:26  linuxfounda │  [2014-01-02 23:02:00] [08] Win Linux gear! Tell us your fave quote from this video and tag w/ #Linux2013: http://t.co/R19c5xOimr <bit.ly/1bXQ3Kb> Drawing Jan 3.
+17:26  linuxfounda │  [02:07:00] [09] eWeek: Linux Makes Open Source a Software Industry Force http://t.co/ddike2kn2m <bit.ly/1ddpkWL> #linux
+17:26  linuxfounda │  [05:46:00] [0a] The best Linux apps and games of 2013 via ITWorld: http://t.co/4Yhc6ndgUi <bit.ly/1dbqNwC>
+17:26  pkgsrc_bugs │  [06:30:15] [0b] pkg/48493 devel/gobject-introspection on DragonFly 3.7-DEVELOPMENT libintl.h: No such file or directory http://t.co/wh5LcxkY0e <gnats.NetBSD.org/48493>
+17:26  prolinux_de │  [11:39:53] [0c] Fedora ruft zum Test von DNF auf #linux http://t.co/Un390ZkQF9 <pro-linux.de/-0h215090>
+17:26  echtallwiss │  [11:45:26] [0d] RT @LeKWiNK: Ich mag den Bart von @echtallwissend.
+17:26  echtallwiss │  [11:45:26] So, lobend erwähnt. Jetzt gibt's wieder Dresche! #Tweef!
+17:26   coldmirror │  [11:46:33] [0e] Das Kartenspiel "Gloom" ist seit 2004 draußen, herrlich düster und es gibt KEINE deutsche Version davon. Will das kein Spielverlag?! :C
+17:26  echtallwiss │  [11:48:14] [0f] Kurz geantwortet: http://t.co/hkmo0ZIUw8 <pic.twitter.com/hkmo0ZIUw8>
+17:26  echtallwiss │  [12:49:41] [10] Leute, die Amazon-Rezensionen schreiben, als würden sie im Feuilleton der FAZ veröffentlicht...
+17:26  echtallwiss │  [14:29:17] [11] RT @KeomaNullZwei: Finde #DoctorWho nun nicht mehr gut, weil das zu viele andere gut finden. Kann ich nicht angeben. Ab sofort mag ich Filme mit Ilja Richter.
+17:26   coldmirror │  [15:18:08] [12] Ach ich spiel malwieder ein bisschen Skyrim, tütütü, "Sprich mit Borkul die Bestie", okay--HEILIGE HUBBAHUBBAFSFFSGG http://t.co/Pqp9pH0wp4 <bit.ly/1gw8zdE>
+17:33  linuxfounda │  [13] Seven Embedded Linux Segments to Watch in 2014 http://t.co/nfYOT8STPU <bit.ly/1dgN5x4> #embeddedlinux
+20:30  linuxfounda │  [14] 3 Ways Open Source Enterprise Computing Accelerated in 2013 http://t.co/DBH2JsAj3M <bit.ly/1cNRdbk> #opensource
+22:04  echtallwiss │  [15] Yollo ist das neue Yolo!
+22:08  echtallwiss │  [16] Und Yoda ist der neue Yoga!!
+22:32  YouriMouton │  [17] RT @climagic: display -size 300x300 xc:'#D288AC' # Display a square of the hex value color D288AC. Vim integration: http://t.co/oTgBEMThGg <bit.ly/1ev2WdI>
+23:46  linuxfounda │  [18] [Video] How to use simple layer blending in GIMP to enhance your photos: http://t.co/l107MO4Hi9 <bit.ly/1dgZwsR> #linux
+--- Day changed Sa Jan 04 2014
+02:38  linuxfounda │  [19] Ring in the new http://t.co/cPsZgvVJ9J <bit.ly/1dhhY4t> #SPDX http://t.co/T0PkesdsHx <pic.twitter.com/T0PkesdsHx>
+03:41  linuxfounda │  [1a] .@_lancer_ Congrats, Lance! You're one of the winners of the #Linux2013 contest. DM us w/ your email for details, and thanks for playing!
+03:45  linuxfounda │  [1b] .@pieroland_net Congrats! You're a winner of the #Linux2013 contest; thanks for playing! DM us with your email for details.
+15:02  linuxfounda │  [1c] 2013 was another great year for Linux. Take a look at this year's top 10 stories on http://t.co/RvEuHHZqpH <Linux.com>: http://t.co/RNycJf5VKX <bit.ly/1cCPkhC>
+--- Log closed Sa Jan 04 16:07:57 2014
+--- Log opened Sa Jan 04 16:12:50 2014
+16:12         join │  Neuromatic
+16:12 %%        mode │  +t
+16:12        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+16:12 Join to #twitter__Neuromatic_ was synced in 0 secs
+16:12  pkgsrc_bugs │  [2014-01-03 06:30:15] [00] pkg/48493 devel/gobject-introspection on DragonFly 3.7-DEVELOPMENT libintl.h: No such file or directory http://t.co/wh5LcxkY0e <gnats.NetBSD.org/48493>
+16:12  prolinux_de │  [2014-01-03 11:39:53] [01] Fedora ruft zum Test von DNF auf #linux http://t.co/Un390ZkQF9 <pro-linux.de/-0h215090>
+16:12  echtallwiss │  [2014-01-03 11:45:26] [02] RT @LeKWiNK: Ich mag den Bart von @echtallwissend.
+16:12  echtallwiss │  [2014-01-03 11:45:26] So, lobend erwähnt. Jetzt gibt's wieder Dresche! #Tweef!
+16:12   coldmirror │  [2014-01-03 11:46:33] [03] Das Kartenspiel "Gloom" ist seit 2004 draußen, herrlich düster und es gibt KEINE deutsche Version davon. Will das kein Spielverlag?! :C
+16:12  echtallwiss │  [2014-01-03 11:48:14] [04] Kurz geantwortet: http://t.co/hkmo0ZIUw8 <pic.twitter.com/hkmo0ZIUw8>
+16:12  echtallwiss │  [2014-01-03 12:49:41] [05] Leute, die Amazon-Rezensionen schreiben, als würden sie im Feuilleton der FAZ veröffentlicht...
+16:12  echtallwiss │  [2014-01-03 14:29:17] [06] RT @KeomaNullZwei: Finde #DoctorWho nun nicht mehr gut, weil das zu viele andere gut finden. Kann ich nicht angeben. Ab sofort mag ich Filme mit Ilja Richter.
+16:12   coldmirror │  [2014-01-03 15:18:08] [07] Ach ich spiel malwieder ein bisschen Skyrim, tütütü, "Sprich mit Borkul die Bestie", okay--HEILIGE HUBBAHUBBAFSFFSGG http://t.co/Pqp9pH0wp4 <bit.ly/1gw8zdE>
+16:12  linuxfounda │  [2014-01-03 17:33:00] [08] Seven Embedded Linux Segments to Watch in 2014 http://t.co/nfYOT8STPU <bit.ly/1dgN5x4> #embeddedlinux
+16:12  linuxfounda │  [2014-01-03 20:30:03] [09] 3 Ways Open Source Enterprise Computing Accelerated in 2013 http://t.co/DBH2JsAj3M <bit.ly/1cNRdbk> #opensource
+16:12  echtallwiss │  [2014-01-03 22:04:58] [0a] Yollo ist das neue Yolo!
+16:12  echtallwiss │  [2014-01-03 22:08:03] [0b] Und Yoda ist der neue Yoga!!
+16:12  YouriMouton │  [2014-01-03 22:32:51] [0c] RT @climagic: display -size 300x300 xc:'#D288AC' # Display a square of the hex value color D288AC. Vim integration: http://t.co/oTgBEMThGg <bit.ly/1ev2WdI>
+16:12  linuxfounda │  [2014-01-03 23:46:00] [0d] [Video] How to use simple layer blending in GIMP to enhance your photos: http://t.co/l107MO4Hi9 <bit.ly/1dgZwsR> #linux
+16:12  linuxfounda │  [02:38:00] [0e] Ring in the new http://t.co/cPsZgvVJ9J <bit.ly/1dhhY4t> #SPDX http://t.co/T0PkesdsHx <pic.twitter.com/T0PkesdsHx>
+16:12  linuxfounda │  [03:41:35] [0f] .@_lancer_ Congrats, Lance! You're one of the winners of the #Linux2013 contest. DM us w/ your email for details, and thanks for playing!
+16:12  linuxfounda │  [03:45:48] [10] .@pieroland_net Congrats! You're a winner of the #Linux2013 contest; thanks for playing! DM us with your email for details.
+16:12  linuxfounda │  [15:02:00] [11] 2013 was another great year for Linux. Take a look at this year's top 10 stories on http://t.co/RvEuHHZqpH <Linux.com>: http://t.co/RNycJf5VKX <bit.ly/1cCPkhC>
+16:12  echtallwiss │  [16:10:35] [12] "Warum lese ich mir das hier alles durch?" - Ich, jeden Tag auf Twitter.
+18:28  linuxfounda │  [13] Linux Kernel Development: How Fast it is Going, Who is Doing It, What They are Doing and Who is Sponsoring It http://t.co/sKn9VWpGTK <bit.ly/180KqbD>
+22:23  linuxfounda │  [14] A look into Linux kernel developer Shuah Khan's workspace: http://t.co/1e4E8deYy6 <bit.ly/1f1L2UA> What does your workspace look like?
+--- Day changed So Jan 05 2014
+02:35  pkgsrc_bugs │  [15] pkg/48500 lang/perl5  cause an unaligned access exception. http://t.co/t3rM8mxbOk <gnats.NetBSD.org/48500>
+04:03  linuxfounda │  [16] Is 2014 the year that Linux starts to win the desktop, the final Linux frontier? @CarlaSchroder weighs in: http://t.co/8qBABmz1ag <bit.ly/1cL3I7J>
+09:31  SemperVideo │  [17] Lücke in Routern: http://t.co/cUVXjgoU1C <youtu.be/NUg7pTf9hU0?a> über @YouTube
+--- Log closed So Jan 05 12:51:58 2014
+--- Log opened Mo Jan 06 19:30:26 2014
+19:30         join │  Neuromatic
+19:30 %%        mode │  +t
+19:30        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+19:30 Join to #twitter__Neuromatic_ was synced in 0 secs
+19:30  linuxfounda │  [2014-01-05 15:45:01] [00] With #CES2014 next week, check out 7 hot areas for embedded Linux in 2014:
+19:30  linuxfounda │  [2014-01-05 15:45:01] http://t.co/onP2xCJCGs <bit.ly/1f1Jo57> #embeddedlinux http://t.co/geqSk7Cr4p <pic.twitter.com/geqSk7Cr4p>
+19:30  linuxfounda │  [2014-01-05 18:19:00] [01] ZDNet: Top 10 Android phones (January 2014 edition) http://t.co/2izxqSsKAA <zd.net/1cNAMvP>
+19:30      freebsd │  [2014-01-05 19:08:02] [02] BLOG: The X Test Suite: In the process of hacking on glamor, I got once again to the point of wondering how to... http://t.co/DY98WuKztO <bit.ly/1dnsEyI>
+19:30      freebsd │  [2014-01-05 19:08:02] [03] BLOG: PC-BSD Weekly Feature Digest: 2013 is gone, and a new PC-BSD image is here. Â We are now in 10.0 Release... http://t.co/3WEJatr4HL <bit.ly/1dnsGXb>
+19:30      freebsd │  [2014-01-05 19:08:02] [04] BLOG: FreeBSD 10.0-RC4 Now Available: The fourth RC build of the 10.0-RELEASE release cycle is now available o... http://t.co/fk16Ysnwn8 <bit.ly/1dcNBfx>
+19:30  echtallwiss │  [2014-01-05 19:17:39] [05] RT @emelysview: @echtallwissend grade erst dein Youtubechannel entdeckt und alle deine Videos geschaut :) freue mich schon auf deine nächsten Videos!
+19:30  pkgsrc_bugs │  [2014-01-05 19:58:58] [06] pkg/48483 finance/kmymoney2 update for sqlite3 http://t.co/Ll7yLDNUeu <gnats.NetBSD.org/48483>
+19:30  pkgsrc_bugs │  [2014-01-05 20:00:56] [07] pkg/48487 devel/boost-libs build fails on netbsd-5/i386 http://t.co/kYlk1oweYY <gnats.NetBSD.org/48487>
+19:30  linuxfounda │  [2014-01-05 22:31:00] [08] Is anyone using ODROID-U2? http://t.co/GnK0pCrK1m <bit.ly/19MxlUz> Check out this review if not, and you're thinking of running Linux on #ARM.
+19:30  YouriMouton │  [2014-01-05 22:40:37] [09] RT @iMilnb: Vouloir changer de wallpaper, aller sur un site spécialisé, cliquer sur "popular", ne voir que des caisses et des joueurs de foot #désespoir
+19:30  linuxfounda │  [00:44:00] [0a] 25+ examples of #Linux find command http://t.co/nCcDaD7LrG <bit.ly/1apKrXp>
+19:30  linuxfounda │  [04:10:00] [0b] Open computing accelerated sharply in 2013. But why? Take a look at 3 notable game changers: http://t.co/DBH2JsAj3M <bit.ly/1cNRdbk> http://t.co/f50vPHEI1J <pic.twitter.com/f50vPHEI1J>
+19:30  prolinux_de │  [08:25:50] [0c] freiesMagazin 01/2014 erschienen #linux http://t.co/5Y2QTCTiTD <pro-linux.de/-0h215091>
+19:30  SemperVideo │  [09:31:44] [0d] Lets Play: Hacken für Arme: http://t.co/lGoay7XR18 <youtu.be/UCVnamAETe8?a> über @YouTube
+19:30  prolinux_de │  [11:14:52] [0e] Android soll vermehrt in Automobilen Fuß fassen #linux http://t.co/6Dr2hQ67vU <pro-linux.de/-0h215092>
+19:30  linuxfounda │  [12:39:00] [0f] How to Integrate Android Into KDE Linux Desktop: http://t.co/kcBTa8PDhw <bit.ly/JPlL10>
+19:30  SemperVideo │  [13:53:30] [10] Raspberry Pi: eMail Server installieren http://t.co/nEFoudDa7Q <sempervideo.de/?p=9908>
+19:30  prolinux_de │  [14:25:55] [11] Raymond: Emacs soll Git als Versionsverwaltung nutzen #linux http://t.co/um8JNmxFdF <pro-linux.de/-0h215093>
+19:30  echtallwiss │  [15:20:26] [12] Grundkurs Sportwaren richtig einsortieren. http://t.co/cqWFjwCVyZ <instagram.com/p/i1J3wipq6A/>
+19:30  linuxfounda │  [17:27:00] [13] Check out this handy guide of helpful Linux resources: http://t.co/7IB8DbjJGe <bit.ly/1f4VA5l>
+20:17  echtallwiss │  [14] RT @realjohngreen: Grace is back, daily! But she's not DailyGrace. That's a corporate entity now, not a human. THE HUMAN LIVES HERE: https://t.co/oXqnua9wwQ <youtube.com/watch?v=d8sbBr…>
+21:45  linuxfounda │  [15] How to Use Bcache to Soup Up Your SATA Drives  http://t.co/bUb7h0NM1N <bit.ly/JZ0vWN> via @jlwallen http://t.co/nyJRfHbNeN <pic.twitter.com/nyJRfHbNeN>
+--- Day changed Di Jan 07 2014
+01:38  linuxfounda │  [16] Don't forget to check out the http://t.co/RvEuHHZqpH <Linux.com> community blogs for technical insights, reviews and how-to's http://t.co/YJ2Zik8fv1 <bit.ly/1cjxwHX>
+08:30  linuxfounda │  [17] Raspberry Pi: Hands On with Arch Linux and Pidora http://t.co/7CH3llcxAW <zd.net/JTw04z> via ZDNet
+09:06  prolinux_de │  [18] Firefox OS auf weiteren Geräten #linux http://t.co/smZu4NVT3c <pro-linux.de/-0h215095>
+09:31  SemperVideo │  [19] Google: Bundesliga im Kalender: http://t.co/sjAnefGM59 <youtu.be/pbrNZ33ypYE?a> über @YouTube
+10:19  prolinux_de │  [1a] Ist Meizu der erste Hardware-Partner für Ubuntu Phone? #linux http://t.co/iwvtlf2ib5 <pro-linux.de/-0h215094>
+10:39   coldmirror │  [1b] Süßi hat nie Skyrim gespielt, aber guckt mir jetzt immer niedlich beim Spielen zu. <3 "Iss die Biene!"
+12:18  prolinux_de │  [1c] Samsung präsentiert vier neue Android-Tablets #linux http://t.co/1NolpYw3ek <pro-linux.de/-0h215097>
+12:40  linuxfounda │  [1d] CFP now open for @AndroidDevDays #Android developer conference held May 16-17 in Turkey http://t.co/l74co5GPVf <bit.ly/JZknsR> Deadline: April 1
+13:05  prolinux_de │  [1e] LLVM Version 3.4 freigegeben #linux http://t.co/Nyc9hCctpS <pro-linux.de/-0h215096>
+13:34  SemperVideo │  [1f] TLS 1.0 Verbindungen entschlüsseln http://t.co/7tnbkB9Azc <sempervideo.de/?p=9910>
+14:00  prolinux_de │  [20] Unterstützung für Ubuntu 13.04 läuft aus #linux http://t.co/UoH6HDtD4O <pro-linux.de/-0h215098>
+16:40  pkgsrc_bugs │  [21] pkg/48504 devel/binutils does not build http://t.co/oPkH9QWhRe <gnats.NetBSD.org/48504>
+17:42  linuxfounda │  [22] Top 5 Open Source Project Management Tools in 2014 http://t.co/f4xE3aLUJU <red.ht/1faYl53> via @i_robin
+19:38      UnixHub │  [23] New IRC server: We have moved the server to a stronger one with more security. Please re-register your Nicks, ... http://t.co/Vt7qZ0xUS5 <bit.ly/1idWQkv>
+19:50  pkgsrc_bugs │  [24] pkg/48505 The server packages for PostgreSQL in pkgsrc do not install contrib code http://t.co/hQECrWHdlC <gnats.NetBSD.org/48505>
+19:55  linuxfounda │  [25] Open Source: A Disucssion with the Linux Foundation http://t.co/R7V7oocgtW <bit.ly/JZVEEL>
+21:30  linuxfounda │  [26] KDE Frameworks 5: A Big Deal for Free Software http://t.co/ppGc4TefAY <bit.ly/1fbdbII> http://t.co/PDkNZgineO <pic.twitter.com/PDkNZgineO>
+23:15  linuxfounda │  [27] Using rsync to Synchronize a Local and Remote Directory http://t.co/FYlVGRysmX <bit.ly/1fbePdB> #Linux
+23:34  echtallwiss │  [28] In den 90ern habe ich mein Telefon nicht ansatzweise so viel genutzt wie heute, aber ich kannte bestimmt an die 20 Telefonnummern auswendig.
+23:38  echtallwiss │  [29] RT @goattrip: @echtallwissend Och du ärmster... In den 90ern dürfte ich noch gar nicht allein telefonieren. Das is viel schlimmer!
+--- Day changed Mi Jan 08 2014
+01:35  linuxfounda │  [2a] The Three Most Important Open Computing Trends to Watch in 2014 http://t.co/TFSnZ9ceIL <bit.ly/1fbwPnT> via @linux_at_ibm @adamjollans
+02:47      UnixHub │  [2b] Python and XML woes: Hi,
+02:47      UnixHub │  I have been following some python examples on how to parse XML.  I started out on an ... http://t.co/DWe0ambve6 <bit.ly/1decfBJ>
+03:02        nsplit │ "Netsplit" Neuromatic.fritz.box <-> twitter.Neuromatic.fritz.box quits: freebsdsecurity, echtallwissend, freebsd, linuxfoundation, coldmirror, Linux, openbsd, UnixHub, openbsdeurope, archlinux,  (+11 more, use /NETSPLIT to show all of them)
+03:02         root │  Cleaning up channel, bye!
+03:02       kicked │  Neuromatic
+--- Log closed Mi Jan 08 03:02:43 2014
+--- Log opened Mi Jan 08 03:39:00 2014
+03:39         join │  Neuromatic
+03:39 %%        mode │  +t
+03:39        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+03:39 Join to #twitter__Neuromatic_ was synced in 0 secs
+03:39  prolinux_de │  [2014-01-07 09:06:10] [00] Firefox OS auf weiteren Geräten #linux http://t.co/smZu4NVT3c <pro-linux.de/-0h215095>
+03:39  SemperVideo │  [2014-01-07 09:31:18] [01] Google: Bundesliga im Kalender: http://t.co/sjAnefGM59 <youtu.be/pbrNZ33ypYE?a> über @YouTube
+03:39  prolinux_de │  [2014-01-07 10:19:11] [02] Ist Meizu der erste Hardware-Partner für Ubuntu Phone? #linux http://t.co/iwvtlf2ib5 <pro-linux.de/-0h215094>
+03:39   coldmirror │  [2014-01-07 10:39:11] [03] Süßi hat nie Skyrim gespielt, aber guckt mir jetzt immer niedlich beim Spielen zu. <3 "Iss die Biene!"
+03:39  prolinux_de │  [2014-01-07 12:18:13] [04] Samsung präsentiert vier neue Android-Tablets #linux http://t.co/1NolpYw3ek <pro-linux.de/-0h215097>
+03:39  linuxfounda │  [2014-01-07 12:40:00] [05] CFP now open for @AndroidDevDays #Android developer conference held May 16-17 in Turkey http://t.co/l74co5GPVf <bit.ly/JZknsR> Deadline: April 1
+03:39  prolinux_de │  [2014-01-07 13:05:13] [06] LLVM Version 3.4 freigegeben #linux http://t.co/Nyc9hCctpS <pro-linux.de/-0h215096>
+03:39  SemperVideo │  [2014-01-07 13:34:42] [07] TLS 1.0 Verbindungen entschlüsseln http://t.co/7tnbkB9Azc <sempervideo.de/?p=9910>
+03:39  prolinux_de │  [2014-01-07 14:00:14] [08] Unterstützung für Ubuntu 13.04 läuft aus #linux http://t.co/UoH6HDtD4O <pro-linux.de/-0h215098>
+03:39  pkgsrc_bugs │  [2014-01-07 16:40:17] [09] pkg/48504 devel/binutils does not build http://t.co/oPkH9QWhRe <gnats.NetBSD.org/48504>
+03:39  linuxfounda │  [2014-01-07 17:42:52] [0a] Top 5 Open Source Project Management Tools in 2014 http://t.co/f4xE3aLUJU <red.ht/1faYl53> via @i_robin
+03:39      UnixHub │  [2014-01-07 19:38:04] [0b] New IRC server: We have moved the server to a stronger one with more security. Please re-register your Nicks, ... http://t.co/Vt7qZ0xUS5 <bit.ly/1idWQkv>
+03:39  pkgsrc_bugs │  [2014-01-07 19:50:17] [0c] pkg/48505 The server packages for PostgreSQL in pkgsrc do not install contrib code http://t.co/hQECrWHdlC <gnats.NetBSD.org/48505>
+03:39  linuxfounda │  [2014-01-07 19:55:00] [0d] Open Source: A Disucssion with the Linux Foundation http://t.co/R7V7oocgtW <bit.ly/JZVEEL>
+03:39  linuxfounda │  [2014-01-07 21:30:16] [0e] KDE Frameworks 5: A Big Deal for Free Software http://t.co/ppGc4TefAY <bit.ly/1fbdbII> http://t.co/PDkNZgineO <pic.twitter.com/PDkNZgineO>
+03:39  linuxfounda │  [2014-01-07 23:15:01] [0f] Using rsync to Synchronize a Local and Remote Directory http://t.co/FYlVGRysmX <bit.ly/1fbePdB> #Linux
+03:39  echtallwiss │  [2014-01-07 23:34:01] [10] In den 90ern habe ich mein Telefon nicht ansatzweise so viel genutzt wie heute, aber ich kannte bestimmt an die 20 Telefonnummern auswendig.
+03:39  echtallwiss │  [2014-01-07 23:38:52] [11] RT @goattrip: @echtallwissend Och du ärmster... In den 90ern dürfte ich noch gar nicht allein telefonieren. Das is viel schlimmer!
+03:39  linuxfounda │  [01:35:00] [12] The Three Most Important Open Computing Trends to Watch in 2014 http://t.co/TFSnZ9ceIL <bit.ly/1fbwPnT> via @linux_at_ibm @adamjollans
+03:39      UnixHub │  [02:47:22] [13] Python and XML woes: Hi,
+03:39      UnixHub │  [02:47:22] I have been following some python examples on how to parse XML.  I started out on an ... http://t.co/DWe0ambve6 <bit.ly/1decfBJ>
+04:54  linuxfounda │  [14] .@xen_org makes the list: 10 big virtualization and cloud stories from 2013 http://t.co/u9C5Dsr5hv <bit.ly/K2IxCE>
+08:57  prolinux_de │  [15] Technische Vorschau auf KDE Frameworks 5 veröffentlicht #linux http://t.co/ImA2OZtwgP <pro-linux.de/-0h215099>
+09:31  SemperVideo │  [16] Let's Play: Hacken für Arme - Pre-Aufgaben: http://t.co/8DAZaX8VX0 <youtu.be/LSbC625H-F8?a> über @YouTube
+10:05  prolinux_de │  [17] Red Hat und das CentOS-Projekt arbeiten zusammen #linux http://t.co/1pwATQoSLe <pro-linux.de/-0h21509a>
+10:36   coldmirror │  [18] Ein ausgewogenes Frühstück mit abwechslungsreichen Zutaten :3 http://t.co/dREP4edT11 <instagram.com/p/i5y1Gcn_rf/>
+13:54  SemperVideo │  [19] Firefox: Addon bewertet Verschlüsselung http://t.co/WcDN9lB0GL <sempervideo.de/?p=9912>
+14:11  prolinux_de │  [1a] Humble Indie Bundle X gestartet #linux http://t.co/YnhiGWSzSr <pro-linux.de/-0h21509c>
+14:47  prolinux_de │  [1b] Valve stellt Anbieter der ersten Steam-Machines vor #linux http://t.co/6ZrbYIBRHC <pro-linux.de/-0h21509d>
+15:03  prolinux_de │  [1c] Ubuntus Dash erhält BitTorrent-Suchmaschine #linux http://t.co/W6AnugiDME <pro-linux.de/-0h21509b>
+15:15   coldmirror │  [1d] Ouuuh da krieg ich direkt n mini Nerdboner - Alien Isolation https://t.co/8OamkdXJ0e <youtube.com/watch?v=XQFPas…> Ripley <3 Da könnt sich dann auch ne PS4 lohnen!
+15:50  linuxfounda │  [1e] Valve announces over more than a dozen Linux-powered Steam gaming boxes http://t.co/n2w2J289ER <zd.net/1ekhPPu> #CES2014
+16:27  prolinux_de │  [1f] KDE SC 4.11.5 freigegeben #linux http://t.co/zXTofhOCcZ <pro-linux.de/-0h21509e>
+18:54  linuxfounda │  [20] Why KDE Frameworks 5 is a big deal for the free software world: http://t.co/ppGc4TefAY <bit.ly/1fbdbII>
+19:30  echtallwiss │  [21] Endlich wieder DSL. Endlich kann ich wieder ALLE eure Videos schauen. :D
+20:30  linuxfounda │  [22] Amahi's Linux-Based Open Source Home Server Software Goes Mobile http://t.co/9RRuIUAS7z <bit.ly/1fdwIZb> cc @amahi http://t.co/k29JvPQxvO <pic.twitter.com/k29JvPQxvO>
+20:32      UnixHub │  [23] UML Editor/Designer on *nix: UML Editor/Designer on *nix
+20:32      UnixHub │  Hello fellow Unixer,
+20:32      UnixHub │  This thread is about a must have... http://t.co/xBwAF8avE9 <bit.ly/1dwEA14>
+20:39  echtallwiss │  [24] Hier: http://t.co/PV0Hd7vQOy <youtube.com/inbox> RT: @PhoenixBeatz: @echtallwissend Sie wissen doch alles! Wo ist mein YouTube Posteingang!?
+20:50       netbsd │  [25] NetBSD Security Advisory 2014-001:
+20:50       netbsd │   
+20:50       netbsd │  Stack buffer overflow in libXfont
+20:50       netbsd │   
+20:50       netbsd │  See http://t.co/HGxOpnoS2y <ftp.netbsd.org/pub/NetBSD/sec…> for details.
+20:52       netbsd │  [26] NetBSD Security Advisory 2014-002:
+20:52       netbsd │   
+20:52       netbsd │  ntpd used as DDoS amplifier
+20:52       netbsd │   
+20:52       netbsd │  See http://t.co/rB8Q2ALow9 <ftp.netbsd.org/pub/NetBSD/sec…> for details.
+21:22  echtallwiss │  [27] Haha :D RT: @sozial_gestoert: .@echtallwissend Damit du nicht ständig verwechselt wirst. http://t.co/KAWZqLPB0v <pic.twitter.com/KAWZqLPB0v>
+21:24        nsplit │ "Netsplit" Neuromatic.fritz.box <-> twitter.Neuromatic.fritz.box quits: freebsdsecurity, echtallwissend, freebsd, linuxfoundation, coldmirror, Linux, openbsd, UnixHub, openbsdeurope, archlinux,  (+11 more, use /NETSPLIT to show all of them)
+21:24         root │  Cleaning up channel, bye!
+21:24       kicked │  Neuromatic
+--- Log closed Mi Jan 08 21:24:09 2014
+--- Log opened Mi Jan 08 21:24:16 2014
+21:24         join │  Neuromatic
+21:24 %%        mode │  +t
+21:24        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+21:24 Join to #twitter__Neuromatic_ was synced in 0 secs
+21:24  linuxfounda │  [04:54:00] [00] .@xen_org makes the list: 10 big virtualization and cloud stories from 2013 http://t.co/u9C5Dsr5hv <bit.ly/K2IxCE>
+21:24  prolinux_de │  [08:57:30] [01] Technische Vorschau auf KDE Frameworks 5 veröffentlicht #linux http://t.co/ImA2OZtwgP <pro-linux.de/-0h215099>
+21:24  SemperVideo │  [09:31:25] [02] Let's Play: Hacken für Arme - Pre-Aufgaben: http://t.co/8DAZaX8VX0 <youtu.be/LSbC625H-F8?a> über @YouTube
+21:24  prolinux_de │  [10:05:31] [03] Red Hat und das CentOS-Projekt arbeiten zusammen #linux http://t.co/1pwATQoSLe <pro-linux.de/-0h21509a>
+21:24   coldmirror │  [10:36:12] [04] Ein ausgewogenes Frühstück mit abwechslungsreichen Zutaten :3 http://t.co/dREP4edT11 <instagram.com/p/i5y1Gcn_rf/>
+21:24  SemperVideo │  [13:54:07] [05] Firefox: Addon bewertet Verschlüsselung http://t.co/WcDN9lB0GL <sempervideo.de/?p=9912>
+21:24  prolinux_de │  [14:11:34] [06] Humble Indie Bundle X gestartet #linux http://t.co/YnhiGWSzSr <pro-linux.de/-0h21509c>
+21:24  prolinux_de │  [14:47:35] [07] Valve stellt Anbieter der ersten Steam-Machines vor #linux http://t.co/6ZrbYIBRHC <pro-linux.de/-0h21509d>
+21:24  prolinux_de │  [15:03:35] [08] Ubuntus Dash erhält BitTorrent-Suchmaschine #linux http://t.co/W6AnugiDME <pro-linux.de/-0h21509b>
+21:24   coldmirror │  [15:15:53] [09] Ouuuh da krieg ich direkt n mini Nerdboner - Alien Isolation https://t.co/8OamkdXJ0e <youtube.com/watch?v=XQFPas…> Ripley <3 Da könnt sich dann auch ne PS4 lohnen!
+21:24  linuxfounda │  [15:50:00] [0a] Valve announces over more than a dozen Linux-powered Steam gaming boxes http://t.co/n2w2J289ER <zd.net/1ekhPPu> #CES2014
+21:24  prolinux_de │  [16:27:36] [0b] KDE SC 4.11.5 freigegeben #linux http://t.co/zXTofhOCcZ <pro-linux.de/-0h21509e>
+21:24  linuxfounda │  [18:54:58] [0c] Why KDE Frameworks 5 is a big deal for the free software world: http://t.co/ppGc4TefAY <bit.ly/1fbdbII>
+21:24  echtallwiss │  [19:30:44] [0d] Endlich wieder DSL. Endlich kann ich wieder ALLE eure Videos schauen. :D
+21:24  linuxfounda │  [20:30:05] [0e] Amahi's Linux-Based Open Source Home Server Software Goes Mobile http://t.co/9RRuIUAS7z <bit.ly/1fdwIZb> cc @amahi http://t.co/k29JvPQxvO <pic.twitter.com/k29JvPQxvO>
+21:24      UnixHub │  [20:32:28] [0f] UML Editor/Designer on *nix: UML Editor/Designer on *nix
+21:24      UnixHub │  [20:32:28] Hello fellow Unixer,
+21:24      UnixHub │  [20:32:28] This thread is about a must have... http://t.co/xBwAF8avE9 <bit.ly/1dwEA14>
+21:24  echtallwiss │  [20:39:24] [10] Hier: http://t.co/PV0Hd7vQOy <youtube.com/inbox> RT: @PhoenixBeatz: @echtallwissend Sie wissen doch alles! Wo ist mein YouTube Posteingang!?
+21:24       netbsd │  [20:50:22] [11] NetBSD Security Advisory 2014-001:
+21:24       netbsd │  [20:50:22] 
+21:24       netbsd │  [20:50:22] Stack buffer overflow in libXfont
+21:24       netbsd │  [20:50:22] 
+21:24       netbsd │  [20:50:22] See http://t.co/HGxOpnoS2y <ftp.netbsd.org/pub/NetBSD/sec…> for details.
+21:24       netbsd │  [20:52:03] [12] NetBSD Security Advisory 2014-002:
+21:24       netbsd │  [20:52:03] 
+21:24       netbsd │  [20:52:03] ntpd used as DDoS amplifier
+21:24       netbsd │  [20:52:03] 
+21:24       netbsd │  [20:52:03] See http://t.co/rB8Q2ALow9 <ftp.netbsd.org/pub/NetBSD/sec…> for details.
+21:24  echtallwiss │  [21:22:31] [13] Haha :D RT: @sozial_gestoert: .@echtallwissend Damit du nicht ständig verwechselt wirst. http://t.co/KAWZqLPB0v <pic.twitter.com/KAWZqLPB0v>
+22:25  linuxfounda │  [14] Linux Migration Guide: Finding the Right Resources http://t.co/ZAv2XFtVkv <bit.ly/1f4VA5l>
+23:09        nsplit │ "Netsplit" Neuromatic.fritz.box <-> twitter.Neuromatic.fritz.box quits: freebsdsecurity, echtallwissend, freebsd, linuxfoundation, coldmirror, Linux, openbsd, UnixHub, openbsdeurope, archlinux,  (+11 more, use /NETSPLIT to show all of them)
+23:09         root │  Cleaning up channel, bye!
+23:09       kicked │  Neuromatic
+--- Log closed Mi Jan 08 23:09:59 2014
+--- Log opened Mi Jan 08 23:10:05 2014
+23:10         join │  Neuromatic
+23:10 %%        mode │  +t
+23:10        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+23:10 Join to #twitter__Neuromatic_ was synced in 0 secs
+23:10  prolinux_de │  [08:57:30] [00] Technische Vorschau auf KDE Frameworks 5 veröffentlicht #linux http://t.co/ImA2OZtwgP <pro-linux.de/-0h215099>
+23:10  SemperVideo │  [09:31:25] [01] Let's Play: Hacken für Arme - Pre-Aufgaben: http://t.co/8DAZaX8VX0 <youtu.be/LSbC625H-F8?a> über @YouTube
+23:10  prolinux_de │  [10:05:31] [02] Red Hat und das CentOS-Projekt arbeiten zusammen #linux http://t.co/1pwATQoSLe <pro-linux.de/-0h21509a>
+23:10   coldmirror │  [10:36:12] [03] Ein ausgewogenes Frühstück mit abwechslungsreichen Zutaten :3 http://t.co/dREP4edT11 <instagram.com/p/i5y1Gcn_rf/>
+23:10  SemperVideo │  [13:54:07] [04] Firefox: Addon bewertet Verschlüsselung http://t.co/WcDN9lB0GL <sempervideo.de/?p=9912>
+23:10  prolinux_de │  [14:11:34] [05] Humble Indie Bundle X gestartet #linux http://t.co/YnhiGWSzSr <pro-linux.de/-0h21509c>
+23:10  prolinux_de │  [14:47:35] [06] Valve stellt Anbieter der ersten Steam-Machines vor #linux http://t.co/6ZrbYIBRHC <pro-linux.de/-0h21509d>
+23:10  prolinux_de │  [15:03:35] [07] Ubuntus Dash erhält BitTorrent-Suchmaschine #linux http://t.co/W6AnugiDME <pro-linux.de/-0h21509b>
+23:10   coldmirror │  [15:15:53] [08] Ouuuh da krieg ich direkt n mini Nerdboner - Alien Isolation https://t.co/8OamkdXJ0e <youtube.com/watch?v=XQFPas…> Ripley <3 Da könnt sich dann auch ne PS4 lohnen!
+23:10  linuxfounda │  [15:50:00] [09] Valve announces over more than a dozen Linux-powered Steam gaming boxes http://t.co/n2w2J289ER <zd.net/1ekhPPu> #CES2014
+23:10  prolinux_de │  [16:27:36] [0a] KDE SC 4.11.5 freigegeben #linux http://t.co/zXTofhOCcZ <pro-linux.de/-0h21509e>
+23:10  linuxfounda │  [18:54:58] [0b] Why KDE Frameworks 5 is a big deal for the free software world: http://t.co/ppGc4TefAY <bit.ly/1fbdbII>
+23:10  echtallwiss │  [19:30:44] [0c] Endlich wieder DSL. Endlich kann ich wieder ALLE eure Videos schauen. :D
+23:10  linuxfounda │  [20:30:05] [0d] Amahi's Linux-Based Open Source Home Server Software Goes Mobile http://t.co/9RRuIUAS7z <bit.ly/1fdwIZb> cc @amahi http://t.co/k29JvPQxvO <pic.twitter.com/k29JvPQxvO>
+23:10      UnixHub │  [20:32:28] [0e] UML Editor/Designer on *nix: UML Editor/Designer on *nix
+23:10      UnixHub │  [20:32:28] Hello fellow Unixer,
+23:10      UnixHub │  [20:32:28] This thread is about a must have... http://t.co/xBwAF8avE9 <bit.ly/1dwEA14>
+23:10  echtallwiss │  [20:39:24] [0f] Hier: http://t.co/PV0Hd7vQOy <youtube.com/inbox> RT: @PhoenixBeatz: @echtallwissend Sie wissen doch alles! Wo ist mein YouTube Posteingang!?
+23:10       netbsd │  [20:50:22] [10] NetBSD Security Advisory 2014-001:
+23:10       netbsd │  [20:50:22] 
+23:10       netbsd │  [20:50:22] Stack buffer overflow in libXfont
+23:10       netbsd │  [20:50:22] 
+23:10       netbsd │  [20:50:22] See http://t.co/HGxOpnoS2y <ftp.netbsd.org/pub/NetBSD/sec…> for details.
+23:10       netbsd │  [20:52:03] [11] NetBSD Security Advisory 2014-002:
+23:10       netbsd │  [20:52:03] 
+23:10       netbsd │  [20:52:03] ntpd used as DDoS amplifier
+23:10       netbsd │  [20:52:03] 
+23:10       netbsd │  [20:52:03] See http://t.co/rB8Q2ALow9 <ftp.netbsd.org/pub/NetBSD/sec…> for details.
+23:10  echtallwiss │  [21:22:31] [12] Haha :D RT: @sozial_gestoert: .@echtallwissend Damit du nicht ständig verwechselt wirst. http://t.co/KAWZqLPB0v <pic.twitter.com/KAWZqLPB0v>
+23:10  linuxfounda │  [22:25:23] [13] Linux Migration Guide: Finding the Right Resources http://t.co/ZAv2XFtVkv <bit.ly/1f4VA5l>
+23:45  pkgsrc_bugs │  [14] pkg/48506 Apache mod_security2 build fails http://t.co/mAP6AknCwR <gnats.NetBSD.org/48506>
+--- Day changed Do Jan 09 2014
+01:43      UnixHub │  [15] Advanced OSX internals book: http://t.co/z3LoMtBuOD <rutracker.org/forum/viewtopi…> http://t.co/xxmqIHFh8i <bit.ly/1gixMYh>
+05:47  linuxfounda │  [16] How to find the public IP address from command line http://t.co/KLRnay9aaY <bit.ly/1fewhhi> via @xmodulo #Linux
+07:24      UnixHub │  [17] 1: YURT ITNO TAUD EWIE RMIU RATU XOAT UDEP TITL LDET NEYO LTID EXYY http://t.co/N0piMKruon <bit.ly/1d1m5VW>
+09:29  prolinux_de │  [18] Fedora 21 nicht vor August #linux http://t.co/FuRr9XFt34 <pro-linux.de/-0h21509f>
+09:33  SemperVideo │  [19] Chrome: Bild im Bild: http://t.co/fc3vnA3oi1 <youtu.be/3EESn333k2k?a> über @YouTube
+10:20      UnixHub │  [1a] Hello world!: Hi, my name is Zerek and I've been using Macs since 2001. I've played around with Linux (mostly ... http://t.co/QIcB7O9GOt <bit.ly/1ahIlKy>
+11:08   coldmirror │  [1b] Ich würd dieser Website ja gern blind meine Kreditkarteninformation geben aber... die geben ja sich nicht mal Mühe! http://t.co/BalylCLqqX <pic.twitter.com/BalylCLqqX>
+11:31  SemperVideo │  [1c] Libre Office: Komplexe Formeln: http://t.co/vb0RpPBCZB <youtu.be/vFw0_k5yCBo?a> über @YouTube
+11:46  linuxfounda │  [1d] Can you create the fastest Linux system possible without breaking the bank? With the help of bcache, you can: http://t.co/bUb7h0NM1N <bit.ly/JZ0vWN>
+12:03  prolinux_de │  [1e] Tine 2.0 in Univention Corporate Server integriert #linux http://t.co/jTVYaemAQZ <pro-linux.de/-0h2150a0>
+12:32  prolinux_de │  [1f] libssh 0.6.0 freigegeben #linux http://t.co/mpkupSFkz4 <pro-linux.de/-0h2150a1>
+13:34  SemperVideo │  [20] Angreifer/Nutzer lokalisieren http://t.co/B89Js7v11Y <sempervideo.de/?p=9914>
+13:58  YouriMouton │  [21] RT @afterboot: RT @ajacoutot: Automount with toad(8) on #OpenBSD #GNOME
+13:58  YouriMouton │  https://t.co/vG4VCN5146 <bsdfrog.org/tmp/toad.webm>
+14:33  echtallwiss │  [22] Es geht nicht anders. Ich brauche jetzt noch einen! http://t.co/bLT9Ubskh9 <instagram.com/p/i8y7v6Jq-j/>
+14:42  linuxfounda │  [23] The Three Most Important Open Computing Trends to Watch in 2014 http://t.co/TFSnZ9ceIL <bit.ly/1fbwPnT>
+15:01  prolinux_de │  [24] Fedora 20 #linux http://t.co/czg0sGgWff <pro-linux.de/-010267e>
+16:15  pkgsrc_bugs │  [25] pkg/48508 problems building multimedia/libvpx on Solaris 10 http://t.co/tZqxjp1sGr <gnats.NetBSD.org/48508>
+17:02  prolinux_de │  [26] Pinball Arcade für Linux angekündigt #linux http://t.co/PS3VeWFLco <pro-linux.de/-0h2150a2>
+17:35      freebsd │  [27] NEWS: FreeBSD 10.0-RC5 Available: The fifth RC build for the FreeBSD-10.0 release cycle is now available. ISO ... http://t.co/tgC9DaXa14 <bit.ly/KD65i4>
+19:51  linuxfounda │  [28] 7 Great New Open Source Projects http://t.co/QRcr0SK8Dv <bit.ly/1fgCU2q> #FOSS via @CarlaSchroder
+20:19  prolinux_de │  [29] SteamOS aktualisiert #linux http://t.co/BCHiTWqJ2I <pro-linux.de/-0h2150a3>
+20:55  echtallwiss │  [2a] Auf Twitter reden alle über Millionärswahl. Ich schalte mal ein: Emo-Nummer mit krankem Kind. -_- Boah
+21:23  echtallwiss │  [2b] Und jetzt einer für die junge Zielgruppe. Breakdance!! #Millionärswahl #1985
+21:40  echtallwiss │  [2c] Der @61MinutenSex ist wohl ein bisschen aufgeregt, aber ich habe wohl so etwas radikales nicht mehr im Fernsehen gesehen seit Erika Berger:)
+21:47  echtallwiss │  [2d] Ist mir zu viel Geld. RT: @CookieShock: @echtallwissend warum machst du eigentlich nicht bei der #Millionaerswahl mit?
+22:30  echtallwiss │  [2e] Mach deine Hausaufgaben! RT: @jantede: Mir ist heute aufgefallen, dass mein Deutschlehrer aussieht wie @echtallwissend
+22:32  echtallwiss │  [2f] WAS?!?!!! RT: @pseudoerbse: Achtung. Eine wichtige Neuigkeit. -.- Auch Frauen spielen Videospiele und mögen LAN-Partys.
+22:38  linuxfounda │  [30] What area of the Linux kernel would you like to know more about? Tell us w/ #LinuxSeries so we can add to our kernel articles.
+22:45  echtallwiss │  [31] Wie er immer geschickt seine Facebookseite unterbringt :) #Millionärswahl
+23:03  echtallwiss │  [32] RT @dailyknoedel: Ich glaube, das war grade schon mein TV-Moment des Jahres. #Millionärswahl
+--- Day changed Fr Jan 10 2014
+02:00  linuxfounda │  [33] Five best Linux applications for enterprises http://t.co/dMpAthvv8m <bit.ly/1bW3IgG> via SearchDataCenter
+04:24  linuxfounda │  [34] We are inspired by #mynerdstory & offer http://t.co/RvEuHHZqpH <Linux.com> to be your platform. Send stories to @LibbyMClark http://t.co/ibaTlJUqHj <bit.ly/1fhsVtS>
+06:35  pkgsrc_bugs │  [35] pkg/48509 Building for ruby200 ends with "can't find ruby200-gdbm>=2.0.0p353" http://t.co/opspPWOmCw <gnats.NetBSD.org/48509>
+09:04  prolinux_de │  [36] Linksys WRT 1900AC tritt in die Fußstapfen des WRT54G #linux http://t.co/t2uQsq9oRz <pro-linux.de/-0h2150a4>
+09:31  SemperVideo │  [37] Let's Play: Hacken für Arme - JavaScript: http://t.co/NOWrPdKXX7 <youtu.be/GfRjyN7lEfE?a> über @YouTube
+10:07  prolinux_de │  [38] Opensuse-Foren kompromittiert #linux http://t.co/JcSjSqwBDs <pro-linux.de/-0h2150a5>
+13:43  prolinux_de │  [39] Google stellt NPAPI-Unterstützung für Chromium  bereits im April ein #linux http://t.co/Vj68WzZQuo <pro-linux.de/-0h2150a6>
+13:59  echtallwiss │  [3a] Termin beim Steuerberater. War ein bisschen wie in der Schule. Nichts verstanden, aber die ganze Zeit genickt.
+14:12  prolinux_de │  [3b] Coverity 7 vorgestellt #linux http://t.co/XpqyO4eWQN <pro-linux.de/-0h2150a7>
+--- Log closed Fr Jan 10 14:43:17 2014
+--- Log opened Sa Jan 11 23:07:47 2014
+23:07         join │  Neuromatic
+23:07 %%        mode │  +t
+23:07        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+23:07 Join to #twitter__Neuromatic_ was synced in 0 secs
+23:07  linuxfounda │  [2014-01-10 20:41:32] [00] .@pdp7 #lfelc registration will open Monday (1/13) here: http://t.co/zFUj7ZVNsP <events.linuxfoundation.org/events/embedde…> Thanks for asking!
+23:07  linuxfounda │  [2014-01-10 20:48:00] [01] What's your nerd story? Student Errietta Kostala shares hers on http://t.co/RvEuHHZqpH <Linux.com>: http://t.co/NGS1eNQqi1 <bit.ly/1bZNwel> #mynerdstory #womenintech
+23:07  echtallwiss │  [2014-01-10 21:12:56] [02] RT @fritzchen: Hach ja :3 Neues Video von @echtallwissend GUCKEN!!! ^.^  http://t.co/1xUjeQrVBk <youtu.be/oTWTqaOMIH8>
+23:07  SemperVideo │  [2014-01-10 21:29:25] [03] Na die Reise der EU-Delegation in die USA hat sich ja richtig gelohnt. http://t.co/TudB4j23Mq <heise.de/newsticker/mel…> #KeineFragen #LOL
+23:07  linuxfounda │  [2014-01-10 22:35:03] [04] 7 Reasons Desktop Android Will Grow http://t.co/gIm5dFbaRI <bit.ly/1fjNFRH> #Linux http://t.co/ywszG3aR1B <pic.twitter.com/ywszG3aR1B>
+23:07  echtallwiss │  [2014-01-10 22:54:12] [05] RT @LetsPlayJuri9: ... yep @echtallwissend
+23:07  echtallwiss │  [2014-01-10 22:54:12] RT @MasterJam0: o.o
+23:07  echtallwiss │  [2014-01-10 22:54:12] ...
+23:07  echtallwiss │  [2014-01-10 22:54:12] Genug Youtube für heute. http://t.co/fvXJXOR1Em <pic.twitter.com/fvXJXOR1Em>
+23:07   coldmirror │  [2014-01-10 23:46:20] [06] Süßis Dad hat FÜR SICH die Hannibal Bluray gekauft. Ich darf sie dann aber für immer ausleihen. *parenting done right*
+23:07      freebsd │  [00:25:04] [07] NEWS: New committer: Thomas Zander (ports):  http://t.co/gV97g0mDf6 <bit.ly/JOgFmg>
+23:07  linuxfounda │  [00:26:01] [08] Friday Funny: Crock-Pot Hacks
+23:07  linuxfounda │  [00:26:01] 
+23:07  linuxfounda │  [00:26:01] http://t.co/gZrFkwNvtP <linux.com/news/friday-fu…> #FridayFunny http://t.co/sHadP6N2e8 <pic.twitter.com/sHadP6N2e8>
+23:07  pkgsrc_bugs │  [04:00:16] [09] pkg/48510 pkgsrc/security/libgcrypt:Add blowfish/serpent ARM assembly files to Makefile.am http://t.co/MyYS6hfPqK <gnats.NetBSD.org/48510>
+23:07  linuxfounda │  [04:15:01] [0a] Linux Video of the Week: Matthew Garrett Argues for Better Security in 2014 http://t.co/WMuXlR4sGl <bit.ly/1c0Z80A> via @mjg59 http://t.co/LctFeX217C <pic.twitter.com/LctFeX217C>
+23:07  linuxfounda │  [08:38:00] [0b] We are inspired by #mynerdstory & offer http://t.co/RvEuHHZqpH <Linux.com> to be your platform. http://t.co/ibaTlJUqHj <bit.ly/1fhsVtS> Send stories to @LibbyMClark
+23:07  linuxfounda │  [15:21:00] [0c] Some great responses are rolling in! Tell us the area of the Linux kernel you want to know more about w/ #LinuxSeries so we can deliver!
+23:07  linuxfounda │  [18:11:00] [0d] Errietta Kostala started programming at age 13 and shares how she "learned by doing." Do you have a nerd story? http://t.co/NGS1eNQqi1 <bit.ly/1bZNwel>
+23:07      UnixHub │  [18:53:45] [0e] UHGit Maintenance Schedule: Unfortunately, the update to GitLab failed (possibly due to DigitalOcean's way of ... http://t.co/EwcEQofTQ5 <bit.ly/1aqQqwr>
+23:07  linuxfounda │  [19:00:23] [0f] Why Amahi, the #opensource home server software based on Linux, went mobile: http://t.co/h2hWjisdQx <bit.ly/1fkBlk8>
+23:07  pkgsrc_bugs │  [19:25:16] [10] pkg/48511 x11/libxkbcommon is missing dependencies and can't find modular-xorgs xkb data http://t.co/JJWpNAPY6r <gnats.NetBSD.org/48511>
+23:07  linuxfounda │  [22:09:00] [11] Why Android PCs are still a thing now that Chromebooks are finally a hit...but why Android won't rule the desktop: http://t.co/gIm5dFbaRI <bit.ly/1fjNFRH>
+23:07  pkgsrc_bugs │  [22:40:14] [12] pkg/48512 gfortran broken on NetBSD -current http://t.co/31Y5KKHkNH <gnats.NetBSD.org/48512>
+23:35  pkgsrc_bugs │  [13] pkg/48513 lang/tcl 8.6.1 DragonFly 3.7-DEVELOPMENT itcl4.0.0 missing gcc -shared -fPIC http://t.co/qhzXqGVVyX <gnats.NetBSD.org/48513>
+--- Day changed So Jan 12 2014
+02:04  linuxfounda │  [14] Getting Started With KVM Virtualization http://t.co/fGw3c4B9Iv <bit.ly/1bWWt86>
+05:13  linuxfounda │  [15] Free Linux tutorials from the experts. http://t.co/aziGM0p0qA <bit.ly/18l2EVu> Now available on-demand.
+09:05  YouriMouton │  [16] RT @jperkin: Latest pkgsrc packages are now ready. Fed up of compiling from src? 10,000 up-to-date binary packages for Mac OS X.  http://t.co/vCme01X5zu <perkin.org.uk/pages/pkgsrc-b…>
+11:46  linuxfounda │  [17] “Do not allow conversations to be about reducing user freedom in order to improve security." More from @mjg59 http://t.co/WMuXlR4sGl <bit.ly/1c0Z80A>
+--- Log opened So Jan 12 17:05:26 2014
+17:05         join │  Neuromatic
+17:05 %%        mode │  +t
+17:05        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+17:05 Join to #twitter__Neuromatic_ was synced in 0 secs
+17:05  linuxfounda │  [2014-01-11 00:26:01] [00] Friday Funny: Crock-Pot Hacks
+17:05  linuxfounda │  [2014-01-11 00:26:01] 
+17:05  linuxfounda │  [2014-01-11 00:26:01] http://t.co/gZrFkwNvtP <linux.com/news/friday-fu…> #FridayFunny http://t.co/sHadP6N2e8 <pic.twitter.com/sHadP6N2e8>
+17:05  pkgsrc_bugs │  [2014-01-11 04:00:16] [01] pkg/48510 pkgsrc/security/libgcrypt:Add blowfish/serpent ARM assembly files to Makefile.am http://t.co/MyYS6hfPqK <gnats.NetBSD.org/48510>
+17:05  linuxfounda │  [2014-01-11 04:15:01] [02] Linux Video of the Week: Matthew Garrett Argues for Better Security in 2014 http://t.co/WMuXlR4sGl <bit.ly/1c0Z80A> via @mjg59 http://t.co/LctFeX217C <pic.twitter.com/LctFeX217C>
+17:05  linuxfounda │  [2014-01-11 08:38:00] [03] We are inspired by #mynerdstory & offer http://t.co/RvEuHHZqpH <Linux.com> to be your platform. http://t.co/ibaTlJUqHj <bit.ly/1fhsVtS> Send stories to @LibbyMClark
+17:05  linuxfounda │  [2014-01-11 15:21:00] [04] Some great responses are rolling in! Tell us the area of the Linux kernel you want to know more about w/ #LinuxSeries so we can deliver!
+17:05  linuxfounda │  [2014-01-11 18:11:00] [05] Errietta Kostala started programming at age 13 and shares how she "learned by doing." Do you have a nerd story? http://t.co/NGS1eNQqi1 <bit.ly/1bZNwel>
+17:05      UnixHub │  [2014-01-11 18:53:45] [06] UHGit Maintenance Schedule: Unfortunately, the update to GitLab failed (possibly due to DigitalOcean's way of ... http://t.co/EwcEQofTQ5 <bit.ly/1aqQqwr>
+17:05  linuxfounda │  [2014-01-11 19:00:23] [07] Why Amahi, the #opensource home server software based on Linux, went mobile: http://t.co/h2hWjisdQx <bit.ly/1fkBlk8>
+17:05  pkgsrc_bugs │  [2014-01-11 19:25:16] [08] pkg/48511 x11/libxkbcommon is missing dependencies and can't find modular-xorgs xkb data http://t.co/JJWpNAPY6r <gnats.NetBSD.org/48511>
+17:05  linuxfounda │  [2014-01-11 22:09:00] [09] Why Android PCs are still a thing now that Chromebooks are finally a hit...but why Android won't rule the desktop: http://t.co/gIm5dFbaRI <bit.ly/1fjNFRH>
+17:05  pkgsrc_bugs │  [2014-01-11 22:40:14] [0a] pkg/48512 gfortran broken on NetBSD -current http://t.co/31Y5KKHkNH <gnats.NetBSD.org/48512>
+17:05  pkgsrc_bugs │  [2014-01-11 23:35:16] [0b] pkg/48513 lang/tcl 8.6.1 DragonFly 3.7-DEVELOPMENT itcl4.0.0 missing gcc -shared -fPIC http://t.co/qhzXqGVVyX <gnats.NetBSD.org/48513>
+17:05  linuxfounda │  [02:04:05] [0c] Getting Started With KVM Virtualization http://t.co/fGw3c4B9Iv <bit.ly/1bWWt86>
+17:05  linuxfounda │  [05:13:00] [0d] Free Linux tutorials from the experts. http://t.co/aziGM0p0qA <bit.ly/18l2EVu> Now available on-demand.
+17:05  YouriMouton │  [09:05:28] [0e] RT @jperkin: Latest pkgsrc packages are now ready. Fed up of compiling from src? 10,000 up-to-date binary packages for Mac OS X.  http://t.co/vCme01X5zu <perkin.org.uk/pages/pkgsrc-b…>
+17:05  linuxfounda │  [11:46:00] [0f] “Do not allow conversations to be about reducing user freedom in order to improve security." More from @mjg59 http://t.co/WMuXlR4sGl <bit.ly/1c0Z80A>
+17:05  echtallwiss │  [15:27:14] [10] Fragen, die mit "Wann kommt..." beginnen, sind meine Lieblingsfragen.
+17:05  echtallwiss │  [15:38:06] [11] Ich teste für euch die neue Playstation One!! Endlich! http://t.co/QVB11pwSne <youtube.com/watch?v=QE0N8T…> #nextgen #playstation
+17:05  echtallwiss │  [15:47:54] [12] RT @HarryGleeson: @echtallwissend Die Xbox 4 ist viel besser! http://t.co/gUlISO1IV8 <twitpic.com/ds19s6>
+17:05  echtallwiss │  [16:00:01] [13] RT @Barthieee: Du musst bei der FRITZ!Box immer darauf achten, dass das Installationsmodul mitgeliefert wird, @echtallwissend. :D http://t.co/K7mJcsudiD <pic.twitter.com/K7mJcsudiD>
+18:40  echtallwiss │  [14] RT @peterbreuer: Deutsche haben mehr Angst vor Bulgaren und Rumänen, die ihre weggeworfenen Pfandflaschen sammeln, als vor Amerikanern, die ihre Post lesen.
+18:42  echtallwiss │  [15] Trotzdem angucken! :D RT @Colahecht: Meine Abobox zeigt mir als neues Video en Video von @echtallwissend an, welches schon 10 Monate alt ist
+19:48  echtallwiss │  [16] Wie viele Kommentare hat mein Video, Youtube? http://t.co/iWrUEuDxZp <instagram.com/p/jFFTmvpq9P/>
+--- Log closed So Jan 12 20:08:57 2014
+--- Log opened Mo Jan 13 20:13:09 2014
+20:13         join │  Neuromatic
+20:13 %%        mode │  +t
+20:13        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+20:13 Join to #twitter__Neuromatic_ was synced in 0 secs
+20:13  echtallwiss │  [2014-01-12 19:48:24] [00] Wie viele Kommentare hat mein Video, Youtube? http://t.co/iWrUEuDxZp <instagram.com/p/jFFTmvpq9P/>
+20:13  echtallwiss │  [2014-01-12 20:06:51] [01] RT @Anita_Zech: "Mehr Trauben!" - Endlich das großartige @echtallwissend Video gekuckt: http://t.co/S11RuTaU8B <bit.ly/FAULHEIT>
+20:13  echtallwiss │  [2014-01-12 20:47:15] [02] YES! :D http://t.co/D1VRsQK0pb <pic.twitter.com/D1VRsQK0pb>
+20:13  linuxfounda │  [2014-01-12 22:15:02] [03] What makes an #opensource project successful? http://t.co/wAKTxOUYDo <bit.ly/1fkyojv> Blog via @OpenDaylightSDN
+20:13   coldmirror │  [2014-01-12 22:56:02] [04] @echtallwissend Bei mir gibts immer "Kommt eigentlich noch irgendwann..."-Fragen. Das ist dann schon das nächste Level :D
+20:13  echtallwiss │  [2014-01-12 23:30:26] [05] RT @TanzbaerSimon: Hearthstone macht so krass süchtig, dass ich nicht mal mehr zum porno schauen komme!^^
+20:13  linuxfounda │  [00:14:00] [06] What area of the Linux kernel would you like to know more about? Tell us w/ #LinuxSeries so we can add to our kernel articles.
+20:13  pkgsrc_bugs │  [04:10:24] [07] pkg/48516 lang/perl5 build under OS X 10.9.1 (Mavericks) fails when dtrace option is enabled http://t.co/bOmg24eZBP <gnats.NetBSD.org/48516>
+20:13  linuxfounda │  [05:03:32] [08] The most inspiring, compelling or just plain fun videos produced by the Linux community in 2013: http://t.co/PrgiRfSwb3 <bit.ly/1fqeZ0L>
+20:13  prolinux_de │  [08:16:00] [09] Eurpäische Kommission empfiehlt Open Document Format #linux http://t.co/1i929MHEcc <pro-linux.de/-0h2150a9>
+20:13  prolinux_de │  [09:12:01] [0a] Opensuse Conference vom 24. bis 28. April in Dubrovnik #linux http://t.co/UHaeWUOWQc <pro-linux.de/-0h2150aa>
+20:13  SemperVideo │  [09:31:28] [0b] Windows 9 kommt...: http://t.co/6AAYyJuKUl <youtu.be/HjLR5Cc4Ps0?a> über @YouTube
+20:13       pkgsrc │  [11:23:40] [0c] For OS X users, binary packages (10,031 of them) and a pkgin bootstrap kit from pkgsrc-2013Q4 are now available!  http://t.co/XBASoM3x3G <perkin.org.uk/pages/pkgsrc-b…>
+20:13  SemperVideo │  [13:12:21] [0d] Raspberry Pi: DNS Server installieren http://t.co/L1vTS3f4FH <sempervideo.de/?p=9917>
+20:13  prolinux_de │  [15:47:08] [0e] Brendan Eich: Browser nicht vertrauenswürdig #linux http://t.co/dnUHN3zNaP <pro-linux.de/-0h2150ab>
+20:13  YouriMouton │  [15:56:10] [0f] RT @gocastsio: Gocast #1 is out - Using net/http for a simple HTTP request http://t.co/2LiTDX5UA1 <gocasts.io/casts/simple-h…>
+20:13      UnixHub │  [16:23:53] [10] $ figlet hello unixhub: Hi all,
+20:13      UnixHub │  [16:23:53] After some monthes lurking here, finally decided to post this introduction.
+20:13      UnixHub │  [16:23:53] I'... http://t.co/NCplsqa2Ri <bit.ly/1hPAtEq>
+20:13  linuxfounda │  [17:43:05] [11] Community blog: How one Linux user and advocate is going against the grain http://t.co/9349LCZsYW <bit.ly/1frSTuD>
+20:13  linuxfounda │  [19:28:00] [12] What programming language would you use to save the world? http://t.co/MCqDCu4G1v <wrd.cm/1ced5Ze> cc @jgrahamc
+20:13      UnixHub │  [19:58:15] [13] Desktop RAM on a server MOBO?: I was looking at some desktop RAM that is a few months old already and looking ... http://t.co/oz3piKVAkg <bit.ly/JVC50Q>
+--- Log closed Mo Jan 13 20:19:26 2014
+--- Log opened Mo Jan 13 20:29:07 2014
+20:29         join │  Neuromatic
+20:29 %%        mode │  +t
+20:29        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+20:29 Join to #twitter__Neuromatic_ was synced in 0 secs
+20:29  echtallwiss │  [2014-01-12 19:48:24] [00] Wie viele Kommentare hat mein Video, Youtube? http://t.co/iWrUEuDxZp <instagram.com/p/jFFTmvpq9P/>
+20:29  echtallwiss │  [2014-01-12 20:06:51] [01] RT @Anita_Zech: "Mehr Trauben!" - Endlich das großartige @echtallwissend Video gekuckt: http://t.co/S11RuTaU8B <bit.ly/FAULHEIT>
+20:29  echtallwiss │  [2014-01-12 20:47:15] [02] YES! :D http://t.co/D1VRsQK0pb <pic.twitter.com/D1VRsQK0pb>
+20:29  linuxfounda │  [2014-01-12 22:15:02] [03] What makes an #opensource project successful? http://t.co/wAKTxOUYDo <bit.ly/1fkyojv> Blog via @OpenDaylightSDN
+20:29   coldmirror │  [2014-01-12 22:56:02] [04] @echtallwissend Bei mir gibts immer "Kommt eigentlich noch irgendwann..."-Fragen. Das ist dann schon das nächste Level :D
+20:29  echtallwiss │  [2014-01-12 23:30:26] [05] RT @TanzbaerSimon: Hearthstone macht so krass süchtig, dass ich nicht mal mehr zum porno schauen komme!^^
+20:29  linuxfounda │  [00:14:00] [06] What area of the Linux kernel would you like to know more about? Tell us w/ #LinuxSeries so we can add to our kernel articles.
+20:29  pkgsrc_bugs │  [04:10:24] [07] pkg/48516 lang/perl5 build under OS X 10.9.1 (Mavericks) fails when dtrace option is enabled http://t.co/bOmg24eZBP <gnats.NetBSD.org/48516>
+20:29  linuxfounda │  [05:03:32] [08] The most inspiring, compelling or just plain fun videos produced by the Linux community in 2013: http://t.co/PrgiRfSwb3 <bit.ly/1fqeZ0L>
+20:29  prolinux_de │  [08:16:00] [09] Eurpäische Kommission empfiehlt Open Document Format #linux http://t.co/1i929MHEcc <pro-linux.de/-0h2150a9>
+20:29  prolinux_de │  [09:12:01] [0a] Opensuse Conference vom 24. bis 28. April in Dubrovnik #linux http://t.co/UHaeWUOWQc <pro-linux.de/-0h2150aa>
+20:29  SemperVideo │  [09:31:28] [0b] Windows 9 kommt...: http://t.co/6AAYyJuKUl <youtu.be/HjLR5Cc4Ps0?a> über @YouTube
+20:29       pkgsrc │  [11:23:40] [0c] For OS X users, binary packages (10,031 of them) and a pkgin bootstrap kit from pkgsrc-2013Q4 are now available!  http://t.co/XBASoM3x3G <perkin.org.uk/pages/pkgsrc-b…>
+20:29  SemperVideo │  [13:12:21] [0d] Raspberry Pi: DNS Server installieren http://t.co/L1vTS3f4FH <sempervideo.de/?p=9917>
+20:29  prolinux_de │  [15:47:08] [0e] Brendan Eich: Browser nicht vertrauenswürdig #linux http://t.co/dnUHN3zNaP <pro-linux.de/-0h2150ab>
+20:29  YouriMouton │  [15:56:10] [0f] RT @gocastsio: Gocast #1 is out - Using net/http for a simple HTTP request http://t.co/2LiTDX5UA1 <gocasts.io/casts/simple-h…>
+20:29      UnixHub │  [16:23:53] [10] $ figlet hello unixhub: Hi all,
+20:29      UnixHub │  [16:23:53] After some monthes lurking here, finally decided to post this introduction.
+20:29      UnixHub │  [16:23:53] I'... http://t.co/NCplsqa2Ri <bit.ly/1hPAtEq>
+20:29  linuxfounda │  [17:43:05] [11] Community blog: How one Linux user and advocate is going against the grain http://t.co/9349LCZsYW <bit.ly/1frSTuD>
+20:29  linuxfounda │  [19:28:00] [12] What programming language would you use to save the world? http://t.co/MCqDCu4G1v <wrd.cm/1ced5Ze> cc @jgrahamc
+20:29      UnixHub │  [19:58:15] [13] Desktop RAM on a server MOBO?: I was looking at some desktop RAM that is a few months old already and looking ... http://t.co/oz3piKVAkg <bit.ly/JVC50Q>
+21:04  linuxfounda │  [14] Jim Zemlin weighs in on increasing number of efforts to advance automotive Linux: http://t.co/E85yDY9DTA <bit.ly/1cf11qx> #automotivelinux cc @jzemlin
+23:13  linuxfounda │  [15] There's a lot of great things happening in small-scale Linux and FOSS projects. @CarlaSchroder checks out these 7: http://t.co/TN8F5JoBzI <bit.ly/1cfKseh>
+--- Day changed Di Jan 14 2014
+00:36      freebsd │  [16] NEWS: Returning committer: Bruce A. Mah (ports):  http://t.co/CTQEeJO1h4 <bit.ly/1hR6DPW>
+01:41  linuxfounda │  [17] Looking for a career in Linux? Get advice from the experts: http://t.co/f0d52RLGBz <bit.ly/1bZeIxZ>
+--- Log closed Di Jan 14 02:39:48 2014
+--- Log opened Di Jan 14 13:02:24 2014
+13:02         join │  Neuromatic
+13:02 %%        mode │  +t
+13:02        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+13:02 Join to #twitter__Neuromatic_ was synced in 0 secs
+13:02  prolinux_de │  [2014-01-13 15:47:08] [00] Brendan Eich: Browser nicht vertrauenswürdig #linux http://t.co/dnUHN3zNaP <pro-linux.de/-0h2150ab>
+13:02  YouriMouton │  [2014-01-13 15:56:10] [01] RT @gocastsio: Gocast #1 is out - Using net/http for a simple HTTP request http://t.co/2LiTDX5UA1 <gocasts.io/casts/simple-h…>
+13:02      UnixHub │  [2014-01-13 16:23:53] [02] $ figlet hello unixhub: Hi all,
+13:02      UnixHub │  [2014-01-13 16:23:53] After some monthes lurking here, finally decided to post this introduction.
+13:02      UnixHub │  [2014-01-13 16:23:53] I'... http://t.co/NCplsqa2Ri <bit.ly/1hPAtEq>
+13:02  linuxfounda │  [2014-01-13 17:43:05] [03] Community blog: How one Linux user and advocate is going against the grain http://t.co/9349LCZsYW <bit.ly/1frSTuD>
+13:02  linuxfounda │  [2014-01-13 19:28:00] [04] What programming language would you use to save the world? http://t.co/MCqDCu4G1v <wrd.cm/1ced5Ze> cc @jgrahamc
+13:02      UnixHub │  [2014-01-13 19:58:15] [05] Desktop RAM on a server MOBO?: I was looking at some desktop RAM that is a few months old already and looking ... http://t.co/oz3piKVAkg <bit.ly/JVC50Q>
+13:02  linuxfounda │  [2014-01-13 21:04:00] [06] Jim Zemlin weighs in on increasing number of efforts to advance automotive Linux: http://t.co/E85yDY9DTA <bit.ly/1cf11qx> #automotivelinux cc @jzemlin
+13:02  linuxfounda │  [2014-01-13 23:13:42] [07] There's a lot of great things happening in small-scale Linux and FOSS projects. @CarlaSchroder checks out these 7: http://t.co/TN8F5JoBzI <bit.ly/1cfKseh>
+13:02      freebsd │  [00:36:18] [08] NEWS: Returning committer: Bruce A. Mah (ports):  http://t.co/CTQEeJO1h4 <bit.ly/1hR6DPW>
+13:02  linuxfounda │  [01:41:00] [09] Looking for a career in Linux? Get advice from the experts: http://t.co/f0d52RLGBz <bit.ly/1bZeIxZ>
+13:02  linuxfounda │  [03:45:00] [0a] Linux: the silent giant of the #CES2014 show floor 
+13:02  linuxfounda │  [03:45:00] http://t.co/Cf0vu1DZQH <bit.ly/1cgte0d> via @jzemlin
+13:02  pkgsrc_bugs │  [04:00:12] [0b] pkg/48519 neon-0.30.0: man .so macros is not working http://t.co/q15BL90h3i <gnats.NetBSD.org/48519>
+13:02  pkgsrc_bugs │  [04:25:14] [0c] pkg/48520 libaudiofile is installed with incorrect man pages http://t.co/i27SvWzleG <gnats.NetBSD.org/48520>
+13:02  linuxfounda │  [06:54:00] [0d] Linux Drives Automotive Innovation into the New Year via @jzemlin http://t.co/E85yDY9DTA <bit.ly/1cf11qx> #automotivelinux
+13:02  prolinux_de │  [08:01:25] [0e] Open Forum Stuttgart am 4. und 5. Juni #linux http://t.co/iAqYwPzUdG <pro-linux.de/-0h2150ac>
+13:02  YouriMouton │  [09:03:06] [0f] RT @DeforaOS: #DeforaOS meets #BSD at #FOSDEM, in the BSD devroom on Saturday 1st February 14:00. Possibly with a surprise... Stay tuned & join us there!
+13:02  YouriMouton │  [09:03:15] [10] RT @EdgeBSD: #EdgeBSD in the news: https://t.co/pcZZwxWLgg <edgebsd.org/edgebsd/news/1…> so yes, #FOSDEM indeed!
+13:02  prolinux_de │  [10:47:27] [11] CompuLab aktualisiert Intense PCs #linux http://t.co/JWo2tj03Ed <pro-linux.de/-0h2150ad>
+13:02  linuxfounda │  [11:43:00] [12] How to check Internet speed from the command line on Linux http://t.co/28VoXNuQzE <bit.ly/1fsFylZ> via @xmodulo
+13:02  prolinux_de │  [12:40:29] [13] Kernel D-Bus nimmt neuen Anlauf #linux http://t.co/0pW0BX0Z4j <pro-linux.de/-0h2150b0>
+13:45  SemperVideo │  [14] Crypto Cat - Verschlüsselter Chat für Opera http://t.co/mRtRwLw4Nj <sempervideo.de/?p=9920>
+14:04  prolinux_de │  [15] Canonicals Geschäftszahlen für 2013 #linux http://t.co/CZFwWys0JU <pro-linux.de/-0h2150ae>
+14:37  prolinux_de │  [16] Britische Regierung stuft Ubuntu 12.04 LTS als sicherstes Client-Betriebsystem ein #linux http://t.co/oSErwHZXJt <pro-linux.de/-0h2150af>
+14:53  linuxfounda │  [17] NEWS: @linuxfoundation and @TheASF Join Forces to Produce ApacheCon. @CloudStack Conf Co-located: http://t.co/CMwkfCsdtD <bit.ly/1ciD1my>
+15:01   coldmirror │  [18] "Entschuldigung der Strom im Gebäude wird einige Stunden abgestellt" "Dann muss ich wohl stundenlang rumliegn und nix tun... krieg ich hin."
+15:43  echtallwiss │  [19] Hier kommt ein Dienstag: #Diens
+15:46  echtallwiss │  [1a] RT @HerrDekay: @echtallwissend Der hat jetzt schon so'n bisschen wehgetan :D
+17:03  linuxfounda │  [1b] Teaching your kids Linux? http://t.co/9JcmhmGh6X <red.ht/1fuAOfs> Four Linux distros for kids via http://t.co/bgZdAgBlZ7 <OpenSource.com>
+18:32  linuxfounda │  [1c] .@jzemlin highlights the Linux-based innovation on display at #CES2014 thanks to Linux developers & users worldwide: http://t.co/Cf0vu1DZQH <bit.ly/1cgte0d>
+20:47  linuxfounda │  [1d] We are excited to join @TheASF this year to produce ApacheCon! Will you join us April 7-9? http://t.co/UP1vmYT6aj <bit.ly/1cjtX0y>
+21:33      freebsd │  [1e] SECURITY: FreeBSD-SA-14:04.bind:  http://t.co/WC9jVFdEEn <bit.ly/L11uGK>
+21:33      freebsd │  [1f] SECURITY: FreeBSD-SA-14:03.openssl:  http://t.co/qAKRyRHwjX <bit.ly/1aCP2Hl>
+21:33      freebsd │  [20] SECURITY: FreeBSD-SA-14:02.ntpd:  http://t.co/9AQNuNFviO <bit.ly/1aCP2XE>
+21:33      freebsd │  [21] SECURITY: FreeBSD-SA-14:01.bsnmpd:  http://t.co/87e0fuG1KK <bit.ly/L11syJ>
+21:33  freebsdsecu │  [22] Security Advisory: FreeBSD-SA-14:04.bind http://t.co/DONtwGRdy2 <bit.ly/L11uGK>
+21:33  freebsdsecu │  [23] Security Advisory: FreeBSD-SA-14:03.openssl http://t.co/TCtNEfbg11 <bit.ly/1aCP2Hl>
+21:33  freebsdsecu │  [24] Security Advisory: FreeBSD-SA-14:02.ntpd http://t.co/jjwco5LkXw <bit.ly/1aCP2XE>
+21:33  freebsdsecu │  [25] Security Advisory: FreeBSD-SA-14:01.bsnmpd http://t.co/o9yVdec4a4 <bit.ly/L11syJ>
+--- Log closed Di Jan 14 23:12:02 2014
+--- Log opened Mi Jan 15 05:42:44 2014
+05:42         join │  Neuromatic
+05:42 %%        mode │  +t
+05:42        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+05:42 Join to #twitter__Neuromatic_ was synced in 0 secs
+05:42  SemperVideo │  [2014-01-14 13:45:19] [00] Crypto Cat - Verschlüsselter Chat für Opera http://t.co/mRtRwLw4Nj <sempervideo.de/?p=9920>
+05:42  prolinux_de │  [2014-01-14 14:04:30] [01] Canonicals Geschäftszahlen für 2013 #linux http://t.co/CZFwWys0JU <pro-linux.de/-0h2150ae>
+05:42  prolinux_de │  [2014-01-14 14:37:31] [02] Britische Regierung stuft Ubuntu 12.04 LTS als sicherstes Client-Betriebsystem ein #linux http://t.co/oSErwHZXJt <pro-linux.de/-0h2150af>
+05:42  linuxfounda │  [2014-01-14 14:53:14] [03] NEWS: @linuxfoundation and @TheASF Join Forces to Produce ApacheCon. @CloudStack Conf Co-located: http://t.co/CMwkfCsdtD <bit.ly/1ciD1my>
+05:42   coldmirror │  [2014-01-14 15:01:28] [04] "Entschuldigung der Strom im Gebäude wird einige Stunden abgestellt" "Dann muss ich wohl stundenlang rumliegn und nix tun... krieg ich hin."
+05:42  echtallwiss │  [2014-01-14 15:43:51] [05] Hier kommt ein Dienstag: #Diens
+05:42  echtallwiss │  [2014-01-14 15:46:03] [06] RT @HerrDekay: @echtallwissend Der hat jetzt schon so'n bisschen wehgetan :D
+05:42  linuxfounda │  [2014-01-14 17:03:18] [07] Teaching your kids Linux? http://t.co/9JcmhmGh6X <red.ht/1fuAOfs> Four Linux distros for kids via http://t.co/bgZdAgBlZ7 <OpenSource.com>
+05:42  linuxfounda │  [2014-01-14 18:32:00] [08] .@jzemlin highlights the Linux-based innovation on display at #CES2014 thanks to Linux developers & users worldwide: http://t.co/Cf0vu1DZQH <bit.ly/1cgte0d>
+05:42  linuxfounda │  [2014-01-14 20:47:03] [09] We are excited to join @TheASF this year to produce ApacheCon! Will you join us April 7-9? http://t.co/UP1vmYT6aj <bit.ly/1cjtX0y>
+05:42      freebsd │  [2014-01-14 21:33:11] [0a] SECURITY: FreeBSD-SA-14:04.bind:  http://t.co/WC9jVFdEEn <bit.ly/L11uGK>
+05:42      freebsd │  [2014-01-14 21:33:12] [0b] SECURITY: FreeBSD-SA-14:01.bsnmpd:  http://t.co/87e0fuG1KK <bit.ly/L11syJ>
+05:42      freebsd │  [2014-01-14 21:33:12] [0c] SECURITY: FreeBSD-SA-14:02.ntpd:  http://t.co/9AQNuNFviO <bit.ly/1aCP2XE>
+05:42      freebsd │  [2014-01-14 21:33:12] [0d] SECURITY: FreeBSD-SA-14:03.openssl:  http://t.co/qAKRyRHwjX <bit.ly/1aCP2Hl>
+05:42  freebsdsecu │  [2014-01-14 21:33:13] [0e] Security Advisory: FreeBSD-SA-14:03.openssl http://t.co/TCtNEfbg11 <bit.ly/1aCP2Hl>
+05:42  freebsdsecu │  [2014-01-14 21:33:13] [0f] Security Advisory: FreeBSD-SA-14:04.bind http://t.co/DONtwGRdy2 <bit.ly/L11uGK>
+05:42  freebsdsecu │  [2014-01-14 21:33:14] [10] Security Advisory: FreeBSD-SA-14:01.bsnmpd http://t.co/o9yVdec4a4 <bit.ly/L11syJ>
+05:42  freebsdsecu │  [2014-01-14 21:33:14] [11] Security Advisory: FreeBSD-SA-14:02.ntpd http://t.co/jjwco5LkXw <bit.ly/1aCP2XE>
+05:42  linuxfounda │  [2014-01-14 23:45:01] [12] Slideshow: 8 Innovative Linux-Based Products Demoed @intlCES http://t.co/zs2ti4oNEp <bit.ly/1fvgNWk> http://t.co/qpHBlJd28s <pic.twitter.com/qpHBlJd28s>
+05:42  linuxfounda │  [04:00:02] [13] The Top 7 Best Linux Distros for You in 2014 http://t.co/8L5X8O9bkC <bit.ly/1cjGoK3> via @CarlaSchroder http://t.co/qygpC80sXT <pic.twitter.com/qygpC80sXT>
+09:30  SemperVideo │  [14] Let's Play: Hacken für Arme - JavaScript 2: http://t.co/J2d7iXsLK4 <youtu.be/mIkYzj9hx04?a> über @YouTube
+10:55  prolinux_de │  [15] Axelsson: JDK 8 soll im März kommen #linux http://t.co/3lgm42JSAs <pro-linux.de/-0h2150b1>
+12:16  prolinux_de │  [16] Linux Foundation übernimmt ApacheCon #linux http://t.co/Tm1tdormxS <pro-linux.de/-0h2150b3>
+13:43  prolinux_de │  [17] Chrome 32 mit Verbesserungen bei »lauten« Tabs #linux http://t.co/Kkzz3YgA9X <pro-linux.de/-0h2150b2>
+--- Log closed Mi Jan 15 14:03:41 2014
+--- Log opened Sa Jan 18 21:39:32 2014
+21:39         join │  Neuromatic
+21:39 %%        mode │  +t
+21:39        names │  Total: 2 ops, 0 halfops, 0 voices, 24 normal
+21:39 Join to #twitter__Neuromatic_ was synced in 0 secs
+21:39  dragonflybs │  [2014-01-17 20:33:19] [00] The cheapest possible DragonFly: With everyone buying tablets lately, the low end of computers is getting pr... http://t.co/QCDEKR7stw <bit.ly/1hyQLiq>
+21:39      UnixHub │  [2014-01-17 22:55:52] [01] Couple of quick announcements: Hey everyone!
+21:39      UnixHub │  [2014-01-17 22:55:52] I hope you all had a good holidays and new years. Here are a coup... http://t.co/XE9W9Q3XIY <bit.ly/Lh6qHJ>
+21:39  linuxfounda │  [2014-01-17 23:01:00] [02] Weekend Project: learn how to customize the Star Wars screensaver on Linux http://t.co/Q6PR5mZKSo <bit.ly/1fG7ymb> via @CarlaSchroder
+21:39  echtallwiss │  [00:35:33] [03] Morgen kommt mal wieder ein Oldschool-Video. Hatte Bock :D
+21:39   coldmirror │  [01:13:45] [04] Ich willn Tattoo mit den Buchstaben "FAUST" auf meinen Fingern. Wenn ich dann ne Faust mach steht da dann nochma Faust auf der Faust drauf!
+21:39  linuxfounda │  [03:30:02] [05] How @YoctoProject dev Beth Flanagan built her coding skills & the courage to change gender w/ #FOSS http://t.co/Gzy5WSE9GZ <bit.ly/1cCpN4j> @dirtycitybird
+21:39  linuxfounda │  [07:44:00] [06] Get a weekly dose of #Linux news straight to your inbox: http://t.co/W7xaqacJ5R <linux.com/newsletter>
+21:39  SemperVideo │  [10:00:54] [07] Abmahnung wg. Porn-Stream: Das Gutachten: http://t.co/dGCkw5wvqM <youtu.be/Wogl0ekmCRI?a> über @YouTube
+21:39  freebsdcent │  [11:36:28] [08] RT @jimptwit: pfSense 2.1.1-PRERELEASE snapshots are live, have at 'em. http://t.co/FFpgK1RY2j <forum.pfsense.org/index.php/topi…>
+21:39  echtallwiss │  [12:50:03] [09] Mal wieder ein Video im klassischen Doktor-Allwissend-Stil gemacht :) Viele Fragen. Viele Antworten: http://t.co/flPNZhKqTs <bit.ly/ONANIE>
+21:39   coldmirror │  [13:48:21] [0a] ich sterb morgen bestimmt Oo Es gibt Raclette bei Haui UND es kommt der Hannibal Season2 Trailer! Ich werde einfach glücklich explodieren!!
+21:39   coldmirror │  [13:51:58] [0b] Boa und dann erscheint in dem Trailer Hannibal, der AUCH Raclette macht! :D
+21:39  echtallwiss │  [13:54:37] [0c] RT @z0mb3y: Der @echtallwissend und @GermanLetsPlay sprechen sich bei der Video-freischaltung bestimmt ab! http://t.co/YjlVLWgqv8 <pic.twitter.com/YjlVLWgqv8>
+21:39  linuxfounda │  [15:07:00] [0d] Linux Video of the Week: Tour Qualcomm's Smart Home @intlCES http://t.co/NbHx2T3xL3 <bit.ly/1fFHIyH> #IoE
+21:39  echtallwiss │  [16:19:35] [0e] RT @FrauSternchen: Ach du Sunshine Kake! Es gibt Neues vom Doktor @echtallwissend http://t.co/Gs785TRq8X <youtube.com/watch?v=gs3-T3…>
+21:39  dragonflybs │  [18:04:23] [0f] In Other BSDs for 2014/01/18: I didn't even need to find source links this week.
+21:39  dragonflybs │  [18:04:23] 
+21:39  dragonflybs │  [18:04:23] Do you have a VAX la... http://t.co/jhaK0AT6FA <bit.ly/KpZFma>
+21:39  dragonflybs │  [18:12:24] [10] Convention addendum: I've got a buildup of convention dates to mention, so I'll do it now: John... http://t.co/lyqrwq5oid <bit.ly/1e1o9dq>
+21:39  linuxfounda │  [18:17:51] [11] Is Bodhi the most beautiful Linux distro? What about DouDou? @CarlaSchroder chooses her top 7 Linux distros for 2014. http://t.co/8L5X8O9bkC <bit.ly/1cjGoK3>
+21:39  echtallwiss │  [19:44:14] [12] RT @DerToyPimp: @echtallwissend Egal ob Old School oder New School. Doktor Allwissend ist immer True School :)
+21:39  linuxfounda │  [21:11:00] [13] Taking the long view: Why I'm moving to CentOS Linux on the desktop http://t.co/ZIqzJz9YQw <zd.net/1fJEz0N> via @ZDNet
+23:14  linuxfounda │  [14] The transformative nature of technology and #opensource http://t.co/UWSvZiCmSQ <bit.ly/1cCpN4j> via @dirtycitybird
+--- Log closed Sa Jan 18 23:37:59 2014
+--- Log opened Di Jan 21 22:08:06 2014
+22:08         join │  Neuromatic
+22:08 %%        mode │  +t
+22:08        names │  Total: 2 ops, 0 halfops, 0 voices, 24 normal
+22:08 Join to #twitter__Neuromatic_ was synced in 1 secs
+22:08  linuxfounda │  [12:58:00] [00] When moving files in Linux, you can opt for the power of the command line or the simplicity of the GUI. Here's how: http://t.co/rVQphvSrb7 <bit.ly/1cNm5ow>
+22:08  prolinux_de │  [13:19:00] [01] sidux und PrOOo-Box vereinbaren Kooperation #linux http://t.co/pP1DlDrGzU <pro-linux.de/-0h2150c8>
+22:08      freebsd │  [14:38:05] [02] NEWS: :  http://t.co/okAqV3sZVh <bit.ly/1bO2NmW>
+22:08   coldmirror │  [14:47:39] [03] Ich ess Milchreis zum Frühstück und von Süßi gemachte Reisbällchen zum Mittag BABY BABY ES GIBT REIS!!
+22:08   coldmirror │  [14:59:21] [04] Reisbällchen von Süßi in süßer Box mit KÄTZCHEN <3 http://t.co/Wjm5gkTOnj <instagram.com/p/jbvYhXH_l0/>
+22:08  echtallwiss │  [15:24:09] [05] Schnee Baby!
+22:08  pkgsrc_bugs │  [15:50:42] [06] pkg/48540 pkgsrc/misc/yelp3 dumps core when loading documents http://t.co/u1Xn7Oo0wF <gnats.NetBSD.org/48540>
+22:08  prolinux_de │  [16:46:03] [07] EuroPython 2014 in Berlin #linux http://t.co/Ijh1UrZHRG <pro-linux.de/-0h2150c9>
+22:08  openbsdjour │  [16:49:02] [08] Signed Installs, Upgrades, and Packages http://t.co/SXHna59E6J <undeadly.org/cgi?action=art…>
+22:08  echtallwiss │  [16:51:19] [09] RT @SceneTake: Wieder Aboprobleme beim Video... Bitte retweeten, damit noch mehr Leute diesen dramatischen Trailer sehen können :-) http://t.co/wnKVplGOpx <youtu.be/hB0qyvvOW0Y>
+22:08  linuxfounda │  [16:53:21] [0a] 2014 @linuxfoundation events schedule is released today: http://t.co/BxOrX6O9SI <bit.ly/1cQyUhT> #linuxcon #cloudopen #lfcollab #android
+22:08  linuxfounda │  [17:10:01] [0b] “Mom, the computer is talking to me.” @lhawthorn shares her nerd story: http://t.co/BzYYStBHGJ <bit.ly/1cNZKHf> Do you have one? http://t.co/WdxvPy1lUq <pic.twitter.com/WdxvPy1lUq>
+22:08  linuxfounda │  [17:24:45] [0c] We'll be running special discounts and promos for this year's events on our new event-specific Twitter channel: @EventsLF so follow fast!
+22:08       gentoo │  [18:01:45] [0d] RT @jlec_: This was an exhausting sub 24h recruitment! Please join me in welcoming Samuel (sdamashek) as a   new #Gentoo dev.
+22:08  linuxfounda │  [18:56:56] [0e] Submit your talks by Feb 1 for @ApacheCon & CloudStack Conf: http://t.co/EQ6cIhjjn4 <bit.ly/1cR0v2e> Follow @EventsLF for more info, deadlines.
+22:08  prolinux_de │  [19:05:05] [0f] Pipelight 0.2.4 unterstützt weitere DRM-Komponenten und ältere Rechner #linux http://t.co/YPFvBEXyWE <pro-linux.de/-0h2150ca>
+22:08  freebsdcent │  [20:45:16] [10] RT @laemodost: @FreeBSDSource @freebsdcentral http://t.co/Hgsb9Wd7tG <bsd-geek.de/pics/freebsd11…> :-)
+22:08  linuxfounda │  [21:05:59] [11] RT @EventsLF: Watch this video & tell us which @EventsLF event you're most excited about w/ tag #LFevents http://t.co/F6RxjxxxMc <bit.ly/1cRjGt1> You could win FREE tix!
+22:08  prolinux_de │  [21:10:06] [12] OpenBSD-Projekt vorerst gerettet #linux http://t.co/PDCW82TmMd <pro-linux.de/-0h2150cb>
+22:08  linuxfounda │  [21:13:15] [13] RT @openmamaproject OpenMAMA 2.3.0 has officially been released. Check out our blog post about the latest changes. http://t.co/ng6778rMrB <openmama.org/blog/openmama-…>
+--- Log closed Di Jan 21 22:09:06 2014
+--- Log opened So Jan 26 15:46:45 2014
+15:46         join │  Neuromatic
+15:46 %%        mode │  +t
+15:46        names │  Total: 2 ops, 0 halfops, 0 voices, 30 normal
+15:46 Join to #twitter__Neuromatic_ was synced in 0 secs
+15:46  linuxfounda │  [2014-01-25 23:00:06] [00] Open Source Libferris: Chasing the "Everything is a File System" Dream http://t.co/1iEOYaaLIp <bit.ly/1g6100e>
+15:46   AnonNewsDE │  [00:10:18] [01] Krise in der Ukraine: Klitschko lehnt Regierungsangebot von Janukowitsch ab http://t.co/fOMPfvryud <bit.ly/1e5bgmu> #Ausland
+15:46   AnonNewsDE │  [00:12:28] [02] RT @hanfverband: Der Wahnsinn! Georg hat gewonnen! VIELEN DANK FÜR EURE UNTERSTÜTZUNG! Ohne eure Unterstützung wäre dieser Erfolg nicht denkbar gewesen.
+15:46   AnonNewsDE │  [03:26:03] [03] Machtkampf in der Ukraine: Janukowitsch zeigt erstmals Nerven http://t.co/DartyLbwSI <bit.ly/1hxXUit> #Ausland
+15:46  linuxfounda │  [04:39:00] [04] "Your world will change with each person you meet. Everyone is open." http://t.co/ltWP5ujiix <bit.ly/1hU4u3z> #lfevents
+15:46   AnonNewsDE │  [06:07:13] [05] Guten Morgen \o/
+15:46   AnonNewsDE │  [06:07:13] 
+15:46   AnonNewsDE │  [06:07:13] Kaffee? c[__]~~~
+15:46   AnonNewsDE │  [08:38:37] [06] Prozess in Peking: China verurteilt führenden Bürgerrechtler zu Haftstrafe http://t.co/Fs3NN4mLS4 <bit.ly/L60sJU> #Politik
+15:46   AnonNewsDE │  [09:16:04] [07] +++ News-Ticker zu Protesten in #Kiew +++: Fronten verhärtet - Machtkampf in #Ukraine geht weiter https://t.co/rNAhHwnGOq <focus.de/politik/auslan…>
+15:46   AnonNewsDE │  [09:30:25] [08] Der #IDP14 steht vor der Tür und wenn du wissen willst, in welchen Städten, dann checke mal unseren Event-Kalender: http://t.co/wPP9tHmnck <anonnewsde.org/events/>
+15:46  SemperVideo │  [09:31:05] [09] Petition Vorratsdatenspeicher 2014: http://t.co/DoyWTxP2xt <youtu.be/yVIwoWGvQ3g?a> über @YouTube
+15:46   AnonNewsDE │  [09:52:47] [0a] China: Gericht verurteilt führenden Bürgerrechtler zu vier Jahren Haft http://t.co/OyCWr3SMZU <bit.ly/1n0c7IZ> #Ausland
+15:46  SemperVideo │  [11:31:53] [0b] Raspberry Pi: Remote Desktop (Ubuntu): http://t.co/JsU6nhr537 <youtu.be/kmzCQLYMTTU?a> über @YouTube
+15:46   AnonNewsDE │  [12:19:43] [0c] Thailand: Oppositionsführer in Bangkok getötet http://t.co/MtOio9vtUd <bit.ly/1fng4ls> #Politik
+15:46   AnonNewsDE │  [13:05:47] [0d] Aufstand in der Ukraine: Der Mob aus der Gruschewski-Straße http://t.co/XcMCMaCV4I <bit.ly/1fnlr4d> #Ausland
+15:46  pkgsrc_bugs │  [15:05:17] [0e] pkg/48552 Not only NetBSD and sunos needs <sys/utsname.h> for uname in x11/qt5-qtbase http://t.co/UqhEc3oyKq <gnats.NetBSD.org/48552>
+15:46  dragonflybs │  [15:08:37] [0f] Lazy Reading for 2014/01/26: Whee! Writing more efficient shell scripts.
+15:46  dragonflybs │  [15:08:37] The Occultation of Relations a... http://t.co/ABJHlU8ruH <bit.ly/1ci3BRx>
+15:46   coldmirror │  [15:40:19] [10] Chili con carne Kriegstrommel! (Süßi hat die Folie ziemlich doll gespannt...) http://t.co/Swpmw56g8o <instagram.com/p/josC8IH_ga/>
+15:46   AnonNewsDE │  [15:41:07] [11] Weiterer US-Einzelhändler offenbar von Datendiebstahl betroffen http://t.co/mom4vPQEKh <bit.ly/1hA1B7b> #Internet #www
+15:46  pkgsrc_bugs │  [15:45:16] [12] pkg/48553 Qt5 can't find compose files http://t.co/cMADZHch4w <gnats.NetBSD.org/48553>
+15:48   coldmirror │  [13] Mexikanisches Gericht inner Chinaschüssel, benutzt als Indianertrommel... #Kulturschändunghochzwölf
+16:05   AnonNewsDE │  [14] Ägypten: Nur auf dem Tahrir-Platz blieb es friedlich http://t.co/LmsCw5HYYt <bit.ly/M05aJu> #Politik
+16:22   AnonNewsDE │  [15] Snowden beschuldigt NSA der Wirtschaftsspionage http://t.co/TUmZhxTTei <bit.ly/1iA8xou> #Überwachung
+17:36  linuxfounda │  [16] Getting Started With KVM Virtualization http://t.co/fGw3c4B9Iv <bit.ly/1bWWt86> via @developerWorks
+18:09  dragonflybs │  [17] Lazy Reading for 2014/01/26 (updated) (http://t.co/bqwIRZ0MJU <bit.ly/1ci3BRx>)
+18:16   AnonNewsDE │  [18] Anonymous News Daily (GER) wurde gerade veröffentlicht! http://t.co/85hDcqgZ9E <paper.li/AnonNewsDE/131…>
+19:39   AnonNewsDE │  [19] Einigung auf Syrien-Konferenz: Frauen und Kinder dürfen belagertes Homs verlassen http://t.co/ST3Evab0Zs <bit.ly/M0JaOw> #Ausland
+19:59   AnonNewsDE │  [1a] Syrien-Konferenz: Frauen und Kinder dürfen belagertes Homs verlassen http://t.co/dpbOHPKxbN <bit.ly/L9sdkZ> #Politik
+21:12  linuxfounda │  [1b] "Linux is not just another OS anymore than the Internet is just another network." http://t.co/28Q8R4r0Id <bit.ly/1bWWh8V>
+21:51   AnonNewsDE │  [1c] RT @danielmack: Das Interview kommt tatsächlich erst um 23.05 Uhr. Besser als @DasErste kann man #Snowden nicht verstecken.
+22:23   AnonNewsDE │  [1d] RT @latuernich: "Das Handy der Bundeskanzlerin ist nicht abgehört worden, es wird nur überwacht" Na dann ist ja alles OK! Ich beiss in die Tastatur #Jauch
+22:24   AnonNewsDE │  [1e] RT @fail_md: Der Reichelt ist ja nur so angepisst weil das #Snowden-Interview nicht exklusiv bei der #BILD erschienen ist. #Jauch
+22:24   AnonNewsDE │  [1f] RT @koelnblogging: Hat der Bild-Reporter eben im Ernst gesagt, Snowden sei schuld daran, dass wir den Glauben in solche Institutionen verloren haben? #jauch
+22:35   AnonNewsDE │  [20] Die #NSA überwacht ALLES was irgendwie eine Internetanbindung besitzt. Das beinhaltet natürlich auch die deutsche Industrie. #Jauch #Snowden
+22:58   AnonNewsDE │  [21] Das komplette Interview mit Edward #Snowden findet ihr hier http://t.co/c5QM3QB5dl <ndr.de/ratgeber/netzw…>
+23:00   AnonNewsDE │  [22] RT @kickino: .@anonnewsde Nein, sie überwachen auch, was keine Internetanbindung besitzt. Haben wir doch schon alles gelernt…
+23:00   AnonNewsDE │  #snowden
+23:13   AnonNewsDE │  [23] "Wie logisch ist anzunehmen, dass sie [#Merkel] das einzige Regierungsmitglied ist das überwacht wurde?" #Snowden #Interview
+23:26   AnonNewsDE │  [24] RT @thomas_wiegold: Wieso ist #snowden-Interview "exklusiv", wenn NDR weder Auslandsrechte besitzt noch Originalfassung zeigen darf? "Exklusiv" im GEZ-Bereich?
+23:26   AnonNewsDE │  [25] Gewalt nach Protestmarsch: 150 Festnahmen bei rechter Demo in Paris http://t.co/4teMPBLflR <bit.ly/M1xjjc> #Ausland
+23:39   AnonNewsDE │  [26] RT @M3DU5ACrew: @AnonNewsDE Ich sollte dadrauf achten, was ich im Internet schreibe. Mist. :D
+--- Day changed Mo Jan 27 2014
+00:00   AnonNewsDE │  [27] RT @wasMitNetzen: Lieber @NDRnetzwelt, liebe @ARDde, @ARD_Presse , warum nochmal habt ihr nicht alle Recht am #Snowden-Interview? http://t.co/8ZbNxdh8Ox <pic.twitter.com/8ZbNxdh8Ox>
+00:02  echtallwiss │  [28] RT @NDRnetzwelt: Das #Snowden-Interview im ARD-YouTube-Channel: http://t.co/rKoHMJx8tc <ow.ly/sXZWp>
+00:08  echtallwiss │  [29] Ich habe die deutsche Übersetzung vom Snowden-Interview eigentlich auch ganz gut verstanden :P @janboehm @manniac
+00:10   AnonNewsDE │  [2a] Der Fail des Tages geht an ... @jreichelt | #Jauch #Snowden
+00:20   coldmirror │  [2b] Wisst ihr was es geben muss? Sowas wien Pizzaservice - aber für Süßigkeiten! Wenn man an nem Sonntag inna Nacht Bock auf Schokolade hat! D:
+--- Log closed Mo Jan 27 00:43:08 2014
+--- Log opened Do Jan 30 21:54:55 2014
+21:54         join │  Neuromatic
+21:54 %%        mode │  +t
+21:54        names │  Total: 2 ops, 0 halfops, 0 voices, 30 normal
+21:54 Join to #twitter__Neuromatic_ was synced in 0 secs
+21:54  echtallwiss │  [15:23:27] [00] RT @LeKWiNK: Nein, ich schaue kein #ibes. Aber die Version von @darkviktory kann sich jeder mal geben. http://t.co/9FashGZIKR <youtube.com/playlist?list=…> via @youtube
+21:54   AnonNewsDE │  [15:31:25] [01] Land unter Kontrolle – Die Geschichte der Überwachung der BRD http://t.co/NNviT1vtdj <bit.ly/1iPhPx7> #Netzpolitik #www
+21:54   AnonNewsDE │  [15:47:07] [02] John Perry Barlow im Interview: "Wir müssen diese groteske Machtverteilung ausgleichen" http://t.co/qdMNibw4RN <bit.ly/1kcTm2B> #Datenschutz
+21:54  echtallwiss │  [16:17:18] [03] RT @AthariDrawer: Ich bettel nicht gerade oft um RT's, aber hier halte ich es für dringend nötig http://t.co/KmQPFPpqdh <youtube.com/watch?v=r3LSfv…> http://t.co/RYHRo2dWnu <lovingvincent.com>
+21:54  linuxfounda │  [16:30:04] [04] ZDNet: 10 cool Android apps to start the year http://t.co/dS7WN2EBbT <zd.net/1go0qva> #linux
+21:54   AnonNewsDE │  [16:56:15] [05] Telekom-Experten: Wirtschaftsspionage ist alltäglich http://t.co/ugmfJRSdBt <bit.ly/1kdhlyy> #Überwachung
+21:54  pkgsrc_bugs │  [17:05:15] [06] pkg/48561 pkgin fug: packages at same version get removed without being reinstalled http://t.co/1rir3lKBdX <gnats.NetBSD.org/48561>
+21:54   AnonNewsDE │  [17:08:00] [07] Für mehr Datenschutz: Neue Version der 2-Klick-Empfehlungsbuttons http://t.co/VwOYlxv8r1 <bit.ly/1fA2nj9> #Datenschutz
+21:54   AnonNewsDE │  [18:01:20] [08] Silberfarn statt Union Jack: Neuseeland will Briten aus der Flagge werfen http://t.co/SuYzvvYsT2 <bit.ly/LsYeEw> #Ausland
+21:54   AnonNewsDE │  [18:03:24] [09] RT @Luise_Ungut: Online-Pranger in Schweden: Ich weiß, wo Du wohnst
+21:54   AnonNewsDE │  [18:03:24] 
+21:54   AnonNewsDE │  [18:03:24] http://t.co/mh47X1QMAa <taz.de/Online-Pranger…> @AnonNewsDE WTF?!
+21:54   AnonNewsDE │  [18:16:02] [0a] Kritische Schwachstelle in Wikipedia behoben http://t.co/8D7KYa6mV8 <bit.ly/1nq48Fj> #Sicherheit #IT
+21:54   AnonNewsDE │  [18:16:27] [0b] Anonymous News Daily (GER) wurde gerade veröffentlicht! http://t.co/85hDcqgZ9E <paper.li/AnonNewsDE/131…>
+21:54   AnonNewsDE │  [18:25:41] [0c] Fotografiepreis Rückblende: Jubel für Merkel – doch der Preis geht an Gabriel http://t.co/cKqR7r1GtY <bit.ly/1b8SIjR> #Politik
+21:54  linuxfounda │  [18:46:15] [0d] Are you tired of typing accidental CAPITAL LETTERS? It may be time to kill the caps lock on your #linux desktop: http://t.co/CjOOlwqrbC <bit.ly/1i5iRCi>
+21:54   AnonNewsDE │  [19:33:59] [0e] Überwachung schürt die Angst vor Cloud-Diensten http://t.co/1bwkHTbxLk <bit.ly/1hSlk2d> #Überwachung
+21:54   AnonNewsDE │  [20:13:56] [0f] Das neue Anti-NSA-Betriebssystem "Avatar" http://t.co/jBi5xuvAhR <bit.ly/LeNJE4> #Überwachung
+21:54   AnonNewsDE │  [20:34:33] [10] RT @DeinInternet: @AnonNewsDE @4ntibiotic ein javascript "betriebssystem" das im browser auf win/mac/linux läuft.. ja ne .. is kla.. foll sicha alda!
+21:54  linuxfounda │  [21:09:00] [11] Fully Free Android ROM Replicant Advances to Jelly Bean http://t.co/KuRMAqbGev <bit.ly/1guruc2> #linux
+21:54   AnonNewsDE │  [21:10:29] [12] Schleppende C-Waffen-Vernichtung: USA und Frankreich drängen Assad-Regime zur Eile http://t.co/BWc4NsB2Oo <bit.ly/1hSWjUl> #Ausland
+21:54   AnonNewsDE │  [21:22:19] [13] Wie die Konservativen im Europaparlament den Überwachungsbericht torpedieren http://t.co/ceEdF27Hkd <bit.ly/1hSS773> #Netzpolitik #www
+21:55   AnonNewsDE │  [14] Bundeswehreinsatz: Merkel schließt Kampftruppen für Zentralafrika aus http://t.co/VJf70c6oMF <bit.ly/LfaOGI> #Politik
+22:12  freebsdcent │  [15] FreeNAS 9.2.1-RC available: Jordan Hubbard has announced the availability of FreeNAS 9.2.1-RC. It is expected ... http://t.co/OnZ0AIMewo <bit.ly/1cAfFO6>
+--- Log closed Do Jan 30 22:28:00 2014

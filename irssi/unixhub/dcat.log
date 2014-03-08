@@ -1,0 +1,92 @@
+--- Log opened Fr Jan 03 06:21:25 2014
+06:21 Starting query in unixhub with 
+06:21  > just used a ":" for testing
+06:21  < huh
+06:21  < oh
+06:22  < haven't I sent you a token?
+06:22  > If so, then i was away
+06:22  < oh.
+06:22  < email
+06:22  > neuromatic@archlinux.info
+06:23  < sent
+06:23  > Thank you
+06:23  < it's probably in your spamfolder lel
+06:25  > alright works fine now
+06:25  < good.
+06:26  > indeed. I was searching for a new paste site with cli tool cause the unixhub tools are very outdated lol^^
+06:26  < yeah
+06:26  > I'd wriiten one in bash that uses curl, but C is much nicer
+06:26  < I went for max speed on this one
+06:27  > It runs with good speed
+06:27  < yeah, absolutely.
+06:27  < compared to the rest of the tools out there
+06:28  > Most of paste tools are simply bloat, this one is not. I like that
+06:28  < thank you.
+06:29  < I go for non-bloat
+06:29  < I'm just considering wheter or not to add file listing 
+06:29  < yrmt wants it, but then again, he's the master of bloat
+06:30  > Its a nice feature… maybe optional?
+06:30  < yeah, good idea
+06:30  < #ifdef IOUP_LIST
+06:30  > put it in config.h
+06:31  < yeah
+06:31  < or maybe I'll find a smart way to add it in the existing code
+06:31  > so then the config.h is quiet useless. The token can be added to major code too
+06:32  < yeah, that's what I was doing
+06:32  < but yrmt wanted a config file
+06:32  < so I made a compromise
+06:32  > It makes code more readable if there are new features
+06:32  < config file?
+06:33  < or in ioup.c?
+06:33  > genrally in C source a config.h makes code better organized imho
+06:33  < yeah, but there's a certain limit to it too
+06:34  < I find it rather useless if there's only 1 feature
+06:34  < if there's 5+ options, then I think it's worth it
+06:34  > your're right. But you dont know if anytime there will be more. 
+06:34  > yea 
+06:35  < I tend to follow the unix philosophy
+06:35  < and not implement useless features
+06:35  < now I need to fix it server-side though
+06:36  > thats recommeneted if youre on UNIXhub :D
+06:36  < heh
+06:36  < I'm sorry to say that I don't think very many follow that philosophy here
+06:36  < I think most just want to rice their desktop
+06:37  > They can rice their desktop without being non-unix
+06:37  < true
+06:37  < I just think they don't care about anything other than rice
+06:38  < or at least, a lot of them
+06:38  > Well, yrmt is very active in many unix things
+06:38  < yeah
+06:38  > And most of our users are here because they saw nicely riced desktops
+06:39  > >crshd
+06:39  > mom
+06:39  < heheh
+06:39  < true.
+06:39  > His desktops always looks so damn awesome
+06:40  < yeah
+06:40  < tbh, I'm not very good at ricing
+06:40  > If there is not much on your desktop there can not be much style :D
+06:40  < true
+06:41  > That is the different between us and earsplit 
+06:41  < yeah, I guess
+06:42  > You're usin 2bwm?
+06:42  < yeah
+06:42  > gimme scrot bitch
+06:44  < http://pub.iotek.org/p/8Ors1aU.png
+06:45  > aw yeahr. No panels no nothing, just term and big borders. That is style bruh
+06:46  < quality never goes out of style
+06:46  > gawd damn right
+06:47  > now I have a reason to use ioup :P
+06:47  < yeah, I need to fix extension support though ;P
+06:47  < currently only works in web frontend
+06:48  > I see
+06:48  > But its nice for free time
+06:48  < I'll fix that soon though
+06:48  < it's really nice for piping though
+06:48  < df -h | ioup
+06:50  > I think that is a very useful thing
+06:50  < yeah
+06:50  > alright nigga, i have to go sleep now its 07:50 here
+06:51  < night bruh
+06:51  > night
+--- Log closed Fr Jan 03 06:57:28 2014

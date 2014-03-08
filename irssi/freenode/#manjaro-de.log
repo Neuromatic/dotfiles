@@ -1,0 +1,98 @@
+--- Log opened So Jan 19 12:07:48 2014
+12:07         join │  Neuromatic
+12:07        names │  Total: 2 ops, 0 halfops, 0 voices, 15 normal
+12:07 Join to #manjaro-de was synced in 1 secs
+12:11         join │  HardyH
+12:33         join │  CivEx
+12:44       Linu74 │  BlueInk haste mal geschaut ob deine Grafikkarte nen Lüfter hat und ob der Sauber ist?
+12:46      BlueInk │  Das letzte mal gab es noch ein Lüfter und ich hör auch etwas lüften. Ob der sauber ist schau ich mal nach.
+12:52       bunyip │  moin
+12:54       bunyip │  cool, auf dem T520 habe ich auch wieder die Festplattenzugriffe pro sec. Hatten wir doch vor ca. 6 Monaten schon mal. Interessanterweise ist es auf dem T510 nicht
+12:56       Linu74 │  Das ja Doof
+12:57       Linu74 │  HDD oder SSD?
+12:57       bunyip │  Ich glaub das muss an einem systemd-dienst liegen
+12:57       bunyip │  zum glück ssd, sonst würde man ja verrückt werden
+12:58       Linu74 │  Zum Pech SSD, denn die mögen das ja garnicht
+12:58       mibbio │  so lange es nur lesend ist, ist's der ssd ja egal
+12:59       bunyip │  meiner ssd macht das nichts, aber die LED nervt
+12:59       Linu74 │  Wie groß dürfen bei einem FAT32 formartierten Stick Dateien sein? Wo is die Grenze?
+13:00       mibbio │  4gb
+13:01       Linu74 │  Größer als 4GB dann halt NTFS formatieren, wenn er an einen Win Rechner muß?
+13:01       bunyip │  im forum hat einer mit seinem raid5 was dazu geschrieben, halte ich aber für seltsam, das kann nicht der ware grund sein, man kann ja nicht nach einem update sein system platt machen und neu formatieren.
+13:01       mibbio │  Linu74, jop
+13:02       Linu74 │  Dankö mibbio
+13:03       mibbio │  fat32 - Größe einer Datei: 4 GiB − 1 Byte (2^32)
+13:07         join │  lukimya
+13:08       mibbio │  schön wäre es ja, wenn windows endlich mal auch dateisysteme von außerhalb des M$-ökosystems nativ unterstützen würde. wie zb ext3/4
+13:08        klesk │  utopie
+13:08       mibbio │  andersrum gehts ja auch
+13:08        CivEx │  joa gut das kann ich ja nachvollziehen, wieso sollten sie
+13:08         join │  baluchen
+13:08        klesk │  wenn sie bald in die cloud auslagern
+13:09       mibbio │  CivEx, damit die zusammenarbeit mit nicht-windows system leichter geht?
+13:09        CivEx │  du entwickelst deine eigenen Systeme und möchstst dann doch nicht Konkurrenzprodukte verbauen
+13:11       mibbio │  und der windows-bootloader ist auch so ne krankheit, dem es egal ist, was sonst noch noch so auf der platte ist
+13:13       mibbio │  CivEx, MacOS unterstützt doch meines wissens auch alles mögliche an dateisysteme neben den eigenen
+13:14       mibbio │  nur windows geht die "meins ist das einzig wahre" schiene
+13:15        klesk │  die lernen auch nichts aus ihren fehlern iwi
+13:16        CivEx │  wobei der Treiber für die Unix Systeme ja auch von einer dritten Firma entwickelt wurden und frei zur Verfügung gestellt wurden. Jetzt von Microsoft selbst verlangen das die gefälligst ext Treiber entwickeln
+13:16        klesk │  fahren immer ihren kurs
+13:17        CivEx │  viele Analysten raten aber zb schon das sie unbedingt Windows 9 verschenken sollen, da sie sonst ihre Marktstellung verlieren werden
+13:18        klesk │  und win 10 wollen die nur noch über cloud anbieten
+13:18       Linu74 │  Hoffentlich schaufeln die damit ihr eigenes Grab
+13:19       HardyH │  Klar, Cloudcomputing passt ins gesamtkonzept
+13:19       mibbio │  ne native unterstützung für "fremde" dateisysteme wäre ja schon in der hinsicht schön, dass man auch mal fix nen ext3/4 formatierten usb-stick ohne verrenkungen anstecken kann
+13:21       mibbio │  windows muss ja keine derartigen dateisysteme formatieren können, aber zumindest lesen/schreiben da drauf wäre schonmal nen anfang
+13:21        CivEx │  joa das stimmt schon
+13:21       HardyH │  Warum sollte Windows  Dineg unterstützen, die kein Windows-Standard sind?
+13:21       HardyH │  *Dinge
+13:22       mibbio │  weil es auch ne welt außerhalb von windows gibt. und ne breitere platformübergreifende unterstützung könnte sogar nen vorteil werden
+13:22       HardyH │  Für Microsoft gibt es keien welt ausserhalb von Windows
+13:22       HardyH │  Und was in der Microsoft Welt nicht vorhanden ist, wird von Microsoft nicht unterstützt, das ist so einfach
+13:22       mibbio │  selbst apple ist da zumindest beim desktop nicht so engstirning
+13:23       mibbio │  -n
+13:23        CivEx │  Apple beansprucht doch sogar die Hardware für sich
+13:23       HardyH │  Mit proprietärem Krams presst man geld aus den leuten, gewährt man Zugang zu freien, anderen Dingen, gefährdet man seinen gewinn
+13:24       bunyip │  mibbio: du hast nicht verstanden wie man sein quasi-monopol verteidigt ;) sobald was von anderen kompatibel gemacht wird, ändert MS das in seinem system, damit es so schnell wie möglich wieder inkompatibel wird.
+13:24       mibbio │  und wenn der propietäre kram mangels verbot von alternative nicht alles kann, was der kunde will, macht man garkeinen gewinn :P
+13:24       mibbio │  -mangels
+13:24       mibbio │  + durch
+13:24       HardyH │  Das ist den milliarden Windows-Lemmingen scheissegal
+13:24       HardyH │  Was Windows nicht kann, das brauchen sie nicht
+13:25       bunyip │  nö, die winfliegen kaufen eher ein office 2013, die bleiben bei win, koste es was es wolle
+13:25       HardyH │  Office 365 ist doch eh "viel besser"
+13:26       bunyip │  ausserdem arbeitet MS mit 10 jahresknebelverträge
+13:26       bunyip │  andere aber auch
+13:26       bunyip │  mein liebling oracle :/
+13:26       HardyH │  Damit kann man für einen Haufen Extrageld sogar auf dem popligsten schlappsten Tablet office laufen lassen
+13:26       HardyH │  Und das für nicht mal 100€/Jahr....
+13:27       mibbio │  HardyH, und brauch dann bei excel auf'm tablett entweder ne lupe oder seh' nur 3-5 zellen auf einmal in brauchbarer größe^^
+13:27       HardyH │  Office läuft auch
+13:27       HardyH │  Sagt mir täglich die MS Surface Werbung
+13:28       HardyH │  Und der schenkt der Durchschnittsverbraucher glauben
+13:29         join │  siklos
+13:29       mibbio │  wer schreibt denn freiwillig und vor allem produktiv briefe per touch mit ner softwaretastatur auf nem 10zoll bildschirm?
+--- Log closed So Jan 19 13:29:59 2014
+--- Log opened So Jan 19 13:40:49 2014
+13:40         join │  Neuromatic
+13:40        names │  Total: 2 ops, 0 halfops, 0 voices, 21 normal
+13:40       HardyH │  Interessante Preise
+13:40 Join to #manjaro-de was synced in 1 secs
+13:41       siklos │  url
+13:41         quit │  siklos
+13:41   alex|D-Guy │  welche zielgruppe kauft sich sowas?
+13:42       HardyH │  Rich Kids
+13:44   alex|D-Guy │  ich meine, ich hab mir damals meinen opel vectra für 3000 gekauft - prima garagenwagen..aber 3k oder sogar noch mehr für ein..laptop, was man zur not auch als tablet gebrauchen kann zu kaufen..da ist ja ein laptop und ein separates tablet günstiger :D
+13:45   alex|D-Guy │  aber gut
+13:45       mibbio │  http://geizhals.de/nokia-8800-arte-a300612.html o.O
+13:45       mibbio │  "polyphone Klingeltöne" yeah^^
+13:46       HardyH │  Ichhab meinen 1964er Ford  vor 5 Jahren für 6000 € gekauft
+13:46       HardyH │  Und jetzt ist er knapp 9000 € wert
+13:46       Linu74 │  Ford Taunus?^^
+13:46       HardyH │  20 M TS Turnier
+13:47       Linu74 │  sacht mir nücht
+13:48       HardyH │  Sowas http://classiccarcatalogue.com/F/ford%20d%201964%2020m_turnier.jpg
+13:48       Linu74 │  cool
+13:48       Linu74 │  Das is noch Blech
+13:49       HardyH │  Sparsam ist er auch
+--- Log closed So Jan 19 14:03:02 2014
