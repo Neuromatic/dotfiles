@@ -1,0 +1,225 @@
+.TH 9MENU 1 "June 1 2004" "Plan 9 For X"
+.SH NAME
+9menu \- create a menu to run commands
+.SH SYNOPSIS
+.B 9menu
+[
+.BI \-bg " background-color"
+] [
+.BI \-display " displayname"
+] [
+.BI \-file " name"
+] [
+.BI \-fg " foreground-color"
+] [
+.BI \-font " fname"
+] [
+.BI \-geometry " geom"
+] [
+.B \-iconic
+] [
+.BI \-label " name"
+] [
+.B \-path
+] [
+.B \-popdown
+] [
+.B \-popup
+] [
+.BI \-shell " prog"
+] [
+.B \-teleport
+] [
+.B \-version
+] [
+.B \-warp
+]
+.IR menuitem [: command ]
+\&...
+.SH DESCRIPTION
+.I 9menu
+is a simple program that accepts a list of menu item and command
+pairs on the command line.
+It creates a window that consists of nothing but a menu.
+When a particular item is selected, the corresponding command is executed.
+.PP
+Either
+.B Button1
+or
+.B Button3
+may be used to select an item.
+Alternatively, the UP-ARROW and DOWN-ARROW cursor keys may be used to
+highlight different items, with ENTER used to select the
+highlighted item.
+.PP
+Menu items and commands are separated by a colon.  The colon and command
+are optional. If they are missing, then the menu item is assumed to be
+a command that can be executed directly.
+.PP
+A menu item consisting of the word
+.B exit
+causes
+.I 9menu
+to exit when it is selected.
+Otherwise, to stop
+.I 9menu ,
+delete it using the window manager.
+The
+.B exit
+menu item can be anywhere in the list, although by convention it is last.
+If a command is supplied along with the
+.B exit
+item, that command is executed before
+.I 9menu
+exits.
+.PP
+If a menu item's command starts with the word
+.BR exec ,
+.I 9menu
+ceases operating after launching it.
+.PP
+.I 9menu
+accepts the following command line options,
+listed alphabetically:
+.RS
+.TP
+.BI \-bg " background-color"
+Set the background color to
+.IR background-color .
+By default, the background color is white.
+.TP
+.BI \-display " displayname"
+Use the X display
+.IR displayname ,
+instead of the default display.
+.TP
+.BI \-file " filename"
+Read items to display from
+.IR filename ,
+in addition to any other command line arguments.  This is intended for use
+with
+.B #!
+in scripts.
+.TP
+.BI \-fg " foreground-color"
+Set the foreground color to
+.IR foreground-color .
+By default, the foreground color is black.
+.TP
+.BI \-font " fname"
+Use the font
+.IR fname ,
+instead of one of the default fonts built into
+.IR 9wm .
+.TP
+.BI \-geometry " geom"
+Use
+.I geom
+(a geometry in standard X format) as the geometry of the menu.
+This is most useful for specifying the initial location of the menu.
+Note that
+.I 9menu
+overrides the size part of the geometry specification. The window is
+always just large enough to hold the menu.
+.TP
+.B \-iconic
+Start up in the iconified state.
+.TP
+.BI \-label " name"
+Change both the window and icon labels of the window to
+.IR name .
+The default label is the last component of the path used to run
+.IR 9menu ,
+typically,
+.BR 9menu .
+.TP
+.B \-path
+Append the current directory to the command search path.
+.TP
+.B \-popdown
+Once an item is selected, the menu window automatically iconifies itself.
+.TP
+.B \-popup
+Act like a pop-up menu. Once a menu item is selected,
+.I 9menu
+exits.
+This option overrides
+.BR \-popdown .
+.TP
+.BI \-shell " prog"
+Use
+.I prog
+as the shell to run commands, instead of
+.BR /bin/sh .
+A popular alternative shell is
+.IR rc (1).
+If the shell cannot be executed,
+.I 9menu
+then
+.I silently
+falls back to using
+.BR /bin/sh .
+.TP
+.B \-teleport
+Move the menu to where the mouse is when the menu is uniconified.
+This option is particularly useful when combined with
+.BR \-popdown .
+.TP
+.B \-version
+This option prints the version of
+.I 9menu
+on the standard output, and then exits with an exit value of zero.
+.TP
+.B \-warp
+Warp the mouse to the menu when the menu is uniconified.
+After the selection is made, restore the mouse to where it was.
+This option is particularly useful when combined with
+.BR \-popdown .
+.RE
+.SH EXAMPLES
+.ft B
+.nf
+9menu \-label Remotes xterm 'acme:rsh acme xterm' 'herman:rsh herman 9term' &
+.sp
+9menu \-label 'X progs' ghostview xdvi xeyes xneko exit &
+.ft
+.fi
+.SH SEE ALSO
+.IR sam (1),
+.IR 9term (1),
+.IR 9wm (1),
+.IR rc (1),
+.IR es (1).
+.PP
+.IR "The Plan 9 Programmer's Manual" .
+.SH VERSION
+This man page documents
+.I 9menu
+version 1.8.
+.PP
+Source code is available from
+.B ftp://ftp.freefriends.org/arnold/Source/9menu.shar.gz
+.SH BUGS
+This program has grown to have too many options.
+.SH AUTHORS
+The initial idea for this program was by Arnold Robbins, after having
+worked with John Mackin's GWM Blit emulation.
+Matty Farrow wrote a version using libXg, from which some ideas were borrowed.
+This code was written by David Hogan and Arnold Robbins.
+Rich Salz motivated the
+.B \-shell
+option.
+Christopher Platt motivated the
+.B \-teleport
+option.
+John O'Donnell supplied the basic code for the
+.B \-fg
+and
+.B \-bg
+options.
+Peter Seebach provided the base code for the
+.B \-file
+and
+.B \-path
+options.
+Matthias Bauer made it work with the keyboard.

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#uhpaste v.0.0.1
+#depencies: bash,curl
+#dis shitty shell code needs no license, nigga
+
+FILE=$1
+uri="paste.unixhub.net"
+
+if [[ -n $HOME/.netrc ]]; then
+	echo "[*] using netrc for login"
+	echo "[*] upload"
+	curl -n -F file=@$FILE $uri
+else
+	echo "[-] netrc not found"
+	echo "[*] remote login via read"
+	read -s -p "Username: " usern
+	read -s -p "Password: " pass
+	curl --user "$usern":"$pass" -F file=@$FILE $uri
+	exit
+fi
+exit

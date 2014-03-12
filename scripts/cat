@@ -1,0 +1,3 @@
+#!/bin/bash
+source-highlight --out-format=esc   -o STDOUT -i $1 || /usr/bin/cat $1
+

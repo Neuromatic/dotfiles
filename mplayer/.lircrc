@@ -1,0 +1,25 @@
+begin
+button = VOLUME_PLUS
+prog = mplayer
+config = volume 1
+repeat = 1
+end
+
+begin
+button = VOLUME_MINUS
+prog = mplayer
+config = volume -1
+repeat = 1
+end
+
+begin
+button = CD_PLAY
+prog = mplayer
+config = pause
+end
+
+begin
+button = CD_STOP
+prog = mplayer
+config = seek 0 1\npause
+end
