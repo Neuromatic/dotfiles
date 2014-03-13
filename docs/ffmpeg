@@ -1,6 +1,0 @@
-ffmpeg -f x11grab -r 3- -i :0.0 bla.gif 
-
-ffmpeg -f x11grab -r 30 -i :0.0 bla.gif 
-
-
-Alternativ :: byzanz
