@@ -1,17 +1,140 @@
-/*4chan Dark Candy -- New 4chan HTML Style*/@-namespace url(http://www.w3.org/1999/xhtml);
+
+a { 
+	color: #143a58 !important;
+}
+a:visited {
+	color: #62162e !important;
+}
+
+
+
+/*4chan Dark Candy -- New 4chan HTML Style*/
+
+@-namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("google.de") {
+	html {
+		background-color: #0d0b0d !important;
+	}
+	body {
+		background-color: #0d0b0d !important;
+		color:  #f3e7c6 !important ;
+		font: 11px gohufont !important;
+	}
+	form {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	div#hdtb_msb {
+		background-color: #0d0b0d !important;
+		color: #f3e6c7 !important;
+	}
+	div#topbar {
+		background-color: #0d0b0d !important;
+		color: #f3e6c7 !important;
+	}
+	div.fbar {
+		color: #f3e6c7 !important;
+		background-color: #0d0b0d !important;
+	}
+}
+
+@-moz-document domain("reddit.com") {
+	html {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	body {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	div.side {
+		background-color: #0d0b0d !important;
+	}
+}
+
+@-moz-document domain("twitter.com") {
+	
+	hmtl {
+		background-color: #555555 !important;
+		color: #f3e7c6 !important;
+	}
+	body {
+		background: #555555 !important;
+		color: #f3e7c6 !important;
+	}
+	
+	ol#stream-items-id.stream-items.js-navigable-stream {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	div.stream.home-stream {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	div.tweet.original-tweet.js-stream-tweet.js-profile-popup-actionable.js-original-tweet {
+		background: #0d0b0d !important;
+		font: gohufont !important;
+		font-size: 11px;
+	}
+
+	div.flex-module {
+		background: #0d0b0d !important;
+		color: #f3d7c6 !important;
+		font: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	div.flex-module.trends-container {
+		background: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+
+	div.home-tweet-box.tweet-box-component.tweet-user {
+		background: #0d0b0d !important;
+		color: #f3e7c6 !important;
+		font-size: 11px !important;
+	}
+
+	ul {
+		background: #0d0b0d !important;
+	}
+	
+	strong {
+		color: #143a58 !important;
+		font: gohufont !important;
+		font-size: 11px !important;
+	}
+	
+	b {
+		color: #62162e !important;
+	}
+	
+	a  {
+		color: #62162e !important;
+	}
+}
+
+
+
+
+
+
+
+
+
 @-moz-document domain("4chan.org") {
     html {
-        background: #101010 !important;
+        background: #0d0b0d !important;
     }
     body {
-        background-color: none !important;
-        color: #fff !important;
-        font: 12px erusfont !important;
+        background-color: #0d0b0d !important;
+        color: #f3e7c6 !important;
+        font: 11px gohufont !important;
         margin: 0px auto !important;
         padding: 0;
     }
     form {
-        background: #101010;
+        background: #0d0b0d;
         border-left: 0px;
         border-right: 0px;
         margin: 0px auto !important;
@@ -20,17 +143,17 @@
         width: 85% !important;
     }
     tbody td {
-        background: #222222 !important;
+        background: #0d0b0d !important;
         color: #ffffff !important;
         border: 0px solid #777777 !important;
     }
     div.thread {
-        background: #101010 !important;
+        background: #0d0b0d !important;
         margin-bottom: 20px !important;
         margin-top: 10px !important;
     }
     div.post.reply {
-        background: #222222 !important;
+        background: #111111 !important;
         border: 0px !important;
     }
     div.globalMessage {
@@ -41,12 +164,16 @@
     }
     div.pagelist {
         background: #101010 !important;
-        color: #ffffff !important;
+        color: #f3e7c6 !important;
         border-left: 0px;
         border-right: 0px;
         margin: 0px auto !important;
         border: 0px !important;
 
+    }
+    div#content {
+	    background: #0d0b0d !important;
+	    color: #f3e7c6 !important;
     }
     a {
         color: #b99f8d !important;
@@ -213,3 +340,4 @@
         color: #ffff00 !important;
     }
 }
+
