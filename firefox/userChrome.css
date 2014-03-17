@@ -1,3 +1,38 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#FindToolbar[hidden=true] {
+	display: -moz-box !important;
+}
+
+.findbar-find-previous { 
+	
+	background: #0d0b0d !important;
+}
+.findbar-find-next { 
+	
+	background: #0d0b0d !important;
+}
+.findbar-container > * {
+	
+	-moz-appearance: none !important;
+	border: 0
+}
+
+.findbar-closebutton, .findbar-find-next.tabbable,
+.findbar-find-previous.tabbable, .findbar-highlight.tabbable  {
+	display: none !important;
+}
+
+.findbar-case-sensitive {
+	display: none !important;
+}
+
+#content browser {
+	marigin-right: -14px !important;
+	overflow-x: 2px !important;
+	overflow-y: hidden !important;
+}
+
 #appcontent,
 #appcontent > #content,
 #appcontent > #content > tabbox > tabpanels {
@@ -9,13 +44,13 @@
 }
 
 a:link {
-	color: #ffaf5f;
+	color: #486569;
 }
 a:link {
 	background-color: #ffaf5f !important;
 }
 a:visited {
-	background-color: #d75f5f !important;
+	background-color: #753b39 !important;
 }
 
 a:active {
@@ -65,7 +100,7 @@ tabs#tabbrowser-tabs {
 	margin-left: 0px !important;
 	padding-top: 2px !important;
 	border-bottom: 0px !important;
-	background-color: #143A58 !important;
+	background-color: #486569 !important;
 	/*box-shadow: inset 0px -4px 2px rgba(0,0,0,0.1) !important;*/
 	box-shadow: none !important;
 
@@ -82,8 +117,8 @@ tabs#tabbrowser-tabs {
 	margin-left: 3px !important;
 	margin-right: 3px !important;
 	margin-top: 2px !important;
-	font-size: 12px !important;
-	font-family: termsyn !important;
+	font-size: 11px !important;
+	font-family: gohufont !important;
 }
 
 #urlbar dropmarker,
@@ -117,75 +152,23 @@ notificationbox {
 /*browser[type="content-primary"], browser[type="content-targetable"] {
 overflow-y: scroll;
 margin-right: 0px; /* 12px == width of my scrollbar */
-    }
+    
 
     browser[type="content-primary"], browser[type="content-targetable"] {
 	    overflow-y: scroll;
 	    margin-right: 0px;
-    }*/
+    }
 
 
-/* will's scrollbar
-scrollbar scrollbarbutton ,
-scrollbar gripper {
-visibility: collapse;
-}
-
-scrollbar ,
-scrollbar thumb {
--moz-appearance: none !important;
-}
-
-scrollbar[orient="vertical"] {
--moz-margin-start: -4px;
-min-width: 4px;
-max-width: 4px;
-	}	
-
-	scrollbar[orient="horizontal"] {
-		margin-top: -4px;
-		min-height: 4px;
-		max-height: 4px;
-	}	
-
-	scrollbar {
-		position: relative;
-		background-image: none;
-		z-index: ;
-		background-color: transparent;
-	}	
-
-	scrollbar:hover {
-		background-color: ButtonHighlight;
-		transition: all 0.2s ease 0s;
-	}
-
-	scrollbar thumb {
-		border: none !important;
-		border-radius: 1.5px !important;
-		background-color: #92969b;
-		opacity: .55;
-	}
-
-	scrollbar:hover thumb {
-		opacity: 1;
-		transition: all 0.2s ease 0s;
-	}
-
-	scrollbar thumb:active ,
-	scrollbar thumb:hover {
-		opacity: 1;
-		background-color: ButtonShadow;
-		transition: all 0.2s ease 0s;
-	}
- */
-
-.searchbar-engine-image {
+/*.searchbar-engine-image {
 	display: none !important;
 }
 .search-go-button {
 	display: none !important;
 }
+.searchbar- */
+
+
 #nav-bar {
 	background-image: none !important;
 	background-color: #080808 !important;
@@ -202,3 +185,7 @@ max-width: 4px;
 	color: #080808 !important;
 }
 #statusbar-display { display: none !important; }
+
+/*4chan Dark Candy -- New 4chan HTML Style*/
+
+
