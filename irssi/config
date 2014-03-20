@@ -101,7 +101,7 @@ chatnets = {
   unixhub = {
     type = "IRC";
     nick = "Neuromatic";
-    autosendcmd = "/msg NickServ identify darthbanestillthebest";
+    autosendcmd = "/msg NickServ identify pass";
   };
 };
 
