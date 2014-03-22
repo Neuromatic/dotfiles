@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #uhpaste v.0.0.1
 #depencies: bash,curl
-#dis shitty shell code needs no license, nigga
+#dis shitty shell code needs no license
 
 FILE=$1
 uri="paste.unixhub.net"
