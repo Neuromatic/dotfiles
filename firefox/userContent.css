@@ -37,9 +37,58 @@ a:visited {
 		color: #f3e6c7 !important;
 		background-color: #0d0b0d !important;
 	}
+	cite {
+		color: #52633e !important;
+	}
+	div#topbar {
+		background-color: #0d0b0d !important;
+	}
+	div.gb_na.gb_4b.gb_k.gb_3b {
+		background-color: #0d0b0d !important;
+	}
+	div#hdtbSum {
+		background-color: #0d0b0d !important;
+	}
+	div#gbq2.gbt {
+		background-color: #0d0b0d !important;
+	}
+	div#gbqfqw.gbqfqw {
+		background-color: #0d0b0d !important;
+	}
+	input#gbqfq.gbqfif {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	td {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	div.gb_ra {
+		background-color: #0d0b0d !important;
+	}
+	span {
+		color: #f3e7c6 !important;
+	}
+	div#slim_appbar.ab_tnav_wrp {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+	}
+	div.gb_k.gb_hb {
+		background-color: #0d0b0d !important;
+	}
+	div#gbq1.gb_qa.gb_k.gb_ua {
+		background-color: #0d0b0d !important;
+	}
+	div#extabar {
+		background-color: #0d0b0d !important;
+	}
+	span.st {
+		color: #753b39 !important;
+	}
 }
 
-@-moz-document domain("forums.saveosx.org") {
+
+@-moz-document domain("nixers.net") {
 
 	html {
 		font-family: gohufont !important;
@@ -83,6 +132,65 @@ a:visited {
 	}
 }
 
+@-moz-document domain("forums.unixhub.net") {
+	html {
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	body {
+		background: #111111 !important;
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	td.trow1 {
+		background-color: #222222 !important;
+		color: #f3e7c6 !important;
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	td.trow2 {
+		background-color: #0d0b0d !important;
+		color: #f3e7c6 !important;
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	td.tcat {
+		background-color: #000000 !important;
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	div#infobar {
+		background-color: #000000 !important;
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	span.smalltext {
+		color: #52633e !important;
+	}
+
+	a {
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+	navigation#uh-navigation {
+		background-color: #0d0b0d !important;
+	}
+
+	td.thead {
+		background-color: #000000 !important;
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+
+}
+
 @-moz-document domain("dotshare.it") {
 	html {
 		background-color: #0d0b0d !important;
@@ -98,6 +206,15 @@ a:visited {
 		font-size: 11px !important;
 	}
 	li {
+		font-family: gohufont !important;
+		font-size: 11px !important;
+	}
+	strong-good-action {
+		font-family: gohufont !important;
+		font-size: 11px !important;
+		color: #52633e
+	}
+	strong-light-orange {
 		font-family: gohufont !important;
 		font-size: 11px !important;
 	}
